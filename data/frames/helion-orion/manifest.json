@@ -1,0 +1,64 @@
+{
+ "site": "helion-orion",
+ "label": "Helion Orion fusion plant",
+ "company": "helion",
+ "verified": true,
+ "bbox_kind": "site",
+ "generated": "2026-10-08",
+ "crs": "EPSG:32610",
+ "bounds": [
+  717500,
+  5245500,
+  720300,
+  5247900
+ ],
+ "corners_lonlat": [
+  [
+   -120.120252,
+   47.348369
+  ],
+  [
+   -120.083228,
+   47.347432
+  ],
+  [
+   -120.084417,
+   47.325864
+  ],
+  [
+   -120.121425,
+   47.326801
+  ]
+ ],
+ "sentinel2_size": [
+  280,
+  240
+ ],
+ "sentinel2_pixel_m": 10,
+ "max_cloud_pct": 5.0,
+ "frames": [
+  {
+   "file": "naip-2023.png",
+   "month": "2023-07",
+   "acquired": "2023-07-03",
+   "scene_id": "wa_m_4712048_nw_10_060_20230703_20230912",
+   "collection": "naip",
+   "cloud_pct": null,
+   "pixel_m": 1.0,
+   "credit": "NAIP 2023: USDA Farm Production and Conservation Business Center (public domain)"
+  },
+  {
+   "file": "2026-10.png",
+   "month": "2026-10",
+   "acquired": "2026-10-02T18:58:31.024000Z",
+   "scene_id": "S2A_MSIL2A_20261002T185831_R113_T10TGT_20261002T233503",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 3.43,
+   "sun_elevation_deg": 37.9,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  }
+ ],
+ "missing": []
+}

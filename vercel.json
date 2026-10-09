@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm --prefix site install && npm --prefix site run build",
+  "outputDirectory": "site/dist",
+  "functions": {
+    "api/check.py": {
+      "maxDuration": 120,
+      "includeFiles": "{gt/**,data/lane_map.json}"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+ "checked": 5,
+ "failed": 0,
+ "agreement": "4/4",
+ "positions": {
+  "head_on_with_entrenched": 3,
+  "complement": 1,
+  "off_map": 1
+ },
+ "calls": {
+  "pass": 2,
+  "look": 3
+ },
+ "citations": {
+  "total": 46,
+  "unknown": 0
+ },
+ "median_seconds": 17.8,
+ "disagreements": [],
+ "errors": []
+}

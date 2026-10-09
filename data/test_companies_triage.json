@@ -1,0 +1,92 @@
+[
+ {
+  "name": "LIS Technologies",
+  "url": "https://laseristech.com",
+  "lane": "nuclear-fuel-and-enrichment",
+  "lane_p": 1.0,
+  "position": "head_on_with_entrenched",
+  "call": "pass",
+  "rival": "Centrus Energy",
+  "portfolio_conflict": false,
+  "sells_to_them": 0.18,
+  "wedge": 0.12,
+  "probs": {
+   "head_on": 0.99,
+   "supplier": 0.0018,
+   "open": 0.001968,
+   "off_map": 0.0062320000000000006
+  }
+ },
+ {
+  "name": "FluxPoint Energy",
+  "url": "",
+  "lane": "nuclear-fuel-and-enrichment",
+  "lane_p": 1.0,
+  "position": "off_map",
+  "call": "look",
+  "rival": null,
+  "portfolio_conflict": false,
+  "sells_to_them": 0.35,
+  "wedge": 0.04,
+  "probs": {
+   "head_on": 0.28,
+   "supplier": 0.252,
+   "open": 0.09827999999999998,
+   "off_map": 0.36972
+  }
+ },
+ {
+  "name": "Curio",
+  "url": "",
+  "lane": "nuclear-fuel-and-enrichment",
+  "lane_p": 1.0,
+  "position": "white_space",
+  "call": "priority",
+  "rival": null,
+  "portfolio_conflict": false,
+  "sells_to_them": 0.15,
+  "wedge": 0.03,
+  "probs": {
+   "head_on": 0.16000000000000003,
+   "supplier": 0.126,
+   "open": 0.45696,
+   "off_map": 0.25704
+  }
+ },
+ {
+  "name": "Thorium Atomics",
+  "url": "",
+  "lane": "advanced-fission",
+  "lane_p": 1.0,
+  "position": "head_on_with_entrenched",
+  "call": "pass",
+  "rival": "TerraPower",
+  "portfolio_conflict": false,
+  "sells_to_them": 0.13,
+  "wedge": 0.03,
+  "probs": {
+   "head_on": 0.72,
+   "supplier": 0.0364,
+   "open": 0.19731600000000002,
+   "off_map": 0.046284000000000006
+  }
+ },
+ {
+  "name": "Firestorm Labs",
+  "url": "",
+  "lane": "small-drones-and-loitering-munitions",
+  "lane_p": 0.81,
+  "position": "head_on_with_entrenched",
+  "call": "pass",
+  "rival": "AeroVironment (incl. BlueHalo)",
+  "portfolio_conflict": false,
+  "sells_to_them": 0.26,
+  "wedge": 0.42,
+  "probs": {
+   "head_on": 0.99,
+   "supplier": 0.0026000000000000003,
+   "open": 0.0008139999999999999,
+   "off_map": 0.006586000000000001
+  }
+ }
+]

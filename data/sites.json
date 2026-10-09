@@ -1,0 +1,115 @@
+{
+  "note": "Sites watched from orbit. bbox is WGS 84 lon/lat [W, S, E, N]. gt/satellite.py renders frames in the site's UTM zone (epsg) on the envelope of the bbox, snapped outward to a 20 m grid, so Sentinel-2's 10 m pixels are not resampled. Each frame manifest records the exact UTM bounds. Checked 2026-10-08.",
+  "sites": [
+    {
+      "slug": "arsenal-1",
+      "label": "Anduril Arsenal-1",
+      "company": "anduril",
+      "place": "Harrison Township, Pickaway County, Ohio; south of Rickenbacker International Airport, between Airbase Rd and Walnut Creek",
+      "center": [-82.9225, 39.7835],
+      "bbox": [-82.94, 39.771, -82.9, 39.796],
+      "bbox_kind": "site",
+      "epsg": 32617,
+      "crs_notes": "EPSG:32617 (WGS 84 / UTM 17N), Sentinel-2 tile 17TLE. The crop is 3.4 x 2.8 km: Arsenal-1's two buildings, the W-CTR land east to Walnut Creek, the neighbouring logistics warehouses to the west and the C5 graded site north of Airbase Rd. NAIP 2023 is in NAD83 / UTM 17N (EPSG:26917), about 1 m from WGS 84.",
+      "verified": true,
+      "verification": {
+        "summary": "Pickaway County permits name 'Arsenal 1' at 4641 Elizabeth Ave, 4611 Airbase Rd and 4970 Elizabeth Ave. The county's address points put those addresses inside parcels F16-0-001-00-015-25 and -015-26, owned by W-CTR Rickenbacker entities (CT Realty joint venture). Both parcels are bare in NAIP 2023-05-21 and carry two new large buildings in Sentinel-2 on 2026-09-25. Permits at 4641 Elizabeth Ave also name Anduril products ('ROADRUNNER TI', 'BARRACUDA' fire alarm).",
+        "parcels": [
+          {"id": "F16-0-001-00-015-25", "owner": "W CTR RICKENBACKER PHASE 3 OWNER VIII", "acres": 46.807, "role": "4641 Elizabeth Ave: Arsenal 1 building 'G5' (Phase 1 tenant build-out; 'Arsenal 1 Project Phase 2', 924,352 sq ft new structure, permitted 2025-10-24)"},
+          {"id": "F16-0-001-00-015-26", "owner": "W-CTR RICKENBACKER PHASE 2A OWNER VIII", "acres": 131.602, "role": "4611 Airbase Rd and 4970 Elizabeth Ave: second building ('Arsenal 1 G5' sprinklers; 'Arsenal 1 Ph. 2' kitchen fit-out)"},
+          {"id": "F16-0-001-00-015-27", "owner": "W CTR RICKENBACKER PHASE 1 OWNER VIII LLC", "acres": 11.671, "role": "same owner group, between the buildings"},
+          {"id": "F16-0-001-00-015-44", "owner": "W CTR RICKENBACKER LAND HOLDINGS VIII LLC", "acres": 4.526, "role": "access strip along Raymond Ave"},
+          {"id": "F16-0-001-00-059-00", "owner": "W-CTR SCARBROUGH LAND HOLDINGS VII L.L.C.", "acres": 249.217, "role": "probable expansion land east to Walnut Creek; a new road is graded across it by 2026-09"},
+          {"id": "F16-0-001-00-007-01", "owner": "W-CTR SCARBROUGH LAND HOLDINGS VII LLC", "acres": 30.3, "role": "probable expansion land"},
+          {"id": "F16-0-001-00-070-00", "owner": "W-CTR SCARBROUGH LAND HOLDINGS VIII LLC", "acres": 18.0, "role": "detached parcel on Miller Rd, 0.7 km south of the crop"}
+        ],
+        "notes": [
+          "W-CTR parcels here total about 496 acres, matching the reported 500-acre site. The two building parcels are confirmed by permits. The Scarbrough parcels are attributed by owner group, adjacency and acreage only; no permit names Arsenal-1 there yet. In Dec 2025 the county permitted demolition of houses on three small Scarbrough parcels (10119 and 9959 Walnut Creek Pike, 5487 Airbase Rd).",
+          "4641 Elizabeth Ave was already 'Building 5' in the county address layer in Nov 2023, so Anduril took over a CT Realty building pad and fitted it out. 4611 Airbase Rd and 4970 Elizabeth Ave were added to the address layer in March 2026.",
+          "Arsenal-1 also has an airside hangar ('Arsenal 1 Airside Hangar Ph 1', 4175 Fury Ct, Columbus 43217). The county address layer has no point for it, so it is not located.",
+          "A third-party firearms-licence directory lists Anduril Industries, Inc. at 4641 Elizabeth Ave (type 10). ATF's own list blocks scripts, so this is not confirmed."
+        ],
+        "lookalikes": [
+          "The heavily graded site directly north of Airbase Rd (parcels F16-0-001-00-056-00, -056-02 and -057-00, 174.6 acres, near 39.795, -82.914) belongs to C5 Global Connect LLC, not Anduril. The 'active graded site near 39.796, -82.915' in research/feasibility/README.md is this C5 site.",
+          "The white warehouses west of Arsenal-1 belong to other logistics tenants (for example TJX 'Sierra' at 4077 Airbase Rd)."
+        ],
+        "sources": [
+          {"url": "https://pickawaycountyohio.gov/offices/building/permits-2025-10.html", "what": "County issued permits, Oct 2025: 'ARSENAL 1 PROJECT PHASE 2', new structure, 924,352 sq ft, 4641 Elizabeth Ave (2025-10-24); 'Arsenal 1 G5 SPRINKLERS', 4611 Airbase Rd; 'ARSENAL 1 AIRSIDE HANGAR PH 1'"},
+          {"url": "https://pickawaycountyohio.gov/offices/building/permits-2026-02.html", "what": "County permits, Feb 2026: 'Arsenal 1 G5' sprinklers at 4611 Airbase Rd; 'A-1 OFFICE' and 'SECURE SPACE' fire alarms at 4641 Elizabeth Ave"},
+          {"url": "https://pickawaycountyohio.gov/offices/building/permits-2026-07.html", "what": "County permits, Jul 2026: 'Arsenal 1 Ph. 2' kitchen fit-out at 4970 Elizabeth Ave; 'ROADRUNNER TI' tenant improvements of the G5 shell building at 4641 Elizabeth Ave"},
+          {"url": "https://pickawaycountyohio.gov/offices/building/permits-2026-09.html", "what": "County permits, Sep 2026: 'BARRACUDA' fire alarm and sprinklers at 4641 Elizabeth Ave"},
+          {"url": "https://services6.arcgis.com/FhJ42byMw3LmPYCN/ArcGIS/rest/services/Parcels_Search/FeatureServer/0", "what": "Pickaway County address points: 4641 Elizabeth Ave at 39.78248, -82.92662; 4611 Airbase Rd at 39.78552, -82.92383; 4970 Elizabeth Ave at 39.78282, -82.92089"},
+          {"url": "https://services6.arcgis.com/FhJ42byMw3LmPYCN/ArcGIS/rest/services/Parcels_Search/FeatureServer/1", "what": "Pickaway County parcels: owners and acreage of the W-CTR and C5 parcels"},
+          {"url": "https://www.ocbj.com/technology/arsenal-1-joint-oc-collaboration-underway-for-andurils-ohio-site/", "what": "News: CT Realty develops Arsenal-1 on about 500 acres next to its Rickenbacker logistics park"},
+          {"url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/naip/items/oh_m_3908209_se_17_030_20230521_20231018", "what": "NAIP 2023-05-21: both building parcels bare"},
+          {"url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20260925T162021_R040_T17TLE_20260925T195353", "what": "Sentinel-2 2026-09-25: two large new buildings at the permit addresses"}
+        ]
+      }
+    },
+    {
+      "slug": "general-matter-paducah",
+      "label": "General Matter, Paducah enrichment site (Leasing Parcel A)",
+      "company": "general-matter",
+      "place": "Former Paducah Gaseous Diffusion Plant, McCracken County, Kentucky; the wedge south of the fenced plant area",
+      "center": [-88.8136, 37.1009],
+      "bbox": [-88.8295, 37.0903, -88.7963, 37.1123],
+      "bbox_kind": "site",
+      "epsg": 32616,
+      "crs_notes": "EPSG:32616 (WGS 84 / UTM 16N), Sentinel-2 tile 16SCG. The crop is 3.0 x 2.5 km: the southern half of the old plant, Parcel A, and the forest to the south (Global Laser Enrichment land). NAIP 2022 is in NAD83 / UTM 16N (EPSG:26916).",
+      "verified": true,
+      "verification": {
+        "summary": "DOE's leasing data package for Leasing Parcel A (July 2025) describes about 100 acres on the south/southeastern side of the fenced plant (the 'Limited Area'), with Little Bayou Creek under 1,000 ft to the east and Global Laser Enrichment's land to the south. Its Figure 1 shows the parcel as the wedge south of the fence. In Sentinel-2 that wedge is forest on 2025-10-08, cleared by 2026-01-19 and bare graded soil from May 2026. That matches DOE's 'Site Preparation Including Tree Clearing (Parcel A)' exclusion and General Matter's March 2026 soil-improvement filing with the NRC.",
+        "parcels": [
+          {"id": "DOE Leasing Parcel A", "owner": "U.S. Department of Energy (leased to General Matter, Inc., 2025-08-05)", "acres": 100, "role": "enrichment plant site"}
+        ],
+        "notes": [
+          "The boundary is from DOE's map figure, not a surveyed polygon. The crop is centred on the cleared wedge near 37.1009, -88.8136.",
+          "The plant map is drawn to 'plant north', which is rotated from true north."
+        ],
+        "lookalikes": [
+          "Global Laser Enrichment owns the land directly south of Parcel A, and a separate 665-acre tract is earmarked for its laser enrichment plant. Clearing there would look the same from orbit.",
+          "DOE also has Leasing Parcels B (~785 acres) and C (~188 acres) at the site."
+        ],
+        "sources": [
+          {"url": "https://pubdocs.pad.pppo.gov/Leasing%20Data%20Package%20for%20Leasing%20Parcel%20A/Leasing%20Data%20Package%20for%20Leasing%20Parcel%20A.pdf", "what": "DOE PPPO leasing data package for Leasing Parcel A (PPPO-02-10033219-25, July 2025): location text and Figure 1 map"},
+          {"url": "https://www.energy.gov/node/4853553", "what": "DOE CX-270853: Site Preparation Including Tree Clearing (Parcel A) at the Paducah Gaseous Diffusion Plant (title only; energy.gov blocks scripts)"},
+          {"url": "https://www.energy.gov/sites/default/files/2026-08/fonsi-ea-2327-gem-site-prep-licensing-parcel-a-2026-08.pdf", "what": "DOE EA-2327 FONSI, Aug 2026: site preparation and licensing on Parcel A (not read; energy.gov blocks scripts)"},
+          {"url": "https://www.world-nuclear-news.org/articles/general-matter-plans-new-enrichment-plant-in-paducah", "what": "News: DOE lease to General Matter, 2025-08-05"},
+          {"url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2B_MSIL2A_20260119T164519_R126_T16SCG_20260119T203443", "what": "Sentinel-2 2026-01-19: the wedge has been cleared (it is forest on 2025-10-08)"}
+        ]
+      }
+    },
+    {
+      "slug": "helion-orion",
+      "label": "Helion Orion fusion plant",
+      "company": "helion",
+      "place": "1476 Nixon Rapids Ln, Malaga, Chelan County, Washington; west bank of the Columbia, just southwest of Rock Island Dam",
+      "center": [-120.1037, 47.3363],
+      "bbox": [-120.1203, 47.3268, -120.0844, 47.3474],
+      "bbox_kind": "site",
+      "epsg": 32610,
+      "crs_notes": "EPSG:32610 (WGS 84 / UTM 10N), Sentinel-2 tile 10TGT. The site is 0.1 degrees west of the zone 10/11 boundary, so only zone-10 scenes are used. The crop is 2.8 x 2.4 km: the Helion pad, the existing PUD switchyard and Rock Island Dam. NAIP 2023 is in NAD83 / UTM 10N (EPSG:26910).",
+      "verified": true,
+      "verification": {
+        "summary": "Chelan County's SEPA 25-139 notice and MDNS name Helion Energy Inc. as applicant for a fusion generation project on an 80-acre portion of the 401-acre parcel APN 21-22-05-000-050 at 1476 Nixon Rapids Ln, owned by Chelan County PUD #1. The county parcel layer gives that parcel's outline. Inside it, Sentinel-2 shows no disturbance on 2025-05-01, a fresh graded pad on 2025-07-07 (Helion announced earthwork on 2025-07-22), and a building on the pad by 2026.",
+        "parcels": [
+          {"id": "212205000050", "owner": "Chelan County PUD #1 (Helion is the applicant; 80-acre portion)", "acres": 401, "role": "Orion site, pad near 47.3363, -120.1037"}
+        ],
+        "notes": [
+          "The 80-acre project area inside the 401-acre parcel is located from imagery (the pad), not from the site civil plans. The checklist PDF is a scan with no text layer.",
+          "Planned buildings (MDNS): ~100,000 sf fusion generation building, 26,800 sf assembly building, 6,240 sf office, 55,000 sf substation, 50,000 sf parking lot and a 1,000 ft private access road."
+        ],
+        "lookalikes": [
+          "The fenced switchyard with white structures just east of the pad belongs to the PUD and Rock Island Dam. It predates Helion and is in NAIP 2023."
+        ],
+        "sources": [
+          {"url": "https://co.chelan.wa.us/notifications/article/-fusion-energy-generation-project-studies", "what": "Chelan County SEPA 25-139 notice: applicant, APN, address, 80-acre portion of a 401-acre parcel"},
+          {"url": "https://www.co.chelan.wa.us/files/community-development/documents/Helion/SEPA%2025-139%20HELION%20SEPA%20MDNS.pdf", "what": "MDNS: project description, parcel 21-22-05-000-050, owner Chelan County PUD #1, applicant Helion Energy Inc."},
+          {"url": "https://atlas.co.chelan.wa.us/arcgis/rest/services/PACS/MapSearch/MapServer/1", "what": "Chelan County parcel layer: polygon and situs (1476 NIXON RAPIDS LN) of parcel 212205000050"},
+          {"url": "https://www.helionenergy.com/blog/starting-to-build-the-worlds-first-fusion-power-plant-in-malaga-wa", "what": "Helion, 2025-07-22: initial earthwork begun at the Orion site in Malaga"},
+          {"url": "https://planetarycomputer.microsoft.com/api/stac/v1/collections/sentinel-2-l2a/items/S2C_MSIL2A_20250707T184941_R113_T10TGT_20250707T235518", "what": "Sentinel-2 2025-07-07: first image showing the graded pad"}
+        ]
+      }
+    }
+  ]
+}

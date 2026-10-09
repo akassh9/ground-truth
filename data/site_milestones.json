@@ -1,0 +1,17 @@
+{
+ "note": "Dated, sourced milestones for each tracked site, from the 2026-10-08 site research (research/feasibility/README.md). Dates from news reports are as reported.",
+ "arsenal-1": [
+  {"date": "2025-01-16", "headline": "Anduril announces Arsenal-1, a factory campus near Columbus, Ohio", "evidence_url": "https://www.10tv.com/article/news/local/boomtown-ohio/anduril-industries-arsenal-1-facility-pickaway-county-10-year-plan/530-c577c7ff-38df-4ae3-b465-b0b5785e93d0"},
+  {"date": "2025-07-15", "headline": "Construction quietly begins at the Pickaway County site", "evidence_url": "https://www.nbc4i.com/news/local-news/pickaway-county/anduril-quietly-starts-construction-on-ohio-arsenal-1-plant/"},
+  {"date": "2025-10-24", "headline": "County permit for Arsenal 1 Phase 2: a 924,352 sq ft building", "evidence_url": "https://pickawaycountyohio.gov/offices/building/"},
+  {"date": "2026-07-27", "headline": "First Ohio-built Fury rolls off the Arsenal-1 line", "evidence_url": "https://www.jobsohio.com/newsroom/news-press/first-ohio-built-fury-rolls-off-andurils-arsenal-1-production-line"}
+ ],
+ "general-matter-paducah": [
+  {"date": "2025-08-05", "headline": "DOE leases Parcel A at Paducah to General Matter; groundbreaking", "evidence_url": "https://www.world-nuclear-news.org/articles/general-matter-plans-new-enrichment-plant-in-paducah"},
+  {"date": "2026-08-01", "headline": "DOE environmental finding for site preparation and licensing on Parcel A (EA-2327)", "evidence_url": "https://www.energy.gov/sites/default/files/2026-08/fonsi-ea-2327-gem-site-prep-licensing-parcel-a-2026-08.pdf"}
+ ],
+ "helion-orion": [
+  {"date": "2025-07-30", "headline": "Helion starts building Orion, its first fusion power plant, in Malaga, WA", "evidence_url": "https://www.helionenergy.com/blog/starting-to-build-the-worlds-first-fusion-power-plant-in-malaga-wa"},
+  {"date": "2025-10-15", "headline": "Chelan County building permit for the Orion site (SEPA 25-139)", "evidence_url": "https://co.chelan.wa.us/notifications/article/-fusion-energy-generation-project-studies"}
+ ]
+}

@@ -1,0 +1,406 @@
+{
+ "nrc": [
+  {
+   "company": "OrganiCore Nuclear",
+   "date": "2026-08-13",
+   "source": "nrc",
+   "what": "Letter of Intent to Commence Pre-application Activities for the OrganiCore OC-80 Advanced Small Modular Reactor",
+   "docket": "99902184",
+   "evidence_url": "https://www.nrc.gov/docs/ML2626/ML26268A079.pdf"
+  },
+  {
+   "company": "1st American Nuclear Co",
+   "date": "2026-08-06",
+   "source": "nrc",
+   "what": "1st American Nuclear Company (FANCO) - Letter of Intent",
+   "docket": "",
+   "evidence_url": "https://www.nrc.gov/docs/ML2622/ML26222A181.pdf"
+  },
+  {
+   "company": "RankShield Energy",
+   "date": "2026-07-30",
+   "source": "nrc",
+   "what": "RankShield Energy, Inc. Letter of Intent to Begin Pre-Application Engagement and Request for a Project Number",
+   "docket": "99902183",
+   "evidence_url": "https://www.nrc.gov/docs/ML2625/ML26258A004.pdf"
+  },
+  {
+   "company": "Space Ocean Corp",
+   "date": "2026-07-17",
+   "source": "nrc",
+   "what": "Space Ocean Corp Letter of Intent for KSSIQF",
+   "docket": "",
+   "evidence_url": "https://www.nrc.gov/docs/ML2620/ML26201A127.pdf"
+  },
+  {
+   "company": "Aalo Holdings",
+   "date": "2026-07-09",
+   "source": "nrc",
+   "what": "Letter of Intent to Pursue an Early Site Permit for an Aalo Reactor at the Texas A&M RELLIS Campus",
+   "docket": "99902128",
+   "evidence_url": "https://www.nrc.gov/docs/ML2619/ML26190A374.pdf"
+  },
+  {
+   "company": "Raven-Flint Nuclear Corp",
+   "date": "2026-06-24",
+   "source": "nrc",
+   "what": "Letter of Intent Raven-Flint Nuclear Corporation dated June 24, 2026",
+   "docket": "",
+   "evidence_url": "https://www.nrc.gov/docs/ML2618/ML26181A349.pdf"
+  },
+  {
+   "company": "Thorium Atomics Inc",
+   "date": "2026-06-23",
+   "source": "nrc",
+   "what": "Letter of Intent for Pre-Application Licensing Activities with Thorium Atomics",
+   "docket": "99902174",
+   "evidence_url": "https://www.nrc.gov/docs/ML2618/ML26188A230.pdf"
+  },
+  {
+   "company": "Curio",
+   "date": "2026-05-27",
+   "source": "nrc",
+   "what": "Curio's Letter of Intent for a Nuclear Fuel Recycling Facility",
+   "docket": "",
+   "evidence_url": "https://www.nrc.gov/docs/ML2614/ML26149A302.pdf"
+  },
+  {
+   "company": "FluxPoint",
+   "date": "2026-04-08",
+   "source": "nrc",
+   "what": "FluxPoint, LLC, Uranium Conversion Facility Letter of Intent",
+   "docket": "",
+   "evidence_url": "https://www.nrc.gov/docs/ML2610/ML26103A055.pdf"
+  },
+  {
+   "company": "Laser Isotope Separation Technologies",
+   "date": "2026-03-13",
+   "source": "nrc",
+   "what": "Letter of Intent - License Application for LIS Technologies, Inc",
+   "docket": "07007039",
+   "evidence_url": "https://www.nrc.gov/docs/ML2609/ML26092A376.pdf"
+  },
+  {
+   "company": "Nuclea Energy",
+   "date": "2026-03-11",
+   "source": "nrc",
+   "what": "Nuclea Energy Inc., Letter of Intent to Begin Pre-application Processes with the NRC",
+   "docket": "99902164",
+   "evidence_url": "https://www.nrc.gov/docs/ML2609/ML26097A166.pdf"
+  },
+  {
+   "company": "Deployable Energy",
+   "date": "2025-10-10",
+   "source": "nrc",
+   "what": "Letter of Intent to Commence Pre-Application Processes with the NRC",
+   "docket": "99902155",
+   "evidence_url": "https://www.nrc.gov/docs/ML2528/ML25283A049.pdf"
+  },
+  {
+   "company": "Oklo Inc",
+   "date": "2025-06-25",
+   "source": "nrc",
+   "what": "Oklo, Inc. - Letter of Intent to Submit a License Application for the Oklo Fuel Fabrication",
+   "docket": "99902046",
+   "evidence_url": "https://www.nrc.gov/docs/ML2517/ML25177B641.pdf"
+  }
+ ],
+ "faa": [
+  {
+   "company": "Amor Fati Industries Inc",
+   "date": "2026-08-22",
+   "source": "faa",
+   "aircraft": 48,
+   "what": "First FAA-registered aircraft 2026-08-22; 48 registered; models: ARGO",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=AMOR+FATI+INDUSTRIES&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Firestorm Labs Inc",
+   "date": "2025-09-17",
+   "source": "faa",
+   "aircraft": 34,
+   "what": "First FAA-registered aircraft 2025-09-17; 34 registered; models: TEMPEST BETA 2, TEMPEST BETA 2 TURBO",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=FIRESTORM+LABS&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Ideal Aerosmith Inc",
+   "date": "2025-10-01",
+   "source": "faa",
+   "aircraft": 17,
+   "what": "First FAA-registered aircraft 2025-10-01; 17 registered; models: TROUBLEMAKER",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=IDEAL+AEROSMITH&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Ceres Air Llc",
+   "date": "2025-09-11",
+   "source": "faa",
+   "aircraft": 8,
+   "what": "First FAA-registered aircraft 2025-09-11; 8 registered; models: C31, C6",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=CERES+AIR&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Aerojones Aviation Usa Llc",
+   "date": "2025-03-14",
+   "source": "faa",
+   "aircraft": 4,
+   "what": "First FAA-registered aircraft 2025-03-14; 4 registered; models: AJ SPORT",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=AEROJONES+AVIATION+USA&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Southern Cubs Llc",
+   "date": "2025-03-26",
+   "source": "faa",
+   "aircraft": 4,
+   "what": "First FAA-registered aircraft 2025-03-26; 4 registered; models: CCX-1865, CCX-2000",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=SOUTHERN+CUBS&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Lyno Dynamics",
+   "date": "2026-07-10",
+   "source": "faa",
+   "aircraft": 4,
+   "what": "First FAA-registered aircraft 2026-07-10; 4 registered; models: LD220",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=LYNO+DYNAMICS&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Air Res Aviation Sp Z O O",
+   "date": "2025-02-26",
+   "source": "faa",
+   "aircraft": 3,
+   "what": "First FAA-registered aircraft 2025-02-26; 3 registered; models: T-131 JUNGMANN",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=AIR+RES+AVIATION+SP+Z+O+O&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Galaxy Unmanned Systems",
+   "date": "2025-04-02",
+   "source": "faa",
+   "aircraft": 3,
+   "what": "First FAA-registered aircraft 2025-04-02; 3 registered; models: GC-35-E2, GC-35-E4, GC-50-E4",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=GALAXY+UNMANNED+SYSTEMS&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Moose Cc Llc",
+   "date": "2025-04-28",
+   "source": "faa",
+   "aircraft": 3,
+   "what": "First FAA-registered aircraft 2025-04-28; 3 registered; models: CCX-2000, JA35 SUPERSTOL XL, TOP RUDDER RUCKUS",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=MOOSE+CC&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Aaa Aircraft Llc",
+   "date": "2025-05-23",
+   "source": "faa",
+   "aircraft": 3,
+   "what": "First FAA-registered aircraft 2025-05-23; 3 registered; models: AL18, CCX-2000",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=AAA+AIRCRAFT&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Zephair Aviation Llc",
+   "date": "2025-06-06",
+   "source": "faa",
+   "aircraft": 3,
+   "what": "First FAA-registered aircraft 2025-06-06; 3 registered; models: SIRIUS, SIRIUS BACKCOUNTRY, SPARKER",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=ZEPHAIR+AVIATION&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Build 2 Fly Club Llc",
+   "date": "2025-07-08",
+   "source": "faa",
+   "aircraft": 3,
+   "what": "First FAA-registered aircraft 2025-07-08; 3 registered; models: CHINOOK LA1, CHINOOK P2",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=BUILD+2+FLY+CLUB&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Ccx-1865 Llc",
+   "date": "2025-12-05",
+   "source": "faa",
+   "aircraft": 3,
+   "what": "First FAA-registered aircraft 2025-12-05; 3 registered; models: CCX-1865",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=CCX+1865&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Morsecorp Inc",
+   "date": "2026-08-14",
+   "source": "faa",
+   "aircraft": 3,
+   "what": "First FAA-registered aircraft 2026-08-14; 3 registered; models: TREK",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=MORSECORP&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Lily Gold Llc",
+   "date": "2025-01-07",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-01-07; 2 registered; models: CH 750 SD, RV-14",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=LILY+GOLD&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Ccx-2300 Llc",
+   "date": "2025-01-29",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-01-29; 2 registered; models: CCX-2300",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=CCX+2300&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Centauri Aircraft Corp",
+   "date": "2025-02-06",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-02-06; 2 registered; models: VALKYRIE",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=CENTAURI+AIRCRAFT&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Velo X Aerospace Inc",
+   "date": "2025-02-24",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-02-24; 2 registered; models: VELOCITOR X-1",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=VELO+X+AEROSPACE&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "River Bay Aviation Cub Llc",
+   "date": "2025-03-25",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-03-25; 2 registered; models: CCX-2000",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=RIVER+BAY+AVIATION+CUB&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Rans Aircraft Corp",
+   "date": "2025-04-04",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-04-04; 2 registered; models: S-12",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=RANS+AIRCRAFT&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Kourtis Vintage Aviation Llc",
+   "date": "2025-04-17",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-04-17; 2 registered; models: CCK-2000, CCX-1865",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=KOURTIS+VINTAGE+AVIATION&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Alpha Aviation Manufacturing L",
+   "date": "2025-05-16",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-05-16; 2 registered; models: R2160",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=ALPHA+AVIATION+MANUFACTURING+L&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Stol-It Aircraft Inc",
+   "date": "2025-07-09",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-07-09; 2 registered; models: BEARHAWK COMPANION, JUST ACFT SUPRSTL XL",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=STOL+IT+AIRCRAFT&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Minelaza Usa Llc",
+   "date": "2025-07-18",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-07-18; 2 registered; models: ARGON 912STI, ARGON GTL TRIPLE",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=MINELAZA+USA&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Radical Inc",
+   "date": "2025-07-24",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-07-24; 2 registered; models: S-1 EVENSTAR",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=RADICAL&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "C & D Aviation Llc",
+   "date": "2025-08-09",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-08-09; 2 registered; models: CCK-1865",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=C+D+AVIATION&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Sanitas Aviation Llc",
+   "date": "2025-10-03",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-10-03; 2 registered; models: CCX-1865",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=SANITAS+AVIATION&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Airship Industries Uk Ltd",
+   "date": "2025-10-14",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-10-14; 2 registered; models: AIRSHIP 600",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=AIRSHIP+INDUSTRIES+UK&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Game Aerospace Llc",
+   "date": "2025-11-12",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-11-12; 2 registered; models: GB1 GAMEBIRD",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=GAME+AEROSPACE&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Fun Flight Aviation Llc",
+   "date": "2025-11-17",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-11-17; 2 registered; models: M24 ORION PLUS, M24 XTREME",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=FUN+FLIGHT+AVIATION&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Virgin Galactic Llc",
+   "date": "2025-12-04",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-12-04; 2 registered; models: SS4",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=VIRGIN+GALACTIC&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "N87Pl Llc",
+   "date": "2025-12-21",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2025-12-21; 2 registered; models: AIRCAM",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=N87PL&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Alef Aeronautics Inc",
+   "date": "2026-01-29",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2026-01-29; 2 registered; models: MODEL ZERO 24, MODEL ZERO MILPITAS",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=ALEF+AERONAUTICS&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Bye Aerospace Inc",
+   "date": "2026-05-26",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2026-05-26; 2 registered; models: EFLYER 2 MODEL 10, SAN 15",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=BYE+AEROSPACE&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Teton River Enterprises Llc",
+   "date": "2026-06-08",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2026-06-08; 2 registered; models: M24 ORION PLUS, M24 XTREME",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=TETON+RIVER+ENTERPRISES&sort_option=1&PageNo=1"
+  },
+  {
+   "company": "Skypearl Inc",
+   "date": "2026-08-06",
+   "source": "faa",
+   "aircraft": 2,
+   "what": "First FAA-registered aircraft 2026-08-06; 2 registered; models: SKYPEARL TESTBALLOON",
+   "evidence_url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=SKYPEARL&sort_option=1&PageNo=1"
+  }
+ ]
+}

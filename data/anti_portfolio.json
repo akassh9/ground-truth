@@ -1,0 +1,720 @@
+{
+  "source": "https://antifund.com/",
+  "fetched": "2026-10-08",
+  "note": "A trailing * on a stage, or personal=true, marks a partner's personal investment.",
+  "companies": [
+    {
+      "slug": "anduril",
+      "name": "Anduril",
+      "url": "https://www.anduril.com/",
+      "description": "Autonomous defense systems and manufacturing.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2022",
+      "stages": [
+        "Series E"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "url": "https://openai.com/",
+      "description": "Frontier AI research and products.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2025",
+      "stages": [
+        "Growth"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "cognition",
+      "name": "Cognition",
+      "url": "https://cognition.ai/",
+      "description": "Applied AI systems and end-to-end software agents.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2024",
+      "stages": [
+        "Series B-D"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "physical-intelligence",
+      "name": "Physical Intelligence",
+      "url": "https://www.physicalintelligence.company/",
+      "description": "General-purpose AI for the physical world.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2024",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "etched",
+      "name": "Etched",
+      "url": "https://www.etched.com/",
+      "description": "Purpose-built chips for transformer inference.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2025",
+      "stages": [
+        "Series B"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "modal",
+      "name": "Modal",
+      "url": "https://modal.com/",
+      "description": "Cloud infrastructure for AI and data workloads.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2025",
+      "stages": [
+        "Series B-C"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "efference",
+      "name": "Efference",
+      "url": "https://efference.ai/",
+      "description": "Perception and compute infrastructure for robotics.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2025",
+      "stages": [
+        "First Investor"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "general-matter",
+      "name": "General Matter",
+      "url": "https://generalmatter.com/",
+      "description": "Nuclear fuel infrastructure.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2026",
+      "stages": [
+        "Growth"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "saronic",
+      "name": "Saronic",
+      "url": "https://www.saronic.com/",
+      "description": "Autonomous surface vessels for maritime defense.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2026",
+      "stages": [
+        "Series D"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "helion",
+      "name": "Helion",
+      "url": "https://www.helionenergy.com/",
+      "description": "Commercial fusion energy.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2026",
+      "stages": [
+        "Series G"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "ramp",
+      "name": "Ramp",
+      "url": "https://ramp.com/",
+      "description": "Corporate cards and finance automation.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2019",
+      "stages": [
+        "Seed*",
+        "Series B*",
+        "Series D"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "erebor",
+      "name": "Erebor",
+      "url": "https://erebor.bank/",
+      "description": "Banking infrastructure for the innovation economy.",
+      "group": "Featured",
+      "group_slug": "featured",
+      "invested": "2026",
+      "stages": [
+        "Series B"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "kela-systems",
+      "name": "Kela Systems",
+      "url": "https://kelasys.com/",
+      "description": "Defense systems for modern military operations.",
+      "group": "AI, Infrastructure & National Resilience",
+      "group_slug": "ai-infrastructure-national-resilience",
+      "invested": "2024",
+      "stages": [
+        "Series A"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "merge",
+      "name": "Merge",
+      "url": "https://www.merge.io/",
+      "description": "Brain-computer interfaces.",
+      "group": "AI, Infrastructure & National Resilience",
+      "group_slug": "ai-infrastructure-national-resilience",
+      "invested": "2025",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "trajectory",
+      "name": "Trajectory",
+      "url": "https://trajectory.ai/",
+      "description": "Continual-learning infrastructure for production AI.",
+      "group": "AI, Infrastructure & National Resilience",
+      "group_slug": "ai-infrastructure-national-resilience",
+      "invested": "2025",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "westmag",
+      "name": "Westmag",
+      "url": "https://www.westmag.com/",
+      "description": "American-made motors and actuators for drones and robots.",
+      "group": "AI, Infrastructure & National Resilience",
+      "group_slug": "ai-infrastructure-national-resilience",
+      "invested": "2025",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "the-boring-company",
+      "name": "The Boring Company",
+      "url": "https://www.boringcompany.com/",
+      "description": "Tunnel boring machines and underground transportation infrastructure.",
+      "group": "AI, Infrastructure & National Resilience",
+      "group_slug": "ai-infrastructure-national-resilience",
+      "invested": "2026",
+      "stages": [
+        "Series D"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "aeon",
+      "name": "Aeon",
+      "url": "https://www.aeonindustrial.com/",
+      "description": "Autonomous tactical systems for U.S. and allied defense.",
+      "group": "AI, Infrastructure & National Resilience",
+      "group_slug": "ai-infrastructure-national-resilience",
+      "invested": "2026",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "enigma",
+      "name": "Enigma",
+      "url": "https://enigma.inc/",
+      "description": "AI models and interfaces for intuitive human-robot interaction.",
+      "group": "AI, Infrastructure & National Resilience",
+      "group_slug": "ai-infrastructure-national-resilience",
+      "invested": "2026",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "general-galactic",
+      "name": "General Galactic",
+      "url": "https://www.gengalactic.com/",
+      "description": "Spacecraft and propulsion for orbital logistics.",
+      "group": "AI, Infrastructure & National Resilience",
+      "group_slug": "ai-infrastructure-national-resilience",
+      "invested": "2026",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "orbital",
+      "name": "Orbital",
+      "url": "https://orbital.inc/",
+      "description": "AI compute infrastructure in low Earth orbit.",
+      "group": "AI, Infrastructure & National Resilience",
+      "group_slug": "ai-infrastructure-national-resilience",
+      "invested": "2026",
+      "stages": [
+        "Pre-Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "polymarket",
+      "name": "Polymarket",
+      "url": "https://polymarket.com/",
+      "description": "Global prediction-market platform.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2021",
+      "stages": [
+        "Series A"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "archive",
+      "name": "Archive",
+      "url": "https://archive.com/",
+      "description": "AI-powered creator marketing infrastructure.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2022",
+      "stages": [
+        "Seed",
+        "Series A"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "withcoverage",
+      "name": "WithCoverage",
+      "url": "https://withcoverage.com/",
+      "description": "Insurance and risk infrastructure for ambitious businesses.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2024",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "lighter",
+      "name": "Lighter",
+      "url": "https://lighter.xyz/",
+      "description": "Verifiable exchange infrastructure built with custom ZK systems.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2025",
+      "stages": [
+        "Series B"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "cluely",
+      "name": "Cluely",
+      "url": "https://cluely.com/",
+      "description": "Real-time AI desktop assistance.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2025",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "creed",
+      "name": "Creed",
+      "url": "https://usecreed.com/",
+      "description": "AI-guided Bible study and prayer.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2025",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "melius",
+      "name": "Melius",
+      "url": "https://www.melius.com/",
+      "description": "Creative workspace for AI agents and generative models.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2025",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "natural",
+      "name": "Natural",
+      "url": "https://www.natural.co/",
+      "description": "Payments infrastructure for AI agents.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2025",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "pensive",
+      "name": "Pensive",
+      "url": "https://www.pensive.com/",
+      "description": "AI grading and tutoring for higher education.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2025",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io/",
+      "description": "AI voice research and products.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2026",
+      "stages": [
+        "Series D"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "monaco",
+      "name": "Monaco",
+      "url": "https://www.monaco.com/",
+      "description": "AI-native sales infrastructure for startups.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2026",
+      "stages": [
+        "Series A-B"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "liquid",
+      "name": "Liquid",
+      "url": "https://www.liquid.trade/",
+      "description": "24/7, non-custodial trading across crypto, stocks, commodities, FX, and prediction markets.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2026",
+      "stages": [
+        "Series A"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "entropy",
+      "name": "Entropy",
+      "url": "https://x.com/entropyio?s=11",
+      "description": "Perpetual futures for private-market and other hard-to-access assets.",
+      "group": "Software, Finance & Applied AI",
+      "group_slug": "software-finance-applied-ai",
+      "invested": "2026",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "eight-sleep",
+      "name": "Eight Sleep",
+      "url": "https://www.eightsleep.com/",
+      "description": "Temperature-controlled sleep systems.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2021",
+      "stages": [
+        "Seed"
+      ],
+      "personal": true
+    },
+    {
+      "slug": "betr",
+      "name": "Betr",
+      "url": "https://betr.app/",
+      "description": "Sports betting, fantasy, and media.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2021",
+      "stages": [
+        "Incubation"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "olipop",
+      "name": "Olipop",
+      "url": "https://drinkolipop.com/",
+      "description": "Prebiotic soda.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2022",
+      "stages": [
+        "Series B"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "oats-overnight",
+      "name": "Oats Overnight",
+      "url": "https://www.oatsovernight.com/",
+      "description": "High-protein overnight oats sold direct-to-consumer.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2022",
+      "stages": [
+        "Series A"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "wander",
+      "name": "Wander",
+      "url": "https://www.wander.com/",
+      "description": "Luxury travel platform with hotel-grade hospitality.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2022",
+      "stages": [
+        "Series A"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "ketone-iq",
+      "name": "Ketone-IQ",
+      "url": "https://ketone.com/",
+      "description": "Ketone-based energy and performance products.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2022",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "passes",
+      "name": "Passes",
+      "url": "https://www.passes.com/",
+      "description": "Creator commerce infrastructure.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2022",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "palm-tree-crew",
+      "name": "Palm Tree Crew",
+      "url": "https://www.palmtreecrew.com/",
+      "description": "Live entertainment and lifestyle platform.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2023",
+      "stages": [
+        "Series A"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "kings-league",
+      "name": "Kings League",
+      "url": "https://kingsleague.pro/",
+      "description": "Global, creator-led 7 vs 7 soccer league.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2024",
+      "stages": [
+        "Series A"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "sesh",
+      "name": "Sesh",
+      "url": "https://seshproducts.com/",
+      "description": "Tobacco-free nicotine pouch brand.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2024",
+      "stages": [
+        "Seed",
+        "Series A"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "sipmargs",
+      "name": "SipMargs",
+      "url": "https://www.sipmargs.com/",
+      "description": "Sparkling margarita ready-to-drink beverages.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2024",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "w",
+      "name": "W",
+      "url": "https://getw.com/",
+      "description": "Men's personal care.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2024",
+      "stages": [
+        "Incubation"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "happy-dad",
+      "name": "Happy Dad",
+      "url": "https://happydad.com/",
+      "description": "Hard seltzer and ready-to-drink beverages.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2025",
+      "stages": [
+        "Seed+"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "khloud",
+      "name": "Khloud",
+      "url": "https://khloudfoods.com/",
+      "description": "High-protein popcorn.",
+      "group": "Consumer Platforms & Brands",
+      "group_slug": "consumer-platforms-brands",
+      "invested": "2025",
+      "stages": [
+        "Seed"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "chronosphere",
+      "name": "Chronosphere",
+      "url": "https://chronosphere.io/",
+      "description": "Cloud observability platform; acquired by Palo Alto Networks for $3.35B.",
+      "group": "Acquisitions & Public Listings",
+      "group_slug": "acquisitions-public-listings",
+      "invested": "2019",
+      "stages": [
+        "Seed",
+        "Acquired"
+      ],
+      "personal": true
+    },
+    {
+      "slug": "rail",
+      "name": "Rail",
+      "url": "https://rail.io/",
+      "description": "Stablecoin payments infrastructure; acquired by Ripple for $200M.",
+      "group": "Acquisitions & Public Listings",
+      "group_slug": "acquisitions-public-listings",
+      "invested": "2022",
+      "stages": [
+        "Seed",
+        "Acquired"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "aerodome",
+      "name": "Aerodome",
+      "url": "https://www.aerodome.com/",
+      "description": "Public-safety drone infrastructure; acquired by Flock Safety.",
+      "group": "Acquisitions & Public Listings",
+      "group_slug": "acquisitions-public-listings",
+      "invested": "2023",
+      "stages": [
+        "Seed",
+        "Acquired"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "metis",
+      "name": "Metis",
+      "url": "https://www.withmetis.ai/",
+      "description": "Continual-learning infrastructure for enterprise agents; acquired by DoorDash in March 2026.",
+      "group": "Acquisitions & Public Listings",
+      "group_slug": "acquisitions-public-listings",
+      "invested": "2025",
+      "stages": [
+        "Seed",
+        "Acquired"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "poke-com",
+      "name": "Poke.com",
+      "url": "https://poke.com/",
+      "description": "Personal AI agent acquired by Cognition in July 2026.",
+      "group": "Acquisitions & Public Listings",
+      "group_slug": "acquisitions-public-listings",
+      "invested": "2025",
+      "stages": [
+        "Seed",
+        "Acquired"
+      ],
+      "personal": false
+    },
+    {
+      "slug": "spacex",
+      "name": "SpaceX",
+      "url": "https://www.spacex.com/",
+      "description": "Space and launch infrastructure, including the former xAI position and additional ownership purchased in the $1.77T IPO. $SPCX",
+      "group": "Acquisitions & Public Listings",
+      "group_slug": "acquisitions-public-listings",
+      "invested": "2026",
+      "stages": [
+        "xAI Series D",
+        "SpaceX merger",
+        "IPO"
+      ],
+      "personal": false
+    }
+  ]
+}

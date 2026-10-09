@@ -1,0 +1,20 @@
+{
+  "note": "Identifiers for the physical-world companies Ground Truth watches. Names, websites and descriptions come from anti_portfolio.json by slug. Every identifier here was checked by hand (2026-10-08); rejected look-alikes are listed so nobody re-adds them.",
+  "companies": [
+    {"slug": "anduril", "legal_names": ["ANDURIL INDUSTRIES, INC."], "uei": ["KC3CH2MSK7Q3"], "jobs": {"greenhouse": "andurilindustries"}, "sites": ["arsenal-1"], "hiring_places": {"Ashville": "Arsenal-1 (Ashville, OH)"}},
+    {"slug": "saronic", "legal_names": ["SARONIC TECHNOLOGIES, INC"], "uei": ["JZ14WLJDYM71"], "jobs": {"ashby": "saronic"}, "sites": ["saronic-port-alpha"], "rejected": ["SARONIC INVESTMENTS LLC", "SARONIC PROPERTIES LLC"], "hiring_places": {"Brownsville": "the Port Alpha shipyard (Brownsville, TX)", "Franklin, LA": "its Franklin, LA shipyard"}},
+    {"slug": "general-matter", "legal_names": ["GENERAL MATTER, INC."], "uei": ["XFT2AME5FUB3"], "nrc_dockets": ["07007040"], "jobs": {"greenhouse": "generalmatter"}, "sites": ["general-matter-paducah"], "hiring_places": {"Paducah": "the Paducah enrichment site"}},
+    {"slug": "helion", "legal_names": ["HELION ENERGY INC"], "uei": ["HS69YQMCJKF5"], "jobs": {"ashby": "helion"}, "sites": ["helion-orion"], "rejected": ["Helion Solar LLC", "Helion BESS"], "hiring_places": {"Malaga": "the Orion plant (Malaga, WA)"}},
+    {"slug": "westmag", "legal_names": ["Western Magnetics Company"], "jobs": {"ashby": "westmag"}},
+    {"slug": "aeon", "legal_names": ["AEON INDUSTRIAL INC."], "uei": ["XQWCHF1968B4"], "jobs": {"lever": "aeon"}},
+    {"slug": "etched", "jobs": {"ashby": "etched"}, "rejected": ["greenhouse:etchedai (unconfirmed, Cupertino ASIC board)"]},
+    {"slug": "physical-intelligence", "jobs": {"ashby": "physicalintelligence"}},
+    {"slug": "general-galactic", "jobs": {"greenhouse": "generalgalactic"}},
+    {"slug": "merge", "rejected": ["ashby:merge (Merge.dev, API integrations)"]},
+    {"slug": "orbital", "rejected": ["ashby:orbital (real-estate legal AI)", "THINKORBITAL INC.", "ECHELON ORBITAL INC."]},
+    {"slug": "the-boring-company"},
+    {"slug": "efference"},
+    {"slug": "kela-systems"},
+    {"slug": "enigma"}
+  ]
+}

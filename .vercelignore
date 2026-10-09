@@ -1,0 +1,14 @@
+# Upload only what the site build and the Check function need. Private data, .env and raw downloads stay local.
+/*
+!/api
+!/gt
+!/site
+!/data
+/data/*
+!/data/lane_map.json
+!/requirements.txt
+!/vercel.json
+/site/node_modules
+/site/dist
+__pycache__
+.DS_Store

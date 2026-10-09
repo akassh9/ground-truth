@@ -1,0 +1,68 @@
+[
+ {
+  "name": "LIS Technologies",
+  "url": "https://laseristech.com",
+  "about": "LIS Technologies (Laser Isotope Separation Technologies) is commercializing CRISLA, a laser uranium enrichment process that uses 5.3-micron infrared lasers, to produce low-enriched uranium for large reactors and high-assay low-enriched uranium (HALEU) for small and micro reactors. Based in Oak Ridge, Tennessee. Selected by DOE in 2024 as one of six participants in its LEU enrichment acquisition program. Plans a commercial laser enrichment facility at the K-25 site in Oak Ridge. Filed a letter of intent with the NRC for a license application in March 2026.",
+  "sources": [
+   "https://www.tn.gov/ecd/news/2026/1/16/lis-technologies-to-invest-more-than--1-billion-in-laser-uranium-enrichment-facility.html",
+   "https://www.nrc.gov/docs/ML2609/ML26092A376.pdf"
+  ],
+  "found_in": "nrc",
+  "expected": "head_on",
+  "expected_by": "claude (provisional)",
+  "expected_reason": "Enrichment for the same DOE and reactor buyers as General Matter, Centrus, Urenco and GLE.",
+  "aliases": [
+   "Laser Isotope Separation Technologies",
+   "LIS Technologies Inc"
+  ]
+ },
+ {
+  "name": "FluxPoint Energy",
+  "url": "",
+  "about": "FluxPoint Energy, based in Houston and McLean, Virginia, plans what it expects to be the first new US uranium conversion plant in more than 70 years, in Texas: converting uranium oxide into uranium hexafluoride (UF6), the feedstock that enrichment plants process into reactor fuel. Filed a uranium conversion facility letter of intent with the NRC in April 2026.",
+  "sources": [
+   "https://www.ans.org/news/2026-04-01/article-7899/new-company-throws-hat-into-uranium-conversion-ring/"
+  ],
+  "found_in": "nrc",
+  "expected": "supplier",
+  "expected_by": "claude (provisional)",
+  "expected_reason": "Conversion produces the UF6 that enrichers like General Matter buy."
+ },
+ {
+  "name": "Curio",
+  "url": "",
+  "about": "Curio is developing NuCycle, a used nuclear fuel recycling production facility, and in May 2026 asked the NRC to open a 10 CFR Part 70 docket for pre-application work toward an operating license. Engineering design is underway with Sargent & Lundy; the site had not been chosen as of May 2026.",
+  "sources": [
+   "https://www.ans.org/news/2026-05-29/article-8078/curio-to-begin-early-talks-with-nrc-on-licensing-nucycle-recycling-facility/"
+  ],
+  "found_in": "nrc",
+  "expected": null,
+  "expected_by": "claude (provisional)",
+  "expected_reason": "Unclear: recycled fuel competes at the margin with enriched fuel; no incumbent in the map recycles at commercial scale."
+ },
+ {
+  "name": "Thorium Atomics",
+  "url": "",
+  "about": "Thorium Atomics, based in Knoxville, Tennessee, is developing a thorium-fueled gas-cooled reactor of about 250 MWth. It met NRC staff in May 2026 and filed a letter of intent in June 2026 to begin pre-application licensing activities; it has also met Canadian Nuclear Safety Commission staff.",
+  "sources": [
+   "https://www.nrc.gov/docs/ML2618/ML26188A230.pdf"
+  ],
+  "found_in": "nrc",
+  "expected": "head_on",
+  "expected_by": "claude (provisional)",
+  "expected_reason": "A gas-cooled reactor competes with X-energy's and Kairos's advanced reactors for the same utility and industrial buyers."
+ },
+ {
+  "name": "Firestorm Labs",
+  "url": "",
+  "about": "Firestorm Labs, based in San Diego, builds Group 2 drones such as the Tempest (under 55 lb, 7-foot wingspan, up to 10 lb payload) and xCell, a drone factory packed into two shipping containers that 3D-prints airframes near the front line, up to 50 drones a month per unit. Holds a $100 million US Air Force contract covering drone delivery, support and R&D. Registered dozens of airframes with the FAA since September 2025.",
+  "sources": [
+   "https://www.washingtontechnology.com/companies/2024/03/firestorm-labs-nets-125m-initial-seed-funding/395119",
+   "https://thedefensepost.com/2025/01/08/us-drone-contract-california/amp/"
+  ],
+  "found_in": "faa",
+  "expected": "head_on",
+  "expected_by": "claude (provisional)",
+  "expected_reason": "Sells small military drones to the same buyers as Anduril, Shield AI and AeroVironment."
+ }
+]

@@ -1,0 +1,3362 @@
+[
+ {
+  "IdT": "9891C804-26BE-CF26-934E-9440E8A00000",
+  "Id": "{9891C804-26BE-CF26-934E-9440E8A00000}",
+  "Name": "General Matter, Inc. GEM-LIC-2024-001 - Enclosure 2 - Affidavit",
+  "AccessionNumber": "ML24365A104",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Nolan S"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2024-001"
+  ],
+  "Comment": "jtr5, ald6<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "General Matter, Inc. GEM-LIC-2024-001 - Enclosure 2 - Affidavit",
+  "DocumentTitleEquals": "General Matter, Inc. GEM-LIC-2024-001 - Enclosure 2 - Affidavit",
+  "DocumentTitleWord": "General Matter, Inc. GEM-LIC-2024-001 - Enclosure 2 - Affidavit",
+  "DateAdded": "2025-01-07",
+  "DateAddedTimestamp": "2025-01-07 08:15",
+  "DocumentDate": "2024-12-06",
+  "DocumentType": [
+   "Legal-Affidavit"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML24365A101",
+  "PackagesFiledIn": [
+   "ML24365A101"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2436/ML24365A104.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": null,
+  "DocumentSize": "123510",
+  "AccessionNumberLower": "ml24365a104",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "EBA06A64-F0F6-C83F-86CC-9440E8A00000",
+  "Id": "{EBA06A64-F0F6-C83F-86CC-9440E8A00000}",
+  "Name": "Letter of Intent - General Matter Inc. GEM-LIC-2024-001",
+  "AccessionNumber": "ML24365A102",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Nolan S"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [
+   "Nolan S"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2024-001"
+  ],
+  "Comment": "jtr5, ald6<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Letter of Intent - General Matter Inc. GEM-LIC-2024-001",
+  "DocumentTitleEquals": "Letter of Intent - General Matter Inc. GEM-LIC-2024-001",
+  "DocumentTitleWord": "Letter of Intent - General Matter Inc. GEM-LIC-2024-001",
+  "DateAdded": "2025-01-07",
+  "DateAddedTimestamp": "2025-01-07 08:15",
+  "DocumentDate": "2024-12-06",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML24365A101",
+  "PackagesFiledIn": [
+   "ML24365A101"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2436/ML24365A102.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": null,
+  "DocumentSize": "110034",
+  "AccessionNumberLower": "ml24365a102",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "D27932C3-46D8-C60C-8577-9440E9600000",
+  "Id": "{D27932C3-46D8-C60C-8577-9440E9600000}",
+  "Name": "Emails - General Matter Inc. Regarding Letter of Intent and Response (Docket Number 07007040)",
+  "AccessionNumber": "ML24366A156",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rudd J"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Bridges A"
+  ],
+  "AddresseeAffiliation": [
+   "General Matter, Inc"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2024-001"
+  ],
+  "Comment": "jtr5, ald6<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Emails - General Matter Inc. Regarding Letter of Intent and Response (Docket Number 07007040)",
+  "DocumentTitleEquals": "Emails - General Matter Inc. Regarding Letter of Intent and Response (Docket Number 07007040)",
+  "DocumentTitleWord": "Emails - General Matter Inc. Regarding Letter of Intent and Response (Docket Number 07007040)",
+  "DateAdded": "2025-01-07",
+  "DateAddedTimestamp": "2025-01-07 08:16",
+  "DocumentDate": "2024-12-30",
+  "DocumentType": [
+   "E-Mail"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [
+   "ML24365A101"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2436/ML24366A156.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": null,
+  "DocumentSize": "899760",
+  "AccessionNumberLower": "ml24366a156",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "06B26714-20E0-C0BE-85C5-979CAD100000",
+  "Id": "{06B26714-20E0-C0BE-85C5-979CAD100000}",
+  "Name": "Letter - NRC Approval of the General Matter Inc. Online Reference Portal Agreement",
+  "AccessionNumber": "ML25161A113",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Lav S"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Bridges A"
+  ],
+  "AddresseeAffiliation": [
+   "General Matter, Inc"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Letter - NRC Approval of the General Matter Inc. Online Reference Portal Agreement",
+  "DocumentTitleEquals": "Letter - NRC Approval of the General Matter Inc. Online Reference Portal Agreement",
+  "DocumentTitleWord": "Letter - NRC Approval of the General Matter Inc. Online Reference Portal Agreement",
+  "DateAdded": "2025-06-23",
+  "DateAddedTimestamp": "2025-06-23 08:03",
+  "DocumentDate": "2025-06-16",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "stt",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML25128A293",
+  "PackagesFiledIn": [
+   "ML25128A293"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2516/ML25161A113.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": null,
+  "DocumentSize": "659715",
+  "AccessionNumberLower": "ml25161a113",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "B0F4B6AC-AD51-C6CC-886C-979CAD000000",
+  "Id": "{B0F4B6AC-AD51-C6CC-886C-979CAD000000}",
+  "Name": "Enclosure - Information Access Agreement Between General Matter Inc. and the U.S. Nuclear Regulatory Commission",
+  "AccessionNumber": "ML25128A295",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Helton S",
+   "Nolan S"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc",
+   "NRC/NMSS/DFM"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure - Information Access Agreement Between General Matter Inc. and the U.S. Nuclear Regulatory Commission",
+  "DocumentTitleEquals": "Enclosure - Information Access Agreement Between General Matter Inc. and the U.S. Nuclear Regulatory Commission",
+  "DocumentTitleWord": "Enclosure - Information Access Agreement Between General Matter Inc. and the U.S. Nuclear Regulatory Commission",
+  "DateAdded": "2025-06-23",
+  "DateAddedTimestamp": "2025-06-23 08:03",
+  "DocumentDate": "2025-06-16",
+  "DocumentType": [
+   "International  Agreements"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "stt",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML25128A293",
+  "PackagesFiledIn": [
+   "ML25128A293"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2512/ML25128A295.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": null,
+  "DocumentSize": "335299",
+  "AccessionNumberLower": "ml25128a295",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "3C565A25-B93B-CDE9-87E5-97F9C7400000",
+  "Id": "{3C565A25-B93B-CDE9-87E5-97F9C7400000}",
+  "Name": "07/14/2025 Meeting with General Matter, Inc. Regarding  Management Measures",
+  "AccessionNumber": "ML25192A065",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20250883"
+  ],
+  "Comment": "PMNS20250883",
+  "ContactPerson": null,
+  "DocumentTitle": "07/14/2025 Meeting with General Matter, Inc. Regarding  Management Measures",
+  "DocumentTitleEquals": "07/14/2025 Meeting with General Matter, Inc. Regarding  Management Measures",
+  "DocumentTitleWord": "07/14/2025 Meeting with General Matter, Inc. Regarding  Management Measures",
+  "DateAdded": "2025-07-11",
+  "DateAddedTimestamp": "2025-07-11 09:57",
+  "DocumentDate": "2025-07-11",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [
+   "ML25216A084"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2519/ML25192A065.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "2",
+  "DocumentSize": "104970",
+  "AccessionNumberLower": "ml25192a065",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "B4AE96FE-3D64-CE00-842F-980FBE100000",
+  "Id": "{B4AE96FE-3D64-CE00-842F-980FBE100000}",
+  "Name": "General Matter Management Measures for Safety Program Development (Public)",
+  "AccessionNumber": "ML25195A321",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "jgr, ald6<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "General Matter Management Measures for Safety Program Development (Public)",
+  "DocumentTitleEquals": "General Matter Management Measures for Safety Program Development (Public)",
+  "DocumentTitleWord": "General Matter Management Measures for Safety Program Development (Public)",
+  "DateAdded": "2025-07-15",
+  "DateAddedTimestamp": "2025-07-15 16:19",
+  "DocumentDate": "2025-07-14",
+  "DocumentType": [
+   "Meeting Briefing Package/Handouts",
+   "Slides and Viewgraphs"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "stt",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML25195A319",
+  "PackagesFiledIn": [
+   "ML25216A084"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2519/ML25195A321.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": null,
+  "DocumentSize": "153042",
+  "AccessionNumberLower": "ml25195a321",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "A6D7FB50-D0ED-C12B-84F8-98D1BF800000",
+  "Id": "{A6D7FB50-D0ED-C12B-84F8-98D1BF800000}",
+  "Name": "Memo and Enclosure - Summary of July 14, 2025 Meeting with General Matter on Management Measures for Safety Program Development",
+  "AccessionNumber": "ML25216A073",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J G"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Lav S C"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Memo and Enclosure - Summary of July 14, 2025 Meeting with General Matter on Management Measures for Safety Program Development",
+  "DocumentTitleEquals": "Memo and Enclosure - Summary of July 14, 2025 Meeting with General Matter on Management Measures for Safety Program Development",
+  "DocumentTitleWord": "Memo and Enclosure - Summary of July 14, 2025 Meeting with General Matter on Management Measures for Safety Program Development",
+  "DateAdded": "2025-08-22",
+  "DateAddedTimestamp": "2025-08-22 08:24",
+  "DocumentDate": "2025-08-15",
+  "DocumentType": [
+   "Meeting Summary",
+   "Memoranda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML25216A084",
+  "PackagesFiledIn": [
+   "ML25216A084"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2521/ML25216A073.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": null,
+  "DocumentSize": "659475",
+  "AccessionNumberLower": "ml25216a073",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "7FBF1C45-3372-CAA4-8950-997BA2400000",
+  "Id": "{7FBF1C45-3372-CAA4-8950-997BA2400000}",
+  "Name": "General Matter Letter of Intent for Licensing Activities for the Production and Handling of Enriched Uranium",
+  "AccessionNumber": "ML25262A067",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Nolan S"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "<! JGR, ALD6 !><BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "General Matter Letter of Intent for Licensing Activities for the Production and Handling of Enriched Uranium",
+  "DocumentTitleEquals": "General Matter Letter of Intent for Licensing Activities for the Production and Handling of Enriched Uranium",
+  "DocumentTitleWord": "General Matter Letter of Intent for Licensing Activities for the Production and Handling of Enriched Uranium",
+  "DateAdded": "2025-09-24",
+  "DateAddedTimestamp": "2025-09-24 08:09",
+  "DocumentDate": "2025-08-25",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [
+   "GEM-LIC-2025-004"
+  ],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "AOA1",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2526/ML25262A067.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": null,
+  "DocumentSize": "78523",
+  "AccessionNumberLower": "ml25262a067",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "581A2111-71B9-C34C-87D8-993857800000",
+  "Id": "{581A2111-71B9-C34C-87D8-993857800000}",
+  "Name": "09/30/2025 Topical Pre-Application Meeting with General Matter on Environmental Report",
+  "AccessionNumber": "ML25254A004",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20251036"
+  ],
+  "Comment": "PMNS20251036",
+  "ContactPerson": null,
+  "DocumentTitle": "09/30/2025 Topical Pre-Application Meeting with General Matter on Environmental Report",
+  "DocumentTitleEquals": "09/30/2025 Topical Pre-Application Meeting with General Matter on Environmental Report",
+  "DocumentTitleWord": "09/30/2025 Topical Pre-Application Meeting with General Matter on Environmental Report",
+  "DateAdded": "2025-09-11",
+  "DateAddedTimestamp": "2025-09-11 06:34",
+  "DocumentDate": "2025-09-11",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2525/ML25254A004.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "2",
+  "DocumentSize": "196412",
+  "AccessionNumberLower": "ml25254a004",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "3F803852-8949-C553-84D9-999FE6A00000",
+  "Id": "{3F803852-8949-C553-84D9-999FE6A00000}",
+  "Name": "10/15/2025 Discussion with General Matter about a Potential Topical Report for Uranium sampling Methods",
+  "AccessionNumber": "ML25274A047",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20251141"
+  ],
+  "Comment": "PMNS20251141",
+  "ContactPerson": null,
+  "DocumentTitle": "10/15/2025 Discussion with General Matter about a Potential Topical Report for Uranium sampling Methods",
+  "DocumentTitleEquals": "10/15/2025 Discussion with General Matter about a Potential Topical Report for Uranium sampling Methods",
+  "DocumentTitleWord": "10/15/2025 Discussion with General Matter about a Potential Topical Report for Uranium sampling Methods",
+  "DateAdded": "2025-10-01",
+  "DateAddedTimestamp": "2025-10-01 09:09",
+  "DocumentDate": "2025-10-01",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2527/ML25274A047.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "2",
+  "DocumentSize": "107264",
+  "AccessionNumberLower": "ml25274a047",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "3CBCD93D-C1F0-CEA7-8471-999FE3D00000",
+  "Id": "{3CBCD93D-C1F0-CEA7-8471-999FE3D00000}",
+  "Name": "10/15/2025 Meeting with General Matter to Discuss Integrated Safety Analysis Methodology",
+  "AccessionNumber": "ML25274A046",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20251140"
+  ],
+  "Comment": "PMNS20251140",
+  "ContactPerson": null,
+  "DocumentTitle": "10/15/2025 Meeting with General Matter to Discuss Integrated Safety Analysis Methodology",
+  "DocumentTitleEquals": "10/15/2025 Meeting with General Matter to Discuss Integrated Safety Analysis Methodology",
+  "DocumentTitleWord": "10/15/2025 Meeting with General Matter to Discuss Integrated Safety Analysis Methodology",
+  "DateAdded": "2025-10-01",
+  "DateAddedTimestamp": "2025-10-01 09:07",
+  "DocumentDate": "2025-10-01",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2527/ML25274A046.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "2",
+  "DocumentSize": "103862",
+  "AccessionNumberLower": "ml25274a046",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "52CD69D8-851D-CF82-84AF-9AB7CE300000",
+  "Id": "{52CD69D8-851D-CF82-84AF-9AB7CE300000}",
+  "Name": "12/04/2025 Pre-Application Meeting with General Matter on Uranium Sampling Methods",
+  "AccessionNumber": "ML25328A137",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20251198"
+  ],
+  "Comment": "PMNS20251198",
+  "ContactPerson": null,
+  "DocumentTitle": "12/04/2025 Pre-Application Meeting with General Matter on Uranium Sampling Methods",
+  "DocumentTitleEquals": "12/04/2025 Pre-Application Meeting with General Matter on Uranium Sampling Methods",
+  "DocumentTitleWord": "12/04/2025 Pre-Application Meeting with General Matter on Uranium Sampling Methods",
+  "DateAdded": "2025-11-24",
+  "DateAddedTimestamp": "2025-11-24 16:38",
+  "DocumentDate": "2025-11-24",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2532/ML25328A137.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "138856",
+  "AccessionNumberLower": "ml25328a137",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "F129CD84-31E8-CB17-8751-9AB7CD400000",
+  "Id": "{F129CD84-31E8-CB17-8751-9AB7CD400000}",
+  "Name": "12/04/2025 Pre-Application Meeting with General Matter on Integrated Safety Analysis (ISA) and Natural Phenomena Hazards (NPH)",
+  "AccessionNumber": "ML25328A136",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20251186"
+  ],
+  "Comment": "PMNS20251186",
+  "ContactPerson": null,
+  "DocumentTitle": "12/04/2025 Pre-Application Meeting with General Matter on Integrated Safety Analysis (ISA) and Natural Phenomena Hazards (NPH)",
+  "DocumentTitleEquals": "12/04/2025 Pre-Application Meeting with General Matter on Integrated Safety Analysis (ISA) and Natural Phenomena Hazards (NPH)",
+  "DocumentTitleWord": "12/04/2025 Pre-Application Meeting with General Matter on Integrated Safety Analysis (ISA) and Natural Phenomena Hazards (NPH)",
+  "DateAdded": "2025-11-24",
+  "DateAddedTimestamp": "2025-11-24 16:37",
+  "DocumentDate": "2025-11-24",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2532/ML25328A136.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "139789",
+  "AccessionNumberLower": "ml25328a136",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "23377892-1C23-C1AB-8F19-9C23AA200000",
+  "Id": "{23377892-1C23-C1AB-8F19-9C23AA200000}",
+  "Name": "Cover Letter - Enabling Safe, Effective, and Efficient Construction for General Matter's Planned Paducah Enrichment Facility by Modernizing the Interpretation of 10 CFR Part 70.4 Definition, Construction",
+  "AccessionNumber": "ML26028A259",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-001"
+  ],
+  "Comment": "JMG1<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Cover Letter - Enabling Safe, Effective, and Efficient Construction for General Matter's Planned Paducah Enrichment Facility by Modernizing the Interpretation of 10 CFR Part 70.4 Definition, Construction",
+  "DocumentTitleEquals": "Cover Letter - Enabling Safe, Effective, and Efficient Construction for General Matter's Planned Paducah Enrichment Facility by Modernizing the Interpretation of 10 CFR Part 70.4 Definition, Construction",
+  "DocumentTitleWord": "Cover Letter - Enabling Safe, Effective, and Efficient Construction for General Matter's Planned Paducah Enrichment Facility by Modernizing the Interpretation of 10 CFR Part 70.4 Definition, Construction",
+  "DateAdded": "2026-02-03",
+  "DateAddedTimestamp": "2026-02-03 08:20",
+  "DocumentDate": "2026-01-08",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "AJS15",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26028A254",
+  "PackagesFiledIn": [
+   "ML26028A254"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2602/ML26028A259.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "134671",
+  "AccessionNumberLower": "ml26028a259",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "91D28D13-56BD-CA43-868E-9C23AA300000",
+  "Id": "{91D28D13-56BD-CA43-868E-9C23AA300000}",
+  "Name": "Affidavit - Enabling Safe, Effective, and Efficient Construction for General Matter's Planned Paducah Enrichment Facility by Modernizing the Interpretation of 10 CFR Part 70.4 Definition, Construction",
+  "AccessionNumber": "ML26028A260",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "JMG1<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Affidavit - Enabling Safe, Effective, and Efficient Construction for General Matter's Planned Paducah Enrichment Facility by Modernizing the Interpretation of 10 CFR Part 70.4 Definition, Construction",
+  "DocumentTitleEquals": "Affidavit - Enabling Safe, Effective, and Efficient Construction for General Matter's Planned Paducah Enrichment Facility by Modernizing the Interpretation of 10 CFR Part 70.4 Definition, Construction",
+  "DocumentTitleWord": "Affidavit - Enabling Safe, Effective, and Efficient Construction for General Matter's Planned Paducah Enrichment Facility by Modernizing the Interpretation of 10 CFR Part 70.4 Definition, Construction",
+  "DateAdded": "2026-02-03",
+  "DateAddedTimestamp": "2026-02-03 08:20",
+  "DocumentDate": "2026-01-08",
+  "DocumentType": [
+   "Legal-Affidavit"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "AJS15",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26028A254",
+  "PackagesFiledIn": [
+   "ML26028A254"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2602/ML26028A260.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "116174",
+  "AccessionNumberLower": "ml26028a260",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "E8F05F0D-946C-C458-8411-9BB8CB300000",
+  "Id": "{E8F05F0D-946C-C458-8411-9BB8CB300000}",
+  "Name": "01/22/2026 Pre-Application Meeting with General Matter on Digital Instrumentation & Control and Human Factors",
+  "AccessionNumber": "ML26013A221",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20260011"
+  ],
+  "Comment": "PMNS20260011",
+  "ContactPerson": null,
+  "DocumentTitle": "01/22/2026 Pre-Application Meeting with General Matter on Digital Instrumentation & Control and Human Factors",
+  "DocumentTitleEquals": "01/22/2026 Pre-Application Meeting with General Matter on Digital Instrumentation & Control and Human Factors",
+  "DocumentTitleWord": "01/22/2026 Pre-Application Meeting with General Matter on Digital Instrumentation & Control and Human Factors",
+  "DateAdded": "2026-01-13",
+  "DateAddedTimestamp": "2026-01-13 14:17",
+  "DocumentDate": "2026-01-13",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2601/ML26013A221.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "164685",
+  "AccessionNumberLower": "ml26013a221",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "DEC85F6F-6684-CF90-8582-9BB92D600000",
+  "Id": "{DEC85F6F-6684-CF90-8582-9BB92D600000}",
+  "Name": "01/14/2026 The Licensing Process for Fuel Cycle Facilities and Pre-Licensing Construction Activities",
+  "AccessionNumber": "ML26013A280",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20251274"
+  ],
+  "Comment": "PMNS20251274",
+  "ContactPerson": null,
+  "DocumentTitle": "01/14/2026 The Licensing Process for Fuel Cycle Facilities and Pre-Licensing Construction Activities",
+  "DocumentTitleEquals": "01/14/2026 The Licensing Process for Fuel Cycle Facilities and Pre-Licensing Construction Activities",
+  "DocumentTitleWord": "01/14/2026 The Licensing Process for Fuel Cycle Facilities and Pre-Licensing Construction Activities",
+  "DateAdded": "2026-01-13",
+  "DateAddedTimestamp": "2026-01-13 16:05",
+  "DocumentDate": "2026-01-13",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2601/ML26013A280.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "111519",
+  "AccessionNumberLower": "ml26013a280",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "A629D594-6043-C016-8627-9BB8CB800000",
+  "Id": "{A629D594-6043-C016-8627-9BB8CB800000}",
+  "Name": "01/23/2026 Pre-Application Meeting with General Matter on Emergency Management and Chemical Safety",
+  "AccessionNumber": "ML26013A208",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20260012"
+  ],
+  "Comment": "PMNS20260012",
+  "ContactPerson": null,
+  "DocumentTitle": "01/23/2026 Pre-Application Meeting with General Matter on Emergency Management and Chemical Safety",
+  "DocumentTitleEquals": "01/23/2026 Pre-Application Meeting with General Matter on Emergency Management and Chemical Safety",
+  "DocumentTitleWord": "01/23/2026 Pre-Application Meeting with General Matter on Emergency Management and Chemical Safety",
+  "DateAdded": "2026-01-13",
+  "DateAddedTimestamp": "2026-01-13 14:18",
+  "DocumentDate": "2026-01-13",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2601/ML26013A208.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "166160",
+  "AccessionNumberLower": "ml26013a208",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "78943B95-2268-C4EE-8F82-9C4CDC300000",
+  "Id": "{78943B95-2268-C4EE-8F82-9C4CDC300000}",
+  "Name": "Presentation - Emergency Preparedness (Public)",
+  "AccessionNumber": "ML26036A062",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "JMG1<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Presentation - Emergency Preparedness (Public)",
+  "DocumentTitleEquals": "Presentation - Emergency Preparedness (Public)",
+  "DocumentTitleWord": "Presentation - Emergency Preparedness (Public)",
+  "DateAdded": "2026-02-11",
+  "DateAddedTimestamp": "2026-02-11 08:17",
+  "DocumentDate": "2026-02-05",
+  "DocumentType": [
+   "Meeting Briefing Package/Handouts",
+   "Slides and Viewgraphs"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "ODS",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2603/ML26036A062.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "635175",
+  "AccessionNumberLower": "ml26036a062",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "0F875832-6596-CFD7-8480-9C51FB500000",
+  "Id": "{0F875832-6596-CFD7-8480-9C51FB500000}",
+  "Name": "Memorandum-2026-01-14 General Matter Pre-Application Pre-Licensing Construction Meeting Summary (Public)",
+  "AccessionNumber": "ML26036A035",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Govan T"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Memorandum-2026-01-14 General Matter Pre-Application Pre-Licensing Construction Meeting Summary (Public)",
+  "DocumentTitleEquals": "Memorandum-2026-01-14 General Matter Pre-Application Pre-Licensing Construction Meeting Summary (Public)",
+  "DocumentTitleWord": "Memorandum-2026-01-14 General Matter Pre-Application Pre-Licensing Construction Meeting Summary (Public)",
+  "DateAdded": "2026-02-12",
+  "DateAddedTimestamp": "2026-02-12 08:09",
+  "DocumentDate": "2026-02-06",
+  "DocumentType": [
+   "Meeting Summary",
+   "Memoranda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26036A034",
+  "PackagesFiledIn": [
+   "ML26036A034"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2603/ML26036A035.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "609387",
+  "AccessionNumberLower": "ml26036a035",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "F46A0C14-EEF6-C81F-8E80-9C51FB600000",
+  "Id": "{F46A0C14-EEF6-C81F-8E80-9C51FB600000}",
+  "Name": "Enclosure 1- General Matter Pre-Application Pre-Licensing Construction Meeting Summary - Attendee Lists (Public)",
+  "AccessionNumber": "ML26036A036",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 1- General Matter Pre-Application Pre-Licensing Construction Meeting Summary - Attendee Lists (Public)",
+  "DocumentTitleEquals": "Enclosure 1- General Matter Pre-Application Pre-Licensing Construction Meeting Summary - Attendee Lists (Public)",
+  "DocumentTitleWord": "Enclosure 1- General Matter Pre-Application Pre-Licensing Construction Meeting Summary - Attendee Lists (Public)",
+  "DateAdded": "2026-02-12",
+  "DateAddedTimestamp": "2026-02-12 08:09",
+  "DocumentDate": "2026-02-06",
+  "DocumentType": [
+   "- No Document Type Applies"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26036A034",
+  "PackagesFiledIn": [
+   "ML26036A034"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2603/ML26036A036.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "137344",
+  "AccessionNumberLower": "ml26036a036",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "A5C18C14-0BCB-CE5B-90CF-9C51FB500000",
+  "Id": "{A5C18C14-0BCB-CE5B-90CF-9C51FB500000}",
+  "Name": "Enclosure 2 - General Matter - Pre-Application Pre-Licensing Construction Open Session Mtg Summary (Public)",
+  "AccessionNumber": "ML26036A037",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 2 - General Matter - Pre-Application Pre-Licensing Construction Open Session Mtg Summary (Public)",
+  "DocumentTitleEquals": "Enclosure 2 - General Matter - Pre-Application Pre-Licensing Construction Open Session Mtg Summary (Public)",
+  "DocumentTitleWord": "Enclosure 2 - General Matter - Pre-Application Pre-Licensing Construction Open Session Mtg Summary (Public)",
+  "DateAdded": "2026-02-12",
+  "DateAddedTimestamp": "2026-02-12 08:09",
+  "DocumentDate": "2026-02-06",
+  "DocumentType": [
+   "Meeting Summary"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26036A034",
+  "PackagesFiledIn": [
+   "ML26036A034"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2603/ML26036A037.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "90704",
+  "AccessionNumberLower": "ml26036a037",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "5EA310D5-4E36-C09A-8D74-9C436D900000",
+  "Id": "{5EA310D5-4E36-C09A-8D74-9C436D900000}",
+  "Name": "02/18/2026 Pre-Application Meeting with General Matter on Human Factors",
+  "AccessionNumber": "ML26040A163",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20260149"
+  ],
+  "Comment": "PMNS20260149",
+  "ContactPerson": null,
+  "DocumentTitle": "02/18/2026 Pre-Application Meeting with General Matter on Human Factors",
+  "DocumentTitleEquals": "02/18/2026 Pre-Application Meeting with General Matter on Human Factors",
+  "DocumentTitleWord": "02/18/2026 Pre-Application Meeting with General Matter on Human Factors",
+  "DateAdded": "2026-02-09",
+  "DateAddedTimestamp": "2026-02-09 12:22",
+  "DocumentDate": "2026-02-09",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2604/ML26040A163.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "153073",
+  "AccessionNumberLower": "ml26040a163",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "2DA388A9-EE39-C989-855F-9C436D900000",
+  "Id": "{2DA388A9-EE39-C989-855F-9C436D900000}",
+  "Name": "02/18/2026 Pre-Application Meeting with General Matter on Chemical Safety",
+  "AccessionNumber": "ML26040A160",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20260148"
+  ],
+  "Comment": "PMNS20260148",
+  "ContactPerson": null,
+  "DocumentTitle": "02/18/2026 Pre-Application Meeting with General Matter on Chemical Safety",
+  "DocumentTitleEquals": "02/18/2026 Pre-Application Meeting with General Matter on Chemical Safety",
+  "DocumentTitleWord": "02/18/2026 Pre-Application Meeting with General Matter on Chemical Safety",
+  "DateAdded": "2026-02-09",
+  "DateAddedTimestamp": "2026-02-09 12:22",
+  "DocumentDate": "2026-02-09",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2604/ML26040A160.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "153887",
+  "AccessionNumberLower": "ml26040a160",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "23DC8E38-DE2B-C140-8459-9CA0C1F00000",
+  "Id": "{23DC8E38-DE2B-C140-8459-9CA0C1F00000}",
+  "Name": "03/09/2026 Pre-application meeting with General Matter regarding Fire Protection Program",
+  "AccessionNumber": "ML26058A373",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20260193"
+  ],
+  "Comment": "PMNS20260193",
+  "ContactPerson": null,
+  "DocumentTitle": "03/09/2026 Pre-application meeting with General Matter regarding Fire Protection Program",
+  "DocumentTitleEquals": "03/09/2026 Pre-application meeting with General Matter regarding Fire Protection Program",
+  "DocumentTitleWord": "03/09/2026 Pre-application meeting with General Matter regarding Fire Protection Program",
+  "DateAdded": "2026-02-27",
+  "DateAddedTimestamp": "2026-02-27 15:19",
+  "DocumentDate": "2026-02-27",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2605/ML26058A373.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "107703",
+  "AccessionNumberLower": "ml26058a373",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "26649706-4FB7-C834-8696-9CBE29000000",
+  "Id": "{26649706-4FB7-C834-8696-9CBE29000000}",
+  "Name": "NRC Response to General Matter Letter Regarding Modernizing the Interpretation of 10 CFR 70.4 Definition of Construction",
+  "AccessionNumber": "ML26036A153",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Kock A"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Bridges A"
+  ],
+  "AddresseeAffiliation": [
+   "General Matter, Inc"
+  ],
+  "CaseReferenceNumber": [
+   "EPID L-2025-LRM-0000"
+  ],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "NRC Response to General Matter Letter Regarding Modernizing the Interpretation of 10 CFR 70.4 Definition of Construction",
+  "DocumentTitleEquals": "NRC Response to General Matter Letter Regarding Modernizing the Interpretation of 10 CFR 70.4 Definition of Construction",
+  "DocumentTitleWord": "NRC Response to General Matter Letter Regarding Modernizing the Interpretation of 10 CFR 70.4 Definition of Construction",
+  "DateAdded": "2026-03-05",
+  "DateAddedTimestamp": "2026-03-05 08:18",
+  "DocumentDate": "2026-02-27",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "stt",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26036A147",
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2603/ML26036A153.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "661869",
+  "AccessionNumberLower": "ml26036a153",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "C142C1A6-A5C9-CCE7-8B7E-9CB54FC00000",
+  "Id": "{C142C1A6-A5C9-CCE7-8B7E-9CB54FC00000}",
+  "Name": "General Matter, Inc. - Validation of Safeguards Information Program",
+  "AccessionNumber": "ML26057A051",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "MacDonald M P"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NSIR/DSO/ISB"
+  ],
+  "AddresseeName": [
+   "Bridges A"
+  ],
+  "AddresseeAffiliation": [
+   "General Matter, Inc"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "CMC10 <! CMC10, MAH8, LCR1, PMM3 !><BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "General Matter, Inc. - Validation of Safeguards Information Program",
+  "DocumentTitleEquals": "General Matter, Inc. - Validation of Safeguards Information Program",
+  "DocumentTitleWord": "General Matter, Inc. - Validation of Safeguards Information Program",
+  "DateAdded": "2026-03-03",
+  "DateAddedTimestamp": "2026-03-03 15:06",
+  "DocumentDate": "2026-03-02",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "JEF1",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2605/ML26057A051.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "651735",
+  "AccessionNumberLower": "ml26057a051",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "4AB71F86-2195-CA97-85D8-9CD45A100000",
+  "Id": "{4AB71F86-2195-CA97-85D8-9CD45A100000}",
+  "Name": "03/12/2026 Clarification Discussion with General Matter regarding February 27, 2026 NRC Letter to General Matter",
+  "AccessionNumber": "ML26068A285",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20260228"
+  ],
+  "Comment": "PMNS20260228",
+  "ContactPerson": null,
+  "DocumentTitle": "03/12/2026 Clarification Discussion with General Matter regarding February 27, 2026 NRC Letter to General Matter",
+  "DocumentTitleEquals": "03/12/2026 Clarification Discussion with General Matter regarding February 27, 2026 NRC Letter to General Matter",
+  "DocumentTitleWord": "03/12/2026 Clarification Discussion with General Matter regarding February 27, 2026 NRC Letter to General Matter",
+  "DateAdded": "2026-03-09",
+  "DateAddedTimestamp": "2026-03-09 16:46",
+  "DocumentDate": "2026-03-09",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26068A285.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "87627",
+  "AccessionNumberLower": "ml26068a285",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "BA9A8AA0-9B79-C987-8482-9D0604900000",
+  "Id": "{BA9A8AA0-9B79-C987-8482-9D0604900000}",
+  "Name": "Enclosure 1- General Matter PreApp Uranium Sampling Mtg Summary - Attendee Lists (Public)",
+  "AccessionNumber": "ML26048A446",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 1- General Matter PreApp Uranium Sampling Mtg Summary - Attendee Lists (Public)",
+  "DocumentTitleEquals": "Enclosure 1- General Matter PreApp Uranium Sampling Mtg Summary - Attendee Lists (Public)",
+  "DocumentTitleWord": "Enclosure 1- General Matter PreApp Uranium Sampling Mtg Summary - Attendee Lists (Public)",
+  "DateAdded": "2026-03-19",
+  "DateAddedTimestamp": "2026-03-19 08:13",
+  "DocumentDate": "2026-03-10",
+  "DocumentType": [
+   "- No Document Type Applies"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26048A444",
+  "PackagesFiledIn": [
+   "ML26048A444"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2604/ML26048A446.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "78103",
+  "AccessionNumberLower": "ml26048a446",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "910A3FA2-0EF4-CB9E-85EF-9D0604700000",
+  "Id": "{910A3FA2-0EF4-CB9E-85EF-9D0604700000}",
+  "Name": "Memorandum- 2025-12-04 General Matter Pre-Application Uranium Sampling Meeting Summary (Public)",
+  "AccessionNumber": "ML26048A445",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Govan T"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Memorandum- 2025-12-04 General Matter Pre-Application Uranium Sampling Meeting Summary (Public)",
+  "DocumentTitleEquals": "Memorandum- 2025-12-04 General Matter Pre-Application Uranium Sampling Meeting Summary (Public)",
+  "DocumentTitleWord": "Memorandum- 2025-12-04 General Matter Pre-Application Uranium Sampling Meeting Summary (Public)",
+  "DateAdded": "2026-03-19",
+  "DateAddedTimestamp": "2026-03-19 08:13",
+  "DocumentDate": "2026-03-10",
+  "DocumentType": [
+   "Meeting Summary",
+   "Memoranda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26048A444",
+  "PackagesFiledIn": [
+   "ML26048A444"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2604/ML26048A445.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "594730",
+  "AccessionNumberLower": "ml26048a445",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "EFFAAE0B-373A-CEC4-85BC-9D0604800000",
+  "Id": "{EFFAAE0B-373A-CEC4-85BC-9D0604800000}",
+  "Name": "Enclosure 2 - General Matter PreApp Uranium Sampling Open Session Mtg Summary (Public)",
+  "AccessionNumber": "ML26048A447",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 2 - General Matter PreApp Uranium Sampling Open Session Mtg Summary (Public)",
+  "DocumentTitleEquals": "Enclosure 2 - General Matter PreApp Uranium Sampling Open Session Mtg Summary (Public)",
+  "DocumentTitleWord": "Enclosure 2 - General Matter PreApp Uranium Sampling Open Session Mtg Summary (Public)",
+  "DateAdded": "2026-03-19",
+  "DateAddedTimestamp": "2026-03-19 08:13",
+  "DocumentDate": "2026-03-10",
+  "DocumentType": [
+   "Meeting Summary"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26048A444",
+  "PackagesFiledIn": [
+   "ML26048A444"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2604/ML26048A447.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "74423",
+  "AccessionNumberLower": "ml26048a447",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "773C7A12-2F15-CD65-845D-9D1FC0D00000",
+  "Id": "{773C7A12-2F15-CD65-845D-9D1FC0D00000}",
+  "Name": "Enclosure 2-General Matter Pre-Application Mtg Summary Open Session-Chemical Safety-Public",
+  "AccessionNumber": "ML26064A120",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "20260305-70030"
+  ],
+  "Comment": "dwh<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 2-General Matter Pre-Application Mtg Summary Open Session-Chemical Safety-Public",
+  "DocumentTitleEquals": "Enclosure 2-General Matter Pre-Application Mtg Summary Open Session-Chemical Safety-Public",
+  "DocumentTitleWord": "Enclosure 2-General Matter Pre-Application Mtg Summary Open Session-Chemical Safety-Public",
+  "DateAdded": "2026-03-24",
+  "DateAddedTimestamp": "2026-03-24 08:07",
+  "DocumentDate": "2026-03-16",
+  "DocumentType": [
+   "Meeting Summary"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS",
+   "ADAMSP8-2547"
+  ],
+  "PackageNumber": "ML26064A122",
+  "PackagesFiledIn": [
+   "ML26064A114"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26064A120.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "100856",
+  "AccessionNumberLower": "ml26064a120",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "D8711198-AE75-CCB3-84C2-9D1FC0C00000",
+  "Id": "{D8711198-AE75-CCB3-84C2-9D1FC0C00000}",
+  "Name": "Memorandum - 2026-02-18 General Matter Pre-Application Meeting Summary-Chemical Safety-Public",
+  "AccessionNumber": "ML26064A122",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J G"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Govan T"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [
+   "20260305-70030"
+  ],
+  "Comment": "dwh<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Memorandum - 2026-02-18 General Matter Pre-Application Meeting Summary-Chemical Safety-Public",
+  "DocumentTitleEquals": "Memorandum - 2026-02-18 General Matter Pre-Application Meeting Summary-Chemical Safety-Public",
+  "DocumentTitleWord": "Memorandum - 2026-02-18 General Matter Pre-Application Meeting Summary-Chemical Safety-Public",
+  "DateAdded": "2026-03-24",
+  "DateAddedTimestamp": "2026-03-24 08:07",
+  "DocumentDate": "2026-03-16",
+  "DocumentType": [
+   "Memoranda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS",
+   "ADAMSP8-2547"
+  ],
+  "PackageNumber": "ML26064A122",
+  "PackagesFiledIn": [
+   "ML26064A114"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26064A122.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "624269",
+  "AccessionNumberLower": "ml26064a122",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "6CAEA6EB-3B12-C65A-91D9-9D1FC0700000",
+  "Id": "{6CAEA6EB-3B12-C65A-91D9-9D1FC0700000}",
+  "Name": "Enclosure 2 - General Matter Pre-Application Open Session Mtg Summary - Digital Instrumentation and Control",
+  "AccessionNumber": "ML26064A176",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [],
+  "Comment": "jgr; tsg4<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 2 - General Matter Pre-Application Open Session Mtg Summary - Digital Instrumentation and Control",
+  "DocumentTitleEquals": "Enclosure 2 - General Matter Pre-Application Open Session Mtg Summary - Digital Instrumentation and Control",
+  "DocumentTitleWord": "Enclosure 2 - General Matter Pre-Application Open Session Mtg Summary - Digital Instrumentation and Control",
+  "DateAdded": "2026-03-24",
+  "DateAddedTimestamp": "2026-03-24 08:07",
+  "DocumentDate": "2026-03-16",
+  "DocumentType": [
+   "Meeting Summary"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26064A173",
+  "PackagesFiledIn": [
+   "ML26064A173"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26064A176.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "90385",
+  "AccessionNumberLower": "ml26064a176",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "1A9B2869-A860-C91F-84B9-9D4E19800000",
+  "Id": "{1A9B2869-A860-C91F-84B9-9D4E19800000}",
+  "Name": "Enclosure 1-List of Attendees (Public)",
+  "AccessionNumber": "ML26062A524",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "20260303-50024"
+  ],
+  "Comment": "DPC: Please do not change title. glk",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 1-List of Attendees (Public)",
+  "DocumentTitleEquals": "Enclosure 1-List of Attendees (Public)",
+  "DocumentTitleWord": "Enclosure 1-List of Attendees (Public)",
+  "DateAdded": "2026-04-02",
+  "DateAddedTimestamp": "2026-04-02 08:05",
+  "DocumentDate": "2026-03-16",
+  "DocumentType": [
+   "- No Document Type Applies"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26062A520",
+  "PackagesFiledIn": [
+   "ML26062A520"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26062A524.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "1",
+  "DocumentSize": "85321",
+  "AccessionNumberLower": "ml26062a524",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "EBCB4566-1F61-C1DE-840F-9D4E19900000",
+  "Id": "{EBCB4566-1F61-C1DE-840F-9D4E19900000}",
+  "Name": "Enclosure 2-Meeting Summary Open Session (Public)",
+  "AccessionNumber": "ML26062A527",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "20260303-50024"
+  ],
+  "Comment": "DPC: Please do not change title. glk",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 2-Meeting Summary Open Session (Public)",
+  "DocumentTitleEquals": "Enclosure 2-Meeting Summary Open Session (Public)",
+  "DocumentTitleWord": "Enclosure 2-Meeting Summary Open Session (Public)",
+  "DateAdded": "2026-04-02",
+  "DateAddedTimestamp": "2026-04-02 08:05",
+  "DocumentDate": "2026-03-16",
+  "DocumentType": [
+   "Meeting Summary"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26062A520",
+  "PackagesFiledIn": [
+   "ML26062A520"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26062A527.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "1",
+  "DocumentSize": "60726",
+  "AccessionNumberLower": "ml26062a527",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "88868AC0-D334-CEBE-8624-9D1FC0500000",
+  "Id": "{88868AC0-D334-CEBE-8624-9D1FC0500000}",
+  "Name": "01/22/2026 Summary of Partially Closed Pre-Application Public Meeting On Digital Instrumentation and Control With General Matter",
+  "AccessionNumber": "ML26064A174",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J G"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Govan T"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "jgr; tsg4<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "01/22/2026 Summary of Partially Closed Pre-Application Public Meeting On Digital Instrumentation and Control With General Matter",
+  "DocumentTitleEquals": "01/22/2026 Summary of Partially Closed Pre-Application Public Meeting On Digital Instrumentation and Control With General Matter",
+  "DocumentTitleWord": "01/22/2026 Summary of Partially Closed Pre-Application Public Meeting On Digital Instrumentation and Control With General Matter",
+  "DateAdded": "2026-03-24",
+  "DateAddedTimestamp": "2026-03-24 08:07",
+  "DocumentDate": "2026-03-16",
+  "DocumentType": [
+   "Meeting Summary",
+   "Memoranda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26064A173",
+  "PackagesFiledIn": [
+   "ML26064A173"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26064A174.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "594992",
+  "AccessionNumberLower": "ml26064a174",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "4C91BE38-F531-CE65-847D-9D4E18A00000",
+  "Id": "{4C91BE38-F531-CE65-847D-9D4E18A00000}",
+  "Name": "Memorandum - 2025-12-04 General Matter Pre-Application ISA-NPH Meeting Summary (Public)",
+  "AccessionNumber": "ML26062A522",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Govan T"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [
+   "20260303-50024"
+  ],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Memorandum - 2025-12-04 General Matter Pre-Application ISA-NPH Meeting Summary (Public)",
+  "DocumentTitleEquals": "Memorandum - 2025-12-04 General Matter Pre-Application ISA-NPH Meeting Summary (Public)",
+  "DocumentTitleWord": "Memorandum - 2025-12-04 General Matter Pre-Application ISA-NPH Meeting Summary (Public)",
+  "DateAdded": "2026-04-02",
+  "DateAddedTimestamp": "2026-04-02 08:05",
+  "DocumentDate": "2026-03-16",
+  "DocumentType": [
+   "Meeting Summary",
+   "Memoranda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26062A520",
+  "PackagesFiledIn": [
+   "ML26062A520"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26062A522.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "577464",
+  "AccessionNumberLower": "ml26062a522",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "7FAC81A9-8F57-C4A7-84A4-9D1FC0E00000",
+  "Id": "{7FAC81A9-8F57-C4A7-84A4-9D1FC0E00000}",
+  "Name": "Enclosure 1-General Matter Pre-Application Meeting Summary-Chemical Safety-Attendee Lists Public",
+  "AccessionNumber": "ML26064A119",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "20260305-70030"
+  ],
+  "Comment": "dwh<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 1-General Matter Pre-Application Meeting Summary-Chemical Safety-Attendee Lists Public",
+  "DocumentTitleEquals": "Enclosure 1-General Matter Pre-Application Meeting Summary-Chemical Safety-Attendee Lists Public",
+  "DocumentTitleWord": "Enclosure 1-General Matter Pre-Application Meeting Summary-Chemical Safety-Attendee Lists Public",
+  "DateAdded": "2026-03-24",
+  "DateAddedTimestamp": "2026-03-24 08:07",
+  "DocumentDate": "2026-03-16",
+  "DocumentType": [
+   "- No Document Type Applies"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS",
+   "ADAMSP8-2547"
+  ],
+  "PackageNumber": "ML26064A122",
+  "PackagesFiledIn": [
+   "ML26064A114"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26064A119.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "78303",
+  "AccessionNumberLower": "ml26064a119",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "B734B0DD-191D-C57E-8667-9D1FC0700000",
+  "Id": "{B734B0DD-191D-C57E-8667-9D1FC0700000}",
+  "Name": "Enclosure 1- General Matter Pre-Application Meeting Summary - Digital Instrumentation and Control - Attendee Lists",
+  "AccessionNumber": "ML26064A175",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [],
+  "Comment": "jgr; tsg4<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 1- General Matter Pre-Application Meeting Summary - Digital Instrumentation and Control - Attendee Lists",
+  "DocumentTitleEquals": "Enclosure 1- General Matter Pre-Application Meeting Summary - Digital Instrumentation and Control - Attendee Lists",
+  "DocumentTitleWord": "Enclosure 1- General Matter Pre-Application Meeting Summary - Digital Instrumentation and Control - Attendee Lists",
+  "DateAdded": "2026-03-24",
+  "DateAddedTimestamp": "2026-03-24 08:07",
+  "DocumentDate": "2026-03-16",
+  "DocumentType": [
+   "- No Document Type Applies"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26064A173",
+  "PackagesFiledIn": [
+   "ML26064A173"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26064A175.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "76719",
+  "AccessionNumberLower": "ml26064a175",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "3C5498E4-D2F9-C13D-8AEE-9D1A99700000",
+  "Id": "{3C5498E4-D2F9-C13D-8AEE-9D1A99700000}",
+  "Name": "Memorandum-2026-02-18 General Matter Pre-Application Meeting Summary - Human Factors (Public)",
+  "AccessionNumber": "ML26064A178",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [
+   "Govan T"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": "Rowley J",
+  "DocumentTitle": "Memorandum-2026-02-18 General Matter Pre-Application Meeting Summary - Human Factors (Public)",
+  "DocumentTitleEquals": "Memorandum-2026-02-18 General Matter Pre-Application Meeting Summary - Human Factors (Public)",
+  "DocumentTitleWord": "Memorandum-2026-02-18 General Matter Pre-Application Meeting Summary - Human Factors (Public)",
+  "DateAdded": "2026-03-23",
+  "DateAddedTimestamp": "2026-03-23 08:07",
+  "DocumentDate": "2026-03-17",
+  "DocumentType": [
+   "Memoranda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "ODS",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26064A179",
+  "PackagesFiledIn": [
+   "ML26064A179"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26064A178.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "218632",
+  "AccessionNumberLower": "ml26064a178",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "7935252C-36F5-CA88-8612-9D1A98E00000",
+  "Id": "{7935252C-36F5-CA88-8612-9D1A98E00000}",
+  "Name": "Enclosure 2 - General Matter Pre-Application Mtg Summary Open Session - Human Factors (Public) (1)",
+  "AccessionNumber": "ML26064A195",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [],
+  "Comment": "DPC: Please do not change title. glk<BR>",
+  "ContactPerson": "Rowley J",
+  "DocumentTitle": "Enclosure 2 - General Matter Pre-Application Mtg Summary Open Session - Human Factors (Public) (1)",
+  "DocumentTitleEquals": "Enclosure 2 - General Matter Pre-Application Mtg Summary Open Session - Human Factors (Public) (1)",
+  "DocumentTitleWord": "Enclosure 2 - General Matter Pre-Application Mtg Summary Open Session - Human Factors (Public) (1)",
+  "DateAdded": "2026-03-23",
+  "DateAddedTimestamp": "2026-03-23 08:07",
+  "DocumentDate": "2026-03-17",
+  "DocumentType": [
+   "Meeting Summary"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "glw2",
+   "ODS",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26064A179",
+  "PackagesFiledIn": [
+   "ML26064A179"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2606/ML26064A195.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "77188",
+  "AccessionNumberLower": "ml26064a195",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "92B7FDB5-65F8-CFF4-8ACF-9D2A8D300000",
+  "Id": "{92B7FDB5-65F8-CFF4-8ACF-9D2A8D300000}",
+  "Name": "Ltr - General Matter Inc. GEM-LIC-2026-005 Soil Improvement",
+  "AccessionNumber": "ML26084A462",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [
+   "Govan T",
+   "Helton S",
+   "Kock A L",
+   "Mathis R",
+   "Rowland J G"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS",
+   "NRC/NMSS/DFM",
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-005"
+  ],
+  "Comment": "JMG1<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "Ltr - General Matter Inc. GEM-LIC-2026-005 Soil Improvement",
+  "DocumentTitleEquals": "Ltr - General Matter Inc. GEM-LIC-2026-005 Soil Improvement",
+  "DocumentTitleWord": "Ltr - General Matter Inc. GEM-LIC-2026-005 Soil Improvement",
+  "DateAdded": "2026-03-26",
+  "DateAddedTimestamp": "2026-03-26 10:28",
+  "DocumentDate": "2026-03-21",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [
+   "ML26084A457"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2608/ML26084A462.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "117912",
+  "AccessionNumberLower": "ml26084a462",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "228CEF03-9EB3-C268-89AA-9D2A8D200000",
+  "Id": "{228CEF03-9EB3-C268-89AA-9D2A8D200000}",
+  "Name": "General Matter, Inc. GEM-LIC-2026-005 Enclosure 3 Affidavit",
+  "AccessionNumber": "ML26084A461",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [
+   "Govan T",
+   "Helton S",
+   "Kock A L",
+   "Mathis R",
+   "Rowland J G"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS",
+   "NRC/NMSS/DFM",
+   "NRC/NMSS/DFM/FFLB"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-005"
+  ],
+  "Comment": "JMG1<BR>",
+  "ContactPerson": null,
+  "DocumentTitle": "General Matter, Inc. GEM-LIC-2026-005 Enclosure 3 Affidavit",
+  "DocumentTitleEquals": "General Matter, Inc. GEM-LIC-2026-005 Enclosure 3 Affidavit",
+  "DocumentTitleWord": "General Matter, Inc. GEM-LIC-2026-005 Enclosure 3 Affidavit",
+  "DateAdded": "2026-03-26",
+  "DateAddedTimestamp": "2026-03-26 10:28",
+  "DocumentDate": "2026-03-21",
+  "DocumentType": [
+   "Legal-Affidavit"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [
+   "ML26084A457"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2608/ML26084A461.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "116423",
+  "AccessionNumberLower": "ml26084a461",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "1EFC2BB7-D4C8-CFC3-85F6-9D1F2C100000",
+  "Id": "{1EFC2BB7-D4C8-CFC3-85F6-9D1F2C100000}",
+  "Name": "03/25/2026 Application Content Requirements and Level of Details to Support ISA/IROFS Review",
+  "AccessionNumber": "ML26082A161",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [],
+  "CaseReferenceNumber": [
+   "PMNS20260273"
+  ],
+  "Comment": "PMNS20260273",
+  "ContactPerson": null,
+  "DocumentTitle": "03/25/2026 Application Content Requirements and Level of Details to Support ISA/IROFS Review",
+  "DocumentTitleEquals": "03/25/2026 Application Content Requirements and Level of Details to Support ISA/IROFS Review",
+  "DocumentTitleWord": "03/25/2026 Application Content Requirements and Level of Details to Support ISA/IROFS Review",
+  "DateAdded": "2026-03-24",
+  "DateAddedTimestamp": "2026-03-24 05:27",
+  "DocumentDate": "2026-03-23",
+  "DocumentType": [
+   "Meeting Notice",
+   "Meeting Agenda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "Non-CUI",
+   "Public Meeting Notice/Agenda - SUNSI Review Complete",
+   "NRC-001",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2608/ML26082A161.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "101031",
+  "AccessionNumberLower": "ml26082a161",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "119DFAE5-B04E-C06E-8EFF-9DF4ADD00000",
+  "Id": "{119DFAE5-B04E-C06E-8EFF-9DF4ADD00000}",
+  "Name": "NRC Response to General Matter White Paper Regarding Soil Improvement",
+  "AccessionNumber": "ML26099A135",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Kock A"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [
+   "Bridges A"
+  ],
+  "AddresseeAffiliation": [
+   "General Matter, Inc"
+  ],
+  "CaseReferenceNumber": [
+   "EPID L-2025-LRM-0000",
+   "20260409-90029"
+  ],
+  "Comment": "JMG1tlf3: Please do not change title",
+  "ContactPerson": null,
+  "DocumentTitle": "NRC Response to General Matter White Paper Regarding Soil Improvement",
+  "DocumentTitleEquals": "NRC Response to General Matter White Paper Regarding Soil Improvement",
+  "DocumentTitleWord": "NRC Response to General Matter White Paper Regarding Soil Improvement",
+  "DateAdded": "2026-05-04",
+  "DateAddedTimestamp": "2026-05-04 16:28",
+  "DocumentDate": "2026-04-10",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "stt",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26099A092",
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2609/ML26099A135.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "211670",
+  "AccessionNumberLower": "ml26099a135",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "860B6FBF-7309-CC40-86E0-9E2B87A00000",
+  "Id": "{860B6FBF-7309-CC40-86E0-9E2B87A00000}",
+  "Name": "Transmittal Letter - General Matter Possessing Facility Clearance SPPP",
+  "AccessionNumber": "ML26119A895",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J G"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM"
+  ],
+  "AddresseeName": [
+   "Bridges A"
+  ],
+  "AddresseeAffiliation": [
+   "General Matter, Inc"
+  ],
+  "CaseReferenceNumber": [
+   "EPID L 2026-SPR-0005"
+  ],
+  "Comment": "jgr; fyk1",
+  "ContactPerson": null,
+  "DocumentTitle": "Transmittal Letter - General Matter Possessing Facility Clearance SPPP",
+  "DocumentTitleEquals": "Transmittal Letter - General Matter Possessing Facility Clearance SPPP",
+  "DocumentTitleWord": "Transmittal Letter - General Matter Possessing Facility Clearance SPPP",
+  "DateAdded": "2026-05-15",
+  "DateAddedTimestamp": "2026-05-15 08:00",
+  "DocumentDate": "2026-05-07",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [
+   "SNM-2010"
+  ],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "stt",
+   "dnd",
+   "utsPARS",
+   "oarc20260520mmn-corrected docket number."
+  ],
+  "PackageNumber": "ML26119A892",
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2611/ML26119A895.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "630915",
+  "AccessionNumberLower": "ml26119a895",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "42D53BC5-A0C1-CF8B-86A0-9E7041400000",
+  "Id": "{42D53BC5-A0C1-CF8B-86A0-9E7041400000}",
+  "Name": "General Matter - Appointment of Safeguards Information (SGI) Reviewing Official",
+  "AccessionNumber": "ML26146A089",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A P"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [
+   "Vazquez J"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NSIR/DSO"
+  ],
+  "CaseReferenceNumber": [],
+  "Comment": "jgr <! fyk1 !>",
+  "ContactPerson": null,
+  "DocumentTitle": "General Matter - Appointment of Safeguards Information (SGI) Reviewing Official",
+  "DocumentTitleEquals": "General Matter - Appointment of Safeguards Information (SGI) Reviewing Official",
+  "DocumentTitleWord": "General Matter - Appointment of Safeguards Information (SGI) Reviewing Official",
+  "DateAdded": "2026-05-28",
+  "DateAddedTimestamp": "2026-05-28 16:22",
+  "DocumentDate": "2026-05-20",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "stt",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2614/ML26146A089.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "139974",
+  "AccessionNumberLower": "ml26146a089",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "5D9ECD9B-0F53-CF84-BF15-9EDB76D00002",
+  "Id": "{5D9ECD9B-0F53-CF84-BF15-9EDB76D00002}",
+  "Name": "Attendees List - March 9 2026 General Matter Pre-app Meeting on Fire Protection",
+  "AccessionNumber": "ML26135A322",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J G"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM"
+  ],
+  "AddresseeName": [
+   "Govan T"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM"
+  ],
+  "CaseReferenceNumber": [
+   "20260515-90010"
+  ],
+  "Comment": null,
+  "ContactPerson": null,
+  "DocumentTitle": "Attendees List - March 9 2026 General Matter Pre-app Meeting on Fire Protection",
+  "DocumentTitleEquals": "Attendees List - March 9 2026 General Matter Pre-app Meeting on Fire Protection",
+  "DocumentTitleWord": "Attendees List - March 9 2026 General Matter Pre-app Meeting on Fire Protection",
+  "DateAdded": "2026-06-22",
+  "DateAddedTimestamp": "2026-06-22 09:22",
+  "DocumentDate": "2026-06-16",
+  "DocumentType": [
+   "- No Document Type Applies"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26135A323",
+  "PackagesFiledIn": [
+   "ML26135A323"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2613/ML26135A322.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "1",
+  "DocumentSize": "79575",
+  "AccessionNumberLower": "ml26135a322",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "9A66D247-0FD3-CDFC-9E07-9EDAAEA00000",
+  "Id": "{9A66D247-0FD3-CDFC-9E07-9EDAAEA00000}",
+  "Name": "03/09/2026 Summary of Partially Closed Pre-Application Meeting With General Matter, Inc., Regarding the Fire Protection Program",
+  "AccessionNumber": "ML26135A319",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J G"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM"
+  ],
+  "AddresseeName": [
+   "Govan T"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM"
+  ],
+  "CaseReferenceNumber": [
+   "20260515-90010"
+  ],
+  "Comment": null,
+  "ContactPerson": null,
+  "DocumentTitle": "03/09/2026 Summary of Partially Closed Pre-Application Meeting With General Matter, Inc., Regarding the Fire Protection Program",
+  "DocumentTitleEquals": "03/09/2026 Summary of Partially Closed Pre-Application Meeting With General Matter, Inc., Regarding the Fire Protection Program",
+  "DocumentTitleWord": "03/09/2026 Summary of Partially Closed Pre-Application Meeting With General Matter, Inc., Regarding the Fire Protection Program",
+  "DateAdded": "2026-06-22",
+  "DateAddedTimestamp": "2026-06-22 09:22",
+  "DocumentDate": "2026-06-16",
+  "DocumentType": [
+   "Meeting Summary",
+   "Memoranda"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26135A323",
+  "PackagesFiledIn": [
+   "ML26135A323"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2613/ML26135A319.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "595668",
+  "AccessionNumberLower": "ml26135a319",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "860C28D1-CB14-C7B3-8D27-9EDB77F00000",
+  "Id": "{860C28D1-CB14-C7B3-8D27-9EDB77F00000}",
+  "Name": "Meeting Summary - March 9 2026 pre-app meeting regarding fire protection",
+  "AccessionNumber": "ML26135A321",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Rowley J G"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS/DFM"
+  ],
+  "AddresseeName": [
+   "Govan T"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DFM"
+  ],
+  "CaseReferenceNumber": [
+   "20260515-90010"
+  ],
+  "Comment": null,
+  "ContactPerson": null,
+  "DocumentTitle": "Meeting Summary - March 9 2026 pre-app meeting regarding fire protection",
+  "DocumentTitleEquals": "Meeting Summary - March 9 2026 pre-app meeting regarding fire protection",
+  "DocumentTitleWord": "Meeting Summary - March 9 2026 pre-app meeting regarding fire protection",
+  "DateAdded": "2026-06-22",
+  "DateAddedTimestamp": "2026-06-22 09:22",
+  "DocumentDate": "2026-06-16",
+  "DocumentType": [
+   "Meeting Summary"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "ODS",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26135A323",
+  "PackagesFiledIn": [
+   "ML26135A323"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2613/ML26135A321.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "2",
+  "DocumentSize": "97781",
+  "AccessionNumberLower": "ml26135a321",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "60F0EE02-259C-C639-9C29-9F7010200000",
+  "Id": "{60F0EE02-259C-C639-9C29-9F7010200000}",
+  "Name": "GEM-LIC-2026-015 Transmittal Letter - Utilities Installation",
+  "AccessionNumber": "ML26198A064",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/Document Control Desk",
+   "NRC/NMSS"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-015"
+  ],
+  "Comment": "JMG1",
+  "ContactPerson": null,
+  "DocumentTitle": "GEM-LIC-2026-015 Transmittal Letter - Utilities Installation",
+  "DocumentTitleEquals": "GEM-LIC-2026-015 Transmittal Letter - Utilities Installation",
+  "DocumentTitleWord": "GEM-LIC-2026-015 Transmittal Letter - Utilities Installation",
+  "DateAdded": "2026-07-23",
+  "DateAddedTimestamp": "2026-07-23 08:27",
+  "DocumentDate": "2026-07-15",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [
+   "ML26198A058"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2619/ML26198A064.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "216434",
+  "AccessionNumberLower": "ml26198a064",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "373EB9AD-4171-CF9B-A1E8-9F7010300003",
+  "Id": "{373EB9AD-4171-CF9B-A1E8-9F7010300003}",
+  "Name": "GEM-LIC-2026-015 Enclosure 3 - Affidavit Supporting Request for Withholding from Public Disclosure (10 CFR 2.390)",
+  "AccessionNumber": "ML26198A061",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-015"
+  ],
+  "Comment": "JMG1",
+  "ContactPerson": null,
+  "DocumentTitle": "GEM-LIC-2026-015 Enclosure 3 - Affidavit Supporting Request for Withholding from Public Disclosure (10 CFR 2.390)",
+  "DocumentTitleEquals": "GEM-LIC-2026-015 Enclosure 3 - Affidavit Supporting Request for Withholding from Public Disclosure (10 CFR 2.390)",
+  "DocumentTitleWord": "GEM-LIC-2026-015 Enclosure 3 - Affidavit Supporting Request for Withholding from Public Disclosure (10 CFR 2.390)",
+  "DateAdded": "2026-07-23",
+  "DateAddedTimestamp": "2026-07-23 08:27",
+  "DocumentDate": "2026-07-15",
+  "DocumentType": [
+   "Legal-Affidavit"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [
+   "ML26198A058"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2619/ML26198A061.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "182203",
+  "AccessionNumberLower": "ml26198a061",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "5677B7C8-A21F-CA5D-8FAE-A09142000000",
+  "Id": "{5677B7C8-A21F-CA5D-8FAE-A09142000000}",
+  "Name": "Cover Letter - NRC Response to General Matter White Paper Regarding Utilities Installation Activities",
+  "AccessionNumber": "ML26251A160",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Roman C I"
+  ],
+  "AuthorAffiliation": [
+   "NRC/NMSS"
+  ],
+  "AddresseeName": [
+   "Bridges A"
+  ],
+  "AddresseeAffiliation": [
+   "General Matter, Inc"
+  ],
+  "CaseReferenceNumber": [
+   "EPID L-2025-LRM-0000",
+   "20260908-02302"
+  ],
+  "Comment": "JMG1",
+  "ContactPerson": null,
+  "DocumentTitle": "Cover Letter - NRC Response to General Matter White Paper Regarding Utilities Installation Activities",
+  "DocumentTitleEquals": "Cover Letter - NRC Response to General Matter White Paper Regarding Utilities Installation Activities",
+  "DocumentTitleWord": "Cover Letter - NRC Response to General Matter White Paper Regarding Utilities Installation Activities",
+  "DateAdded": "2026-09-14",
+  "DateAddedTimestamp": "2026-09-14 10:22",
+  "DocumentDate": "2026-09-10",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "AOA1",
+   "jef1",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26251A130",
+  "PackagesFiledIn": [],
+  "Url": "https://www.nrc.gov/docs/ML2625/ML26251A160.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "402905",
+  "AccessionNumberLower": "ml26251a160",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "19DBFC03-1583-CAEE-8474-A0EDB4300000",
+  "Id": "{19DBFC03-1583-CAEE-8474-A0EDB4300000}",
+  "Name": "GEM-LIC-2026-030 Enclosure 2 - Affidavit",
+  "AccessionNumber": "ML26272A154",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DDFSTE/DFC/FLB1",
+   "NRC/Document Control Desk"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-030"
+  ],
+  "Comment": "bxc4",
+  "ContactPerson": null,
+  "DocumentTitle": "GEM-LIC-2026-030 Enclosure 2 - Affidavit",
+  "DocumentTitleEquals": "GEM-LIC-2026-030 Enclosure 2 - Affidavit",
+  "DocumentTitleWord": "GEM-LIC-2026-030 Enclosure 2 - Affidavit",
+  "DateAdded": "2026-10-02",
+  "DateAddedTimestamp": "2026-10-02 15:04",
+  "DocumentDate": "2026-09-25",
+  "DocumentType": [
+   "Legal-Affidavit"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "AWS4",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26272A146",
+  "PackagesFiledIn": [
+   "ML26272A146"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2627/ML26272A154.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "243427",
+  "AccessionNumberLower": "ml26272a154",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "7CE52199-D28F-CEB8-8509-A0EDB4100000",
+  "Id": "{7CE52199-D28F-CEB8-8509-A0EDB4100000}",
+  "Name": "Request for Specific Exemption to Permit Limited Pre-License Foundation Work at the General Matter Site in Paducah",
+  "AccessionNumber": "ML26272A153",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/Document Control Desk",
+   "NRC/NMSS/DDFSTE/DFC/FLB1"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-030"
+  ],
+  "Comment": "bxc4",
+  "ContactPerson": null,
+  "DocumentTitle": "Request for Specific Exemption to Permit Limited Pre-License Foundation Work at the General Matter Site in Paducah",
+  "DocumentTitleEquals": "Request for Specific Exemption to Permit Limited Pre-License Foundation Work at the General Matter Site in Paducah",
+  "DocumentTitleWord": "Request for Specific Exemption to Permit Limited Pre-License Foundation Work at the General Matter Site in Paducah",
+  "DateAdded": "2026-10-02",
+  "DateAddedTimestamp": "2026-10-02 15:04",
+  "DocumentDate": "2026-09-25",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "AWS4",
+   "dnd",
+   "utsPARS"
+  ],
+  "PackageNumber": "ML26272A146",
+  "PackagesFiledIn": [
+   "ML26272A146"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2627/ML26272A153.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "280552",
+  "AccessionNumberLower": "ml26272a153",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "E2D7C226-D073-C5C0-9DC4-A0F3B9700000",
+  "Id": "{E2D7C226-D073-C5C0-9DC4-A0F3B9700000}",
+  "Name": "GEM-LIC-2026-040 GeM Paducah Enrichment Facility-Initial License Application.",
+  "AccessionNumber": "ML26273A147",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [
+   "Kock A L"
+  ],
+  "AddresseeAffiliation": [
+   "NRC/NMSS"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-040"
+  ],
+  "Comment": "bxc4",
+  "ContactPerson": null,
+  "DocumentTitle": "GEM-LIC-2026-040 GeM Paducah Enrichment Facility-Initial License Application.",
+  "DocumentTitleEquals": "GEM-LIC-2026-040 GeM Paducah Enrichment Facility-Initial License Application.",
+  "DocumentTitleWord": "GEM-LIC-2026-040 GeM Paducah Enrichment Facility-Initial License Application.",
+  "DateAdded": "2026-10-05",
+  "DateAddedTimestamp": "2026-10-05 08:16",
+  "DocumentDate": "2026-09-27",
+  "DocumentType": [
+   "Letter"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "AOA1",
+   "jef1",
+   "OARC20261005JEF1-Updated Sensitivity Review Completed Value from No to Yes.",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [
+   "ML26273A126"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2627/ML26273A147.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "190635",
+  "AccessionNumberLower": "ml26273a147",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "BF6FA6AC-9C98-CA06-8FF4-A0F2A1600000",
+  "Id": "{BF6FA6AC-9C98-CA06-8FF4-A0F2A1600000}",
+  "Name": "Enclosure 01 of 14, GMPEF ER (Public).",
+  "AccessionNumber": "ML26273A150",
+  "Availability": "Publicly Available",
+  "AuthorName": [],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-040"
+  ],
+  "Comment": "bxc4",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 01 of 14, GMPEF ER (Public).",
+  "DocumentTitleEquals": "Enclosure 01 of 14, GMPEF ER (Public).",
+  "DocumentTitleWord": "Enclosure 01 of 14, GMPEF ER (Public).",
+  "DateAdded": "2026-10-05",
+  "DateAddedTimestamp": "2026-10-05 08:16",
+  "DocumentDate": "2026-09-27",
+  "DocumentType": [
+   "Environmental Report"
+  ],
+  "DocumentReportNumber": [
+   "PAD-ENV-RP-001"
+  ],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "AOA1",
+   "jef1",
+   "OARC20261005JEF1-Updated Sensitivity Review Completed Value from No to Yes.",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [
+   "ML26273A126"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2627/ML26273A150.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "29833675",
+  "AccessionNumberLower": "ml26273a150",
+  "ItemType": "doc"
+ },
+ {
+  "IdT": "61A7E868-5633-CEBD-A6B8-A0F3B9800000",
+  "Id": "{61A7E868-5633-CEBD-A6B8-A0F3B9800000}",
+  "Name": "Enclosure 14 of 14, GEM-LIC-2026-040, Affidavit.",
+  "AccessionNumber": "ML26273A149",
+  "Availability": "Publicly Available",
+  "AuthorName": [
+   "Bridges A"
+  ],
+  "AuthorAffiliation": [
+   "General Matter, Inc"
+  ],
+  "AddresseeName": [],
+  "AddresseeAffiliation": [
+   "NRC/NMSS/DDFSTE/DFC/FLB1"
+  ],
+  "CaseReferenceNumber": [
+   "GEM-LIC-2026-040"
+  ],
+  "Comment": "bxc4",
+  "ContactPerson": null,
+  "DocumentTitle": "Enclosure 14 of 14, GEM-LIC-2026-040, Affidavit.",
+  "DocumentTitleEquals": "Enclosure 14 of 14, GEM-LIC-2026-040, Affidavit.",
+  "DocumentTitleWord": "Enclosure 14 of 14, GEM-LIC-2026-040, Affidavit.",
+  "DateAdded": "2026-10-05",
+  "DateAddedTimestamp": "2026-10-05 08:16",
+  "DocumentDate": "2026-09-27",
+  "DocumentType": [
+   "Legal-Affidavit"
+  ],
+  "DocumentReportNumber": [],
+  "DocketNumber": [
+   "07007040"
+  ],
+  "DistributionListCodes": null,
+  "DocumentsFiledInPackage": [],
+  "LicenseNumber": [],
+  "Keyword": [
+   "SUNSI Review Complete",
+   "AOA1",
+   "jef1",
+   "OARC20261005JEF1-Updated Sensitivity Review Completed Value from No to Yes.",
+   "utsPARS"
+  ],
+  "PackageNumber": null,
+  "PackagesFiledIn": [
+   "ML26273A126"
+  ],
+  "Url": "https://www.nrc.gov/docs/ML2627/ML26273A149.pdf",
+  "content": "",
+  "IsPackage": "No",
+  "IsLegacy": "No",
+  "MicroformAddresses": null,
+  "PhysicalFileLocation": "ADAMS",
+  "EstimatedPageCount": "0",
+  "DocumentSize": "175856",
+  "AccessionNumberLower": "ml26273a149",
+  "ItemType": "doc"
+ }
+]

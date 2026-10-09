@@ -1,0 +1,437 @@
+{
+ "site": "general-matter-paducah",
+ "label": "General Matter, Paducah enrichment site (Leasing Parcel A)",
+ "company": "general-matter",
+ "verified": true,
+ "bbox_kind": "site",
+ "generated": "2026-10-08",
+ "crs": "EPSG:32616",
+ "bounds": [
+  337400,
+  4106380,
+  340420,
+  4108900
+ ],
+ "corners_lonlat": [
+  [
+   -88.830068,
+   37.112323
+  ],
+  [
+   -88.796093,
+   37.112843
+  ],
+  [
+   -88.795557,
+   37.090138
+  ],
+  [
+   -88.829522,
+   37.089619
+  ]
+ ],
+ "sentinel2_size": [
+  302,
+  252
+ ],
+ "sentinel2_pixel_m": 10,
+ "max_cloud_pct": 5.0,
+ "frames": [
+  {
+   "file": "naip-2022.png",
+   "month": "2022-06",
+   "acquired": "2022-06-29",
+   "scene_id": "ky_m_3708858_ne_16_060_20220629+ky_m_3708858_nw_16_060_20220629",
+   "collection": "naip",
+   "cloud_pct": null,
+   "pixel_m": 1.0,
+   "credit": "NAIP 2022: USDA Farm Production and Conservation Business Center (public domain)"
+  },
+  {
+   "file": "2024-01.png",
+   "month": "2024-01",
+   "acquired": "2024-01-20T16:46:19.024000Z",
+   "scene_id": "S2B_MSIL2A_20240120T164619_R126_T16SCG_20240120T222333",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 2.33,
+   "snow_pct": 61.62,
+   "scene_cloud_pct": 3.21,
+   "sun_elevation_deg": 30.0,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-02.png",
+   "month": "2024-02",
+   "acquired": "2024-02-14T16:44:01.024000Z",
+   "scene_id": "S2A_MSIL2A_20240214T164401_R126_T16SCG_20240214T213600",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.08,
+   "sun_elevation_deg": 36.5,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-03.png",
+   "month": "2024-03",
+   "acquired": "2024-03-20T16:39:09.024000Z",
+   "scene_id": "S2B_MSIL2A_20240320T163909_R126_T16SCG_20240321T000852",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.01,
+   "sun_elevation_deg": 49.6,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-04.png",
+   "month": "2024-04",
+   "acquired": "2024-04-14T16:38:41.024000Z",
+   "scene_id": "S2A_MSIL2A_20240414T163841_R126_T16SCG_20240415T004735",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.01,
+   "sun_elevation_deg": 59.1,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-05.png",
+   "month": "2024-05",
+   "acquired": "2024-05-09T16:38:39.024000Z",
+   "scene_id": "S2B_MSIL2A_20240509T163839_R126_T16SCG_20240509T224021",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 8.62,
+   "sun_elevation_deg": 66.5,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-06.png",
+   "month": "2024-06",
+   "acquired": "2024-06-13T16:39:01.024000Z",
+   "scene_id": "S2A_MSIL2A_20240613T163901_R126_T16SCG_20240614T010641",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.21,
+   "sun_elevation_deg": 70.6,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-07.png",
+   "month": "2024-07",
+   "acquired": "2024-07-18T16:38:39.024000Z",
+   "scene_id": "S2B_MSIL2A_20240718T163839_R126_T16SCG_20240718T225245",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 14.89,
+   "sun_elevation_deg": 67.9,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-08.png",
+   "month": "2024-08",
+   "acquired": "2024-08-27T16:38:59.024000Z",
+   "scene_id": "S2B_MSIL2A_20240827T163859_R126_T16SCG_20240827T205434",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.0,
+   "sun_elevation_deg": 58.9,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-09.png",
+   "month": "2024-09",
+   "acquired": "2024-09-11T16:38:51.024000Z",
+   "scene_id": "S2A_MSIL2A_20240911T163851_R126_T16SCG_20240912T001247",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.05,
+   "sun_elevation_deg": 54.2,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-10.png",
+   "month": "2024-10",
+   "acquired": "2024-10-11T16:42:21.024000Z",
+   "scene_id": "S2A_MSIL2A_20241011T164221_R126_T16SCG_20241011T221646",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.0,
+   "sun_elevation_deg": 43.8,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2024-12.png",
+   "month": "2024-12",
+   "acquired": "2024-12-30T16:47:11.024000Z",
+   "scene_id": "S2A_MSIL2A_20241230T164711_R126_T16SCG_20241230T203551",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 33.38,
+   "sun_elevation_deg": 27.6,
+   "credit": "Contains modified Copernicus Sentinel data 2024"
+  },
+  {
+   "file": "2025-01.png",
+   "month": "2025-01",
+   "acquired": "2025-01-24T16:45:09.024000Z",
+   "scene_id": "S2B_MSIL2A_20250124T164509_R126_T16SCG_20250124T214830",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 1.23,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 1.33,
+   "sun_elevation_deg": 30.9,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-02.png",
+   "month": "2025-02",
+   "acquired": "2025-02-28T16:42:41.025000Z",
+   "scene_id": "S2C_MSIL2A_20250228T164241_R126_T16SCG_20250228T212912",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.01,
+   "sun_elevation_deg": 41.7,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-03.png",
+   "month": "2025-03",
+   "acquired": "2025-03-25T16:38:59.024000Z",
+   "scene_id": "S2B_MSIL2A_20250325T163859_R126_T16SCG_20250325T214811",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 2.66,
+   "sun_elevation_deg": 51.4,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-05.png",
+   "month": "2025-05",
+   "acquired": "2025-05-21T16:47:11.024000Z",
+   "scene_id": "S2A_MSIL2A_20250521T164711_R126_T16SCG_20250521T214256",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.03,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 2.82,
+   "sun_elevation_deg": 68.8,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-06.png",
+   "month": "2025-06",
+   "acquired": "2025-06-10T16:47:11.024000Z",
+   "scene_id": "S2A_MSIL2A_20250610T164711_R126_T16SCG_20250611T010715",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 1.95,
+   "sun_elevation_deg": 70.6,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-07.png",
+   "month": "2025-07",
+   "acquired": "2025-07-28T16:39:21.025000Z",
+   "scene_id": "S2C_MSIL2A_20250728T163921_R126_T16SCG_20250728T215759",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.03,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 23.57,
+   "sun_elevation_deg": 66.2,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-08.png",
+   "month": "2025-08",
+   "acquired": "2025-08-02T16:38:39.024000Z",
+   "scene_id": "S2B_MSIL2A_20250802T163839_R126_T16SCG_20250802T204227",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 12.49,
+   "sun_elevation_deg": 65.2,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-09.png",
+   "month": "2025-09",
+   "acquired": "2025-09-18T16:47:01.024000Z",
+   "scene_id": "S2A_MSIL2A_20250918T164701_R126_T16SCG_20250918T214619",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.04,
+   "sun_elevation_deg": 52.0,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-10.png",
+   "month": "2025-10",
+   "acquired": "2025-10-08T16:47:01.024000Z",
+   "scene_id": "S2A_MSIL2A_20251008T164701_R126_T16SCG_20251008T215415",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.0,
+   "sun_elevation_deg": 44.9,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-11.png",
+   "month": "2025-11",
+   "acquired": "2025-11-05T16:45:11.024000Z",
+   "scene_id": "S2C_MSIL2A_20251105T164511_R126_T16SCG_20251105T203212",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.01,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 5.97,
+   "sun_elevation_deg": 35.6,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2025-12.png",
+   "month": "2025-12",
+   "acquired": "2025-12-05T16:47:01.025000Z",
+   "scene_id": "S2C_MSIL2A_20251205T164701_R126_T16SCG_20251205T202210",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.09,
+   "scene_cloud_pct": 0.44,
+   "sun_elevation_deg": 28.9,
+   "credit": "Contains modified Copernicus Sentinel data 2025"
+  },
+  {
+   "file": "2026-01.png",
+   "month": "2026-01",
+   "acquired": "2026-01-19T16:45:19.025000Z",
+   "scene_id": "S2B_MSIL2A_20260119T164519_R126_T16SCG_20260119T203443",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.07,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 2.41,
+   "sun_elevation_deg": 29.9,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  },
+  {
+   "file": "2026-02.png",
+   "month": "2026-02",
+   "acquired": "2026-02-13T16:44:11.025000Z",
+   "scene_id": "S2C_MSIL2A_20260213T164411_R126_T16SCG_20260213T202910",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.0,
+   "sun_elevation_deg": 36.4,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  },
+  {
+   "file": "2026-03.png",
+   "month": "2026-03",
+   "acquired": "2026-03-25T16:39:31.025000Z",
+   "scene_id": "S2C_MSIL2A_20260325T163931_R126_T16SCG_20260325T214355",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 33.17,
+   "sun_elevation_deg": 51.3,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  },
+  {
+   "file": "2026-04.png",
+   "month": "2026-04",
+   "acquired": "2026-04-19T16:38:49.024000Z",
+   "scene_id": "S2B_MSIL2A_20260419T163849_R126_T16SCG_20260419T203111",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 2.97,
+   "sun_elevation_deg": 60.6,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  },
+  {
+   "file": "2026-05.png",
+   "month": "2026-05",
+   "acquired": "2026-05-14T16:38:41.025000Z",
+   "scene_id": "S2C_MSIL2A_20260514T163841_R126_T16SCG_20260514T215214",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.02,
+   "sun_elevation_deg": 67.5,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  },
+  {
+   "file": "2026-06.png",
+   "month": "2026-06",
+   "acquired": "2026-06-03T16:38:41.025000Z",
+   "scene_id": "S2C_MSIL2A_20260603T163841_R126_T16SCG_20260603T215058",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 0.76,
+   "sun_elevation_deg": 70.2,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  },
+  {
+   "file": "2026-07.png",
+   "month": "2026-07",
+   "acquired": "2026-07-23T16:38:41.025000Z",
+   "scene_id": "S2C_MSIL2A_20260723T163841_R126_T16SCG_20260723T214655",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 8.11,
+   "sun_elevation_deg": 67.1,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  },
+  {
+   "file": "2026-08.png",
+   "month": "2026-08",
+   "acquired": "2026-08-14T16:47:11.024000Z",
+   "scene_id": "S2A_MSIL2A_20260814T164711_R126_T16SCG_20260814T215856",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 53.93,
+   "sun_elevation_deg": 62.5,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  },
+  {
+   "file": "2026-09.png",
+   "month": "2026-09",
+   "acquired": "2026-09-03T16:47:01.024000Z",
+   "scene_id": "S2A_MSIL2A_20260903T164701_R126_T16SCG_20260904T024710",
+   "collection": "sentinel-2-l2a",
+   "cloud_pct": 0.0,
+   "snow_pct": 0.0,
+   "scene_cloud_pct": 1.21,
+   "sun_elevation_deg": 56.9,
+   "credit": "Contains modified Copernicus Sentinel data 2026"
+  }
+ ],
+ "missing": [
+  {
+   "month": "2024-11",
+   "reason": "cloudy: 2 scenes, clearest of 2 checked has 100.0% cloud over the crop (S2A_MSIL2A_20241110T164521_R126_T16SCG_20241110T201706, 2024-11-10)"
+  },
+  {
+   "month": "2025-04",
+   "reason": "cloudy: 4 scenes, clearest of 4 checked has 24.06% cloud over the crop (S2C_MSIL2A_20250409T163921_R126_T16SCG_20250409T220112, 2025-04-09)"
+  },
+  {
+   "month": "2026-10",
+   "reason": "cloudy: 1 scenes, clearest of 1 checked has 5.88% cloud over the crop (S2C_MSIL2A_20261001T164111_R126_T16SCG_20261001T213005, 2026-10-01)"
+  }
+ ]
+}

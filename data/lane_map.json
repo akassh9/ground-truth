@@ -1,0 +1,2064 @@
+{
+ "note": "Entrenchment from public records only; see gt/lanes.py for the scoring.",
+ "max_score": 16,
+ "lanes": [
+  {
+   "slug": "autonomous-maritime",
+   "name": "Autonomous maritime",
+   "description": "Uncrewed surface and undersea vessels, their autonomy stacks, and the yards that build them at volume.",
+   "keywords": [
+    "USV",
+    "UUV",
+    "uncrewed surface vessel",
+    "unmanned surface vessel",
+    "autonomous boat",
+    "drone boat",
+    "maritime autonomy",
+    "maritime domain awareness",
+    "shipyard",
+    "GARC"
+   ],
+   "status": "owned",
+   "anti_fund_has": [
+    "Anduril",
+    "Saronic"
+   ],
+   "companies": [
+    {
+     "slug": "anduril",
+     "name": "Anduril",
+     "portfolio": true,
+     "score": 13,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$2.5B in federal awards since 2020; largest: U.S. Customs and Border Protection awarded Anduril a $363M contract (2025-12-18)",
+       "id": "usaspending:CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014"
+      },
+      {
+       "text": "On 13 federal contract vehicle(s); latest: Multiple-award indefinite delivery indefinite quantity (IDIQ) for counter-unmanned aircraf",
+       "id": "usaspending:CONT_IDV_70RDA226D00000015_7001",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_70RDA226D00000015_7001"
+      },
+      {
+       "text": "478 of Anduril's 2,477 open roles are on the factory floor",
+       "id": "jobs-production:anduril:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/andurilindustries"
+      },
+      {
+       "text": "Anduril is hiring for 129 roles at Arsenal-1 (Ashville, OH)",
+       "id": "jobs-site:anduril:Ashville:2026-10-08",
+       "url": "https://boards.greenhouse.io/andurilindustries/jobs/5260621007?gh_jid=5260621007"
+      },
+      {
+       "text": "Anduril has 423 aircraft registered with the FAA. Most registered: Roadrunner (255), Barracuda 500 (28), Ghost (24), CPJ-100 (20). Newest registration: 2026-07-01.",
+       "id": "faa-fleet:anduril:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=ANDURIL+INDUSTRIES&sort_option=1&PageNo=1"
+      },
+      {
+       "text": "Physical site tracked from orbit: Anduril Arsenal-1",
+       "id": "site:arsenal-1",
+       "url": ""
+      }
+     ]
+    },
+    {
+     "slug": "blacksea",
+     "name": "BlackSea Technologies (AEVEX)",
+     "portfolio": false,
+     "why": "Mass-produces the Navy's GARC drone boats at a former Baltimore shipyard; AEVEX agreed in Aug 2026 to buy it for up to $650M (closed Sept 2026).",
+     "score": 6,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$1.5B in federal awards since 2020; largest: Department of the Air Force awarded BlackSea Technologies (AEVEX) a $645.8M contract (2024-12-02)",
+       "id": "usaspending:CONT_AWD_FA862025FB072_9700_FA862024GB001_9700",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA862025FB072_9700_FA862024GB001_9700"
+      },
+      {
+       "text": "On 7 federal contract vehicle(s); latest: In support of executive order 14307-unleashing american drone dominance, the army contract",
+       "id": "usaspending:CONT_IDV_W58RGZ26G0046_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W58RGZ26G0046_9700"
+      }
+     ]
+    },
+    {
+     "slug": "saronic",
+     "name": "Saronic",
+     "portfolio": true,
+     "score": 5,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$31.5M in federal awards since 2020; largest: Department of the Navy awarded Saronic a $29M contract (2026-07-01)",
+       "id": "usaspending:CONT_AWD_N0003926FB060_9700_47QTCA26D003X_4732",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_N0003926FB060_9700_47QTCA26D003X_4732"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: Federal supply schedule contract",
+       "id": "usaspending:CONT_IDV_47QTCA26D003X_4732",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_47QTCA26D003X_4732"
+      },
+      {
+       "text": "48 of Saronic's 210 open roles are on the factory floor",
+       "id": "jobs-production:saronic:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/saronic"
+      },
+      {
+       "text": "Saronic is hiring for 10 roles at the Port Alpha shipyard (Brownsville, TX)",
+       "id": "jobs-site:saronic:Brownsville:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/saronic/62c77ff3-7e1f-420d-8ab5-db4f8f81bf0c"
+      },
+      {
+       "text": "Saronic is hiring for 39 roles at its Franklin, LA shipyard",
+       "id": "jobs-site:saronic:Franklin, LA:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/saronic/9c4ba841-ed4b-461a-a748-1126eb159b6c"
+      }
+     ]
+    },
+    {
+     "slug": "saildrone",
+     "name": "Saildrone",
+     "portfolio": false,
+     "why": "60 federal prime awards ($72.5M) since 2015; the Coast Guard now buys maritime-domain-awareness coverage from its USV fleet ($15.6M Northeast and Great Lakes call order, Mar 2026).",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$42.6M in federal awards since 2020; largest: U.S. Coast Guard awarded Saildrone a $15.6M contract (2026-03-24)",
+       "id": "usaspending:CONT_AWD_70Z02326F75100002_7008_70Z02325A75100001_7008",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_70Z02326F75100002_7008_70Z02325A75100001_7008"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: Bpa is to provide maritime domain awareness for safety of life at sea in international and",
+       "id": "usaspending:CONT_IDV_70Z02325A75100001_7008",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_70Z02325A75100001_7008"
+      }
+     ]
+    },
+    {
+     "slug": "havocai",
+     "name": "HavocAI",
+     "portfolio": false,
+     "why": "Raised about $200M since 2024, most recently $100M (May 2026) with Lockheed Martin and SAIC investing, to build autonomous boats at volume.",
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$4.8M in federal awards since 2020; largest: Department of the Army awarded HavocAI a $2M contract (2026-03-09)",
+       "id": "usaspending:CONT_AWD_W5170126CA043_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W5170126CA043_9700_-NONE-_-NONE-"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "small-drones-and-loitering-munitions",
+   "name": "Small drones and loitering munitions",
+   "description": "Group 1-3 drones, FPV and attritable aircraft, and loitering munitions for reconnaissance and strike.",
+   "keywords": [
+    "sUAS",
+    "small UAS",
+    "FPV",
+    "quadcopter",
+    "VTOL",
+    "loitering munition",
+    "attritable",
+    "Blue UAS",
+    "Group 1",
+    "Group 2",
+    "Group 3",
+    "PBAS",
+    "Short Range Reconnaissance"
+   ],
+   "status": "owned",
+   "anti_fund_has": [
+    "Anduril",
+    "Aeon",
+    "Kela Systems"
+   ],
+   "companies": [
+    {
+     "slug": "anduril",
+     "name": "Anduril",
+     "portfolio": true,
+     "score": 13,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$2.5B in federal awards since 2020; largest: U.S. Customs and Border Protection awarded Anduril a $363M contract (2025-12-18)",
+       "id": "usaspending:CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014"
+      },
+      {
+       "text": "On 13 federal contract vehicle(s); latest: Multiple-award indefinite delivery indefinite quantity (IDIQ) for counter-unmanned aircraf",
+       "id": "usaspending:CONT_IDV_70RDA226D00000015_7001",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_70RDA226D00000015_7001"
+      },
+      {
+       "text": "478 of Anduril's 2,477 open roles are on the factory floor",
+       "id": "jobs-production:anduril:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/andurilindustries"
+      },
+      {
+       "text": "Anduril is hiring for 129 roles at Arsenal-1 (Ashville, OH)",
+       "id": "jobs-site:anduril:Ashville:2026-10-08",
+       "url": "https://boards.greenhouse.io/andurilindustries/jobs/5260621007?gh_jid=5260621007"
+      },
+      {
+       "text": "Anduril has 423 aircraft registered with the FAA. Most registered: Roadrunner (255), Barracuda 500 (28), Ghost (24), CPJ-100 (20). Newest registration: 2026-07-01.",
+       "id": "faa-fleet:anduril:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=ANDURIL+INDUSTRIES&sort_option=1&PageNo=1"
+      },
+      {
+       "text": "Physical site tracked from orbit: Anduril Arsenal-1",
+       "id": "site:arsenal-1",
+       "url": ""
+      }
+     ]
+    },
+    {
+     "slug": "shield-ai",
+     "name": "Shield AI",
+     "portfolio": false,
+     "why": "Shield AI Inc. has 407 FAA-registered aircraft (405 V-BATs and 2 X-BATs, newest Sept 29, 2026), the biggest fleet among these incumbents, plus $130M in federal prime awards led by Coast Guard V-BAT services.",
+     "score": 7,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$98.3M in federal awards since 2020; largest: Department of the Air Force awarded Shield AI a $16.4M contract (2020-07-27)",
+       "id": "usaspending:CONT_AWD_FA864920C0158_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864920C0158_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 5 federal contract vehicle(s); latest: Isr services boa",
+       "id": "usaspending:CONT_IDV_N0001926G1006_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_N0001926G1006_9700"
+      },
+      {
+       "text": "45 of Shield AI's 593 open roles are on the factory floor",
+       "id": "jobs-production:shield-ai:2026-10-08",
+       "url": "https://jobs.lever.co/shieldai"
+      },
+      {
+       "text": "Shield AI has 413 aircraft registered with the FAA. Most registered: V-Bat (411), X-Bat (2). Newest registration: 2026-09-29.",
+       "id": "faa-fleet:shield-ai:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=SHIELD+AI&sort_option=1&PageNo=1"
+      }
+     ]
+    },
+    {
+     "slug": "aerovironment",
+     "name": "AeroVironment (incl. BlueHalo)",
+     "portfolio": false,
+     "why": "Maker of Switchblade, Puma and Raven with $7.3B in federal prime awards across its entities and BlueHalo (now part of AV, maker of the Titan counter-drone system), including a $406.5M Army Switchblade production contract (2020).",
+     "score": 7,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$2.9B in federal awards since 2020; largest: Department of the Army awarded AeroVironment (incl. BlueHalo) a $406.5M contract (2020-04-30)",
+       "id": "usaspending:CONT_AWD_W31P4Q20C0024_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W31P4Q20C0024_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 19 federal contract vehicle(s); latest: This effort is focused on providing operational utility of these systems for use by depart",
+       "id": "usaspending:CONT_IDV_W912CH26DA073_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W912CH26DA073_9700"
+      },
+      {
+       "text": "AeroVironment (incl. BlueHalo) has 30 aircraft registered with the FAA. Most registered: Wildcat (9), JUMP 20 (9), HAWK30 (6), Wildcat Hover MULE (6). Newest registration: 2025-04-14.",
+       "id": "faa-fleet:aerovironment:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=AEROVIRONMENT&sort_option=1&PageNo=1"
+      }
+     ]
+    },
+    {
+     "slug": "skydio",
+     "name": "Skydio",
+     "portfolio": false,
+     "why": "176 federal prime awards since 2019 (136 since 2024) from many civil and defense buyers, e.g. X2D drones for Ukraine's border guard via the State Department (2022); the FAA lists it as maker of the X10, X2E and Skydio 2.",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$74.9M in federal awards since 2020; largest: Aar Government Services, Inc. subcontracted Skydio for $12.1M (2024-10-17)",
+       "id": "usaspending-sub:1000001015:2024-10-17",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM23F2525_1900_SAQMMA16D0136_1900"
+      },
+      {
+       "text": "On 5 federal contract vehicle(s); latest: In support of executive order 14307-unleashing american drone dominance, the army contract",
+       "id": "usaspending:CONT_IDV_W58RGZ26G0075_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W58RGZ26G0075_9700"
+      },
+      {
+       "text": "17 of Skydio's 153 open roles are on the factory floor",
+       "id": "jobs-production:skydio:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/skydio"
+      }
+     ]
+    },
+    {
+     "slug": "neros",
+     "name": "Neros",
+     "portfolio": false,
+     "why": "Holds an Army Purpose-Built Attritable System (PBAS) contract for small attritable drones; delivery order 1 was $17.5M (July 2026), and all 29 of its federal awards date from 2024 on.",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$18.7M in federal awards since 2020; largest: Department of the Army awarded Neros a $17.5M contract (2026-07-01)",
+       "id": "usaspending:CONT_AWD_W91CRB26FA251_9700_W91CRB26DA011_9700",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W91CRB26FA251_9700_W91CRB26DA011_9700"
+      },
+      {
+       "text": "On 3 federal contract vehicle(s); latest: Single-award, indefinite delivery, indefinite quantity (IDIQ) firm-fixed-price (FFP) contr",
+       "id": "usaspending:CONT_IDV_W91CRB26DA011_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W91CRB26DA011_9700"
+      },
+      {
+       "text": "17 of Neros's 107 open roles are on the factory floor",
+       "id": "jobs-production:neros:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/nerostechnologies"
+      }
+     ]
+    },
+    {
+     "slug": "red-cat",
+     "name": "Red Cat (Teal Drones)",
+     "portfolio": false,
+     "why": "Its Teal Black Widow beat Skydio to become the Army's Short Range Reconnaissance program of record (Nov 2024; about 5,880 systems planned over five years).",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$12.4M in federal awards since 2020; largest: Science Applications International Corporation subcontracted Red Cat (Teal Drones) for $11.2M (2025-07-24)",
+       "id": "usaspending-sub:P010290846:2025-07-24",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_47QFCA25F0009_4732_47QFCA22D0337_4732"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: In support of executive order 14307-unleashing american drone dominance, the army contract",
+       "id": "usaspending:CONT_IDV_W58RGZ26G0021_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W58RGZ26G0021_9700"
+      }
+     ]
+    },
+    {
+     "slug": "aeon",
+     "name": "Aeon",
+     "portfolio": true,
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "On 1 federal contract vehicle(s); latest: Fourth on-ramp for eglin wide agile acquisition contract (EWAAC) vehicle.",
+       "id": "usaspending:CONT_IDV_FA865625DB068_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_FA865625DB068_9700"
+      }
+     ]
+    },
+    {
+     "slug": "kela-systems",
+     "name": "Kela Systems",
+     "portfolio": true,
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    }
+   ]
+  },
+  {
+   "slug": "counter-drone-and-air-defense",
+   "name": "Counter-drone and air defense",
+   "description": "Sensing, jamming and killing drones and missiles: radars, electronic warfare, high-power microwave, lasers and interceptors.",
+   "keywords": [
+    "C-UAS",
+    "counter-UAS",
+    "C-sUAS",
+    "counter-drone",
+    "high-power microwave",
+    "directed energy",
+    "laser weapon",
+    "interceptor",
+    "air defense",
+    "electronic warfare",
+    "jammer",
+    "radar"
+   ],
+   "status": "owned",
+   "anti_fund_has": [
+    "Anduril",
+    "Kela Systems"
+   ],
+   "companies": [
+    {
+     "slug": "anduril",
+     "name": "Anduril",
+     "portfolio": true,
+     "score": 13,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$2.5B in federal awards since 2020; largest: U.S. Customs and Border Protection awarded Anduril a $363M contract (2025-12-18)",
+       "id": "usaspending:CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014"
+      },
+      {
+       "text": "On 13 federal contract vehicle(s); latest: Multiple-award indefinite delivery indefinite quantity (IDIQ) for counter-unmanned aircraf",
+       "id": "usaspending:CONT_IDV_70RDA226D00000015_7001",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_70RDA226D00000015_7001"
+      },
+      {
+       "text": "478 of Anduril's 2,477 open roles are on the factory floor",
+       "id": "jobs-production:anduril:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/andurilindustries"
+      },
+      {
+       "text": "Anduril is hiring for 129 roles at Arsenal-1 (Ashville, OH)",
+       "id": "jobs-site:anduril:Ashville:2026-10-08",
+       "url": "https://boards.greenhouse.io/andurilindustries/jobs/5260621007?gh_jid=5260621007"
+      },
+      {
+       "text": "Anduril has 423 aircraft registered with the FAA. Most registered: Roadrunner (255), Barracuda 500 (28), Ghost (24), CPJ-100 (20). Newest registration: 2026-07-01.",
+       "id": "faa-fleet:anduril:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=ANDURIL+INDUSTRIES&sort_option=1&PageNo=1"
+      },
+      {
+       "text": "Physical site tracked from orbit: Anduril Arsenal-1",
+       "id": "site:arsenal-1",
+       "url": ""
+      }
+     ]
+    },
+    {
+     "slug": "aerovironment",
+     "name": "AeroVironment (incl. BlueHalo)",
+     "portfolio": false,
+     "why": "Maker of Switchblade, Puma and Raven with $7.3B in federal prime awards across its entities and BlueHalo (now part of AV, maker of the Titan counter-drone system), including a $406.5M Army Switchblade production contract (2020).",
+     "score": 7,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$2.9B in federal awards since 2020; largest: Department of the Army awarded AeroVironment (incl. BlueHalo) a $406.5M contract (2020-04-30)",
+       "id": "usaspending:CONT_AWD_W31P4Q20C0024_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W31P4Q20C0024_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 19 federal contract vehicle(s); latest: This effort is focused on providing operational utility of these systems for use by depart",
+       "id": "usaspending:CONT_IDV_W912CH26DA073_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W912CH26DA073_9700"
+      },
+      {
+       "text": "AeroVironment (incl. BlueHalo) has 30 aircraft registered with the FAA. Most registered: Wildcat (9), JUMP 20 (9), HAWK30 (6), Wildcat Hover MULE (6). Newest registration: 2025-04-14.",
+       "id": "faa-fleet:aerovironment:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=AEROVIRONMENT&sort_option=1&PageNo=1"
+      }
+     ]
+    },
+    {
+     "slug": "src-inc",
+     "name": "SRC, Inc.",
+     "portfolio": false,
+     "why": "Radar and electronic-warfare house with $5.5B in federal prime awards under its UEIs (incl. manufacturing arm SRCTec); 26 award descriptions mention C-UAS, and it built the Army's DUKE V2 counter-IED jammers ($319.6M, 2009).",
+     "score": 6,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$1.2B in federal awards since 2020; largest: Department of the Army awarded SRC, Inc. a $105.9M contract (2023-01-31)",
+       "id": "usaspending:CONT_AWD_W56KGY23F0011_9700_W56KGY23D0002_9700",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W56KGY23F0011_9700_W56KGY23D0002_9700"
+      },
+      {
+       "text": "On 7 federal contract vehicle(s); latest: This contract supports chamber tests, feasibility study, operational evaluations, and deli",
+       "id": "usaspending:CONT_IDV_W56KGY26D0009_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W56KGY26D0009_9700"
+      },
+      {
+       "text": "SRC, Inc. has 2 aircraft registered with the FAA. Most registered: Beech A36TC (1), Cruce Andrew C Evolution (1). Newest registration: 2022-07-29.",
+       "id": "faa-fleet:src-inc:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=SRC&sort_option=1&PageNo=1"
+      }
+     ]
+    },
+    {
+     "slug": "droneshield",
+     "name": "DroneShield",
+     "portfolio": false,
+     "why": "ASX-listed counter-drone maker; its US arm won a $13.8M Army C-sUAS award to equip four fixed-site zones (June 2026), part of $17.3M in US federal awards since 2024.",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$21.1M in federal awards since 2020; largest: Department of the Army awarded DroneShield a $13.8M contract (2026-06-01)",
+       "id": "usaspending:CONT_AWD_W912CH26CA023_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W912CH26CA023_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 1 federal contract vehicle(s); latest: The contractor shall provide all necessary materials, labor, equipment and facilities inci",
+       "id": "usaspending:CONT_IDV_HQ085926DG455_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DG455_9700"
+      },
+      {
+       "text": "1 of DroneShield's 37 open roles are on the factory floor",
+       "id": "jobs-production:droneshield:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/droneshield"
+      }
+     ]
+    },
+    {
+     "slug": "epirus",
+     "name": "Epirus",
+     "portfolio": false,
+     "why": "Its Leonidas high-power microwave is the base of the Army's IFPC-HPM counter-swarm system: $66.1M for four prototypes, then a $43.5M Gen II order (July 2025); raised a $250M Series D in 2025.",
+     "score": 2,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "On 1 federal contract vehicle(s); latest: The contractor shall provide all necessary materials, labor, equipment and facilities inci",
+       "id": "usaspending:CONT_IDV_HQ085926DF198_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DF198_9700"
+      },
+      {
+       "text": "8 of Epirus's 42 open roles are on the factory floor",
+       "id": "jobs-production:epirus:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/epirus"
+      }
+     ]
+    },
+    {
+     "slug": "kela-systems",
+     "name": "Kela Systems",
+     "portfolio": true,
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    }
+   ]
+  },
+  {
+   "slug": "autonomous-ground-vehicles",
+   "name": "Autonomous ground vehicles",
+   "description": "Uncrewed and optionally crewed ground vehicles and the autonomy kits that drive them, military and off-road.",
+   "keywords": [
+    "UGV",
+    "uncrewed ground vehicle",
+    "robotic combat vehicle",
+    "RCV",
+    "leader-follower",
+    "autonomy kit",
+    "off-road autonomy",
+    "SMET",
+    "autonomous truck",
+    "breaching"
+   ],
+   "status": "open",
+   "anti_fund_has": [],
+   "companies": [
+    {
+     "slug": "applied-intuition",
+     "name": "Applied Intuition",
+     "portfolio": false,
+     "why": "Valued at $15B by its own account; sells vehicle autonomy to defense as well as automotive, trucking, construction and mining customers, with Air Force, Army and Missile Defense Agency software awards.",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$31.5M in federal awards since 2020; largest: General Dynamics Land Systems Inc. subcontracted Applied Intuition for $20M (2024-01-02)",
+       "id": "usaspending-sub:40437186:2024-01-02",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W56HZV23C0025_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 1 federal contract vehicle(s); latest: The contractor shall perform the work specified in section c of this scalable homeland inn",
+       "id": "usaspending:CONT_IDV_HQ085926DE941_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DE941_9700"
+      },
+      {
+       "text": "2 of Applied Intuition's 320 open roles are on the factory floor",
+       "id": "jobs-production:applied-intuition:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/applied"
+      }
+     ]
+    },
+    {
+     "slug": "forterra",
+     "name": "Forterra",
+     "portfolio": false,
+     "why": "The renamed Robotic Research (Apr 2024): its autonomy drives Oshkosh vehicles in the Marine Corps' ROGUE-Fires ($92M Block 2 production order with Oshkosh, 2026), and it has 87 federal prime awards ($68.6M) under its old name.",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$58.1M in federal awards since 2020; largest: Oshkosh Defense, Llc subcontracted Forterra for $5.2M (2026-04-14)",
+       "id": "usaspending-sub:27989697:2026-04-14",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_M6785423F1005_9700_M6785422D1002_9700"
+      },
+      {
+       "text": "On 1 federal contract vehicle(s); latest: The contractor shall provide all necessary materials, labor, equipment and facilities inci",
+       "id": "usaspending:CONT_IDV_HQ085926DF450_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DF450_9700"
+      }
+     ]
+    },
+    {
+     "slug": "overland-ai",
+     "name": "Overland AI",
+     "portfolio": false,
+     "why": "Repeat off-road autonomy contractor: 9 Army, Navy and Marine Corps awards ($11.4M) since 2023, the latest an Army SBIR Phase II (Mar 2026).",
+     "score": 2,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$25.8M in federal awards since 2020; largest: The University Of Washington Vice Pr subcontracted Overland AI for $4.4M (2024-12-12)",
+       "id": "usaspending-sub:UWSC15007:2024-12-12",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_HR001123C0150_9700_-NONE-_-NONE-"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "low-cost-munitions-and-missiles",
+   "name": "Low-cost munitions and missiles",
+   "description": "Affordable cruise missiles, hypersonics and guided munitions, plus the solid rocket motors and energetics behind them.",
+   "keywords": [
+    "cruise missile",
+    "hypersonic",
+    "long-range strike",
+    "solid rocket motor",
+    "SRM",
+    "energetics",
+    "precision guided munition",
+    "anti-tank missile",
+    "affordable mass",
+    "munition"
+   ],
+   "status": "owned",
+   "anti_fund_has": [
+    "Anduril",
+    "Aeon"
+   ],
+   "companies": [
+    {
+     "slug": "anduril",
+     "name": "Anduril",
+     "portfolio": true,
+     "score": 13,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$2.5B in federal awards since 2020; largest: U.S. Customs and Border Protection awarded Anduril a $363M contract (2025-12-18)",
+       "id": "usaspending:CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014"
+      },
+      {
+       "text": "On 13 federal contract vehicle(s); latest: Multiple-award indefinite delivery indefinite quantity (IDIQ) for counter-unmanned aircraf",
+       "id": "usaspending:CONT_IDV_70RDA226D00000015_7001",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_70RDA226D00000015_7001"
+      },
+      {
+       "text": "478 of Anduril's 2,477 open roles are on the factory floor",
+       "id": "jobs-production:anduril:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/andurilindustries"
+      },
+      {
+       "text": "Anduril is hiring for 129 roles at Arsenal-1 (Ashville, OH)",
+       "id": "jobs-site:anduril:Ashville:2026-10-08",
+       "url": "https://boards.greenhouse.io/andurilindustries/jobs/5260621007?gh_jid=5260621007"
+      },
+      {
+       "text": "Anduril has 423 aircraft registered with the FAA. Most registered: Roadrunner (255), Barracuda 500 (28), Ghost (24), CPJ-100 (20). Newest registration: 2026-07-01.",
+       "id": "faa-fleet:anduril:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=ANDURIL+INDUSTRIES&sort_option=1&PageNo=1"
+      },
+      {
+       "text": "Physical site tracked from orbit: Anduril Arsenal-1",
+       "id": "site:arsenal-1",
+       "url": ""
+      }
+     ]
+    },
+    {
+     "slug": "castelion",
+     "name": "Castelion",
+     "portfolio": false,
+     "why": "$261M in federal awards since 2023 for low-cost long-range strike weapons, led by a $155M Navy order (Feb 2026) and a $55.8M Air Force award (2024).",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$259.4M in federal awards since 2020; largest: Department of the Navy awarded Castelion a $155M contract (2026-02-25)",
+       "id": "usaspending:CONT_AWD_N6833526F1022_9700_N6833526G0006_9700",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_N6833526F1022_9700_N6833526G0006_9700"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: SBIR phase iii boa",
+       "id": "usaspending:CONT_IDV_N6833526G0006_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_N6833526G0006_9700"
+      }
+     ]
+    },
+    {
+     "slug": "x-bow",
+     "name": "X-Bow Systems",
+     "portfolio": false,
+     "why": "Solid-rocket-motor maker with $182M in Air Force and Army awards, led by a $129.5M 'Advanced Integrated Motor Manufacturing' contract (Sept 2025).",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$266.5M in federal awards since 2020; largest: Department of the Air Force awarded X-Bow Systems a $129.5M contract (2025-09-25)",
+       "id": "usaspending:CONT_AWD_FA930025C6015_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA930025C6015_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 1 federal contract vehicle(s); latest: The contractor shall provide all necessary materials, labor, equipment and facilities inci",
+       "id": "usaspending:CONT_IDV_HQ085926DE717_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DE717_9700"
+      }
+     ]
+    },
+    {
+     "slug": "ursa-major",
+     "name": "Ursa Major",
+     "portfolio": false,
+     "why": "Rocket-engine and motor maker for hypersonics, missiles and launch: 16 federal awards ($43.5M), including a $20M Air Force storable hypersonic engine contract (May 2025).",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$39.8M in federal awards since 2020; largest: Department of the Air Force awarded Ursa Major a $20M contract (2025-05-01)",
+       "id": "usaspending:CONT_AWD_FA930025C6011_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA930025C6011_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: The contractor shall provide all necessary materials, labor, equipment and facilities inci",
+       "id": "usaspending:CONT_IDV_HQ085926DF681_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DF681_9700"
+      },
+      {
+       "text": "21 of Ursa Major's 111 open roles are on the factory floor",
+       "id": "jobs-production:ursa-major:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/ursamajor"
+      }
+     ]
+    },
+    {
+     "slug": "zone-5",
+     "name": "Zone 5 Technologies",
+     "portfolio": false,
+     "why": "19 Air Force and SOCOM awards ($29.4M), from AFRL's Golden Horde networked-weapons work (2021) to an SBIR Phase III called Rusty Dagger (June 2026).",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$38.1M in federal awards since 2020; largest: General Dynamics Global Force, Llc subcontracted Zone 5 Technologies for $7.9M (2025-03-27)",
+       "id": "usaspending-sub:GDIT-69872:2025-03-27",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W15P7T25F0038_9700_W15P7T17D0148_9700"
+      },
+      {
+       "text": "On 3 federal contract vehicle(s); latest: Master blanket purchase agreement for blue list compliant unmanned aircraft systems and pa",
+       "id": "usaspending:CONT_IDV_W911S225AA093_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W911S225AA093_9700"
+      },
+      {
+       "text": "4 of Zone 5 Technologies's 77 open roles are on the factory floor",
+       "id": "jobs-production:zone-5:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/zone5technologies"
+      }
+     ]
+    },
+    {
+     "slug": "aeon",
+     "name": "Aeon",
+     "portfolio": true,
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "On 1 federal contract vehicle(s); latest: Fourth on-ramp for eglin wide agile acquisition contract (EWAAC) vehicle.",
+       "id": "usaspending:CONT_IDV_FA865625DB068_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_FA865625DB068_9700"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "defense-manufacturing",
+   "name": "Defense manufacturing",
+   "description": "Automated factories, additive manufacturing and expeditionary production that make parts and systems for the primes and the services.",
+   "keywords": [
+    "CNC",
+    "precision machining",
+    "additive manufacturing",
+    "3D printing",
+    "automated factory",
+    "sheet forming",
+    "expeditionary manufacturing",
+    "missile airframe",
+    "industrial base",
+    "shipbuilding"
+   ],
+   "status": "owned",
+   "anti_fund_has": [
+    "Anduril",
+    "Saronic"
+   ],
+   "companies": [
+    {
+     "slug": "anduril",
+     "name": "Anduril",
+     "portfolio": true,
+     "score": 13,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$2.5B in federal awards since 2020; largest: U.S. Customs and Border Protection awarded Anduril a $363M contract (2025-12-18)",
+       "id": "usaspending:CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014"
+      },
+      {
+       "text": "On 13 federal contract vehicle(s); latest: Multiple-award indefinite delivery indefinite quantity (IDIQ) for counter-unmanned aircraf",
+       "id": "usaspending:CONT_IDV_70RDA226D00000015_7001",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_70RDA226D00000015_7001"
+      },
+      {
+       "text": "478 of Anduril's 2,477 open roles are on the factory floor",
+       "id": "jobs-production:anduril:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/andurilindustries"
+      },
+      {
+       "text": "Anduril is hiring for 129 roles at Arsenal-1 (Ashville, OH)",
+       "id": "jobs-site:anduril:Ashville:2026-10-08",
+       "url": "https://boards.greenhouse.io/andurilindustries/jobs/5260621007?gh_jid=5260621007"
+      },
+      {
+       "text": "Anduril has 423 aircraft registered with the FAA. Most registered: Roadrunner (255), Barracuda 500 (28), Ghost (24), CPJ-100 (20). Newest registration: 2026-07-01.",
+       "id": "faa-fleet:anduril:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=ANDURIL+INDUSTRIES&sort_option=1&PageNo=1"
+      },
+      {
+       "text": "Physical site tracked from orbit: Anduril Arsenal-1",
+       "id": "site:arsenal-1",
+       "url": ""
+      }
+     ]
+    },
+    {
+     "slug": "saronic",
+     "name": "Saronic",
+     "portfolio": true,
+     "score": 5,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$31.5M in federal awards since 2020; largest: Department of the Navy awarded Saronic a $29M contract (2026-07-01)",
+       "id": "usaspending:CONT_AWD_N0003926FB060_9700_47QTCA26D003X_4732",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_N0003926FB060_9700_47QTCA26D003X_4732"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: Federal supply schedule contract",
+       "id": "usaspending:CONT_IDV_47QTCA26D003X_4732",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_47QTCA26D003X_4732"
+      },
+      {
+       "text": "48 of Saronic's 210 open roles are on the factory floor",
+       "id": "jobs-production:saronic:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/saronic"
+      },
+      {
+       "text": "Saronic is hiring for 10 roles at the Port Alpha shipyard (Brownsville, TX)",
+       "id": "jobs-site:saronic:Brownsville:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/saronic/62c77ff3-7e1f-420d-8ab5-db4f8f81bf0c"
+      },
+      {
+       "text": "Saronic is hiring for 39 roles at its Franklin, LA shipyard",
+       "id": "jobs-site:saronic:Franklin, LA:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/saronic/9c4ba841-ed4b-461a-a748-1126eb159b6c"
+      }
+     ]
+    },
+    {
+     "slug": "hadrian",
+     "name": "Hadrian",
+     "portfolio": false,
+     "why": "Builds automated precision-machining factories (hiring in Los Angeles, Mesa AZ and Cherokee AL) and won a $39.2M Army award (Mar 2026).",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$39.3M in federal awards since 2020; largest: Department of the Army awarded Hadrian a $39.2M contract (2026-03-17)",
+       "id": "usaspending:CONT_AWD_W911RQ26CA011_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W911RQ26CA011_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "43 of Hadrian's 139 open roles are on the factory floor",
+       "id": "jobs-production:hadrian:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/hadrian-automation"
+      }
+     ]
+    },
+    {
+     "slug": "firestorm",
+     "name": "Firestorm Labs",
+     "portfolio": false,
+     "why": "The Air Force bought its container-sized xCell drone factory ($18.8M, Oct 2025); $53.8M in federal awards since 2023, 34 FAA-registered Tempest drones and a $47M Series A (2025).",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$51.2M in federal awards since 2020; largest: Department of the Air Force awarded Firestorm Labs a $18.8M contract (2025-10-22)",
+       "id": "usaspending:CONT_AWD_FA862926CB001_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA862926CB001_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: Seaport-nxg",
+       "id": "usaspending:CONT_IDV_N0017825D7352_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_N0017825D7352_9700"
+      },
+      {
+       "text": "Firestorm Labs has 34 aircraft registered with the FAA. Most registered: Tempest BETA 2 (31), Tempest BETA 2 Turbo (3). Newest registration: 2026-04-17.",
+       "id": "faa-fleet:firestorm:2026-10-08",
+       "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=FIRESTORM+LABS&sort_option=1&PageNo=1"
+      }
+     ]
+    },
+    {
+     "slug": "divergent",
+     "name": "Divergent",
+     "portfolio": false,
+     "why": "Additive-manufacturing supplier to defense primes, valued at $2.3B after a $290M Series E (Sept 2025), and opening a Long Beach factory for missile airframes.",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$4M in federal awards since 2020; largest: Department of the Air Force awarded Divergent a $1.8M contract (2025-09-02)",
+       "id": "usaspending:CONT_AWD_FA864925P0489_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864925P0489_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "53 of Divergent's 126 open roles are on the factory floor",
+       "id": "jobs-production:divergent:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/divergent"
+      }
+     ]
+    },
+    {
+     "slug": "machina-labs",
+     "name": "Machina Labs",
+     "portfolio": false,
+     "why": "Robotic sheet-metal forming for the Air Force and NASA: 13 federal awards ($12.8M) since 2020, including Air Force incremental sheet forming (Feb 2025).",
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$7.1M in federal awards since 2020; largest: Department of the Air Force awarded Machina Labs a $3.4M contract (2025-02-28)",
+       "id": "usaspending:CONT_AWD_FA868425CB003_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA868425CB003_9700_-NONE-_-NONE-"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "drone-and-robot-components",
+   "name": "Drone and robot components",
+   "description": "Motors, actuators, magnets, batteries, flight computers and sensors that go inside drones and robots.",
+   "keywords": [
+    "brushless motor",
+    "actuator",
+    "rare earth magnet",
+    "NdFeB",
+    "NdPr",
+    "battery cell",
+    "flight controller",
+    "autopilot",
+    "perception module",
+    "lidar",
+    "NDAA-compliant",
+    "Blue UAS framework"
+   ],
+   "status": "open",
+   "anti_fund_has": [
+    "Westmag",
+    "Efference"
+   ],
+   "companies": [
+    {
+     "slug": "vulcan-elements",
+     "name": "Vulcan Elements",
+     "portfolio": false,
+     "why": "Lined up a $620M Pentagon Office of Strategic Capital loan plus $50M from Commerce (Nov 2025) for a 10,000-tonne rare-earth magnet plant; holds an NdFeB magnet IDIQ (June 2026).",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$5.7M in federal awards since 2020; largest: Department of the Air Force awarded Vulcan Elements a $3.1M contract (2024-09-10)",
+       "id": "usaspending:CONT_AWD_FA864924P1013_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA864924P1013_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 1 federal contract vehicle(s); latest: Domestic neodymium iron boron (NDFEB), rare earth magnets indefinite delivery indefinite q",
+       "id": "usaspending:CONT_IDV_W51AA126DA038_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W51AA126DA038_9700"
+      },
+      {
+       "text": "14 of Vulcan Elements's 58 open roles are on the factory floor",
+       "id": "jobs-production:vulcan-elements:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/vulcanelements"
+      }
+     ]
+    },
+    {
+     "slug": "mp-materials",
+     "name": "MP Materials",
+     "portfolio": false,
+     "why": "The Pentagon became its largest shareholder ($400M preferred, July 2025), guarantees a $110/kg NdPr price floor, and has first call on every magnet from its planned 10X plant in Texas.",
+     "score": 2,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$11M in federal awards since 2020; largest: Defense Logistics Agency awarded MP Materials a $11M contract (2024-07-31)",
+       "id": "usaspending:CONT_AWD_SP800024C0007_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_SP800024C0007_9700_-NONE-_-NONE-"
+      }
+     ]
+    },
+    {
+     "slug": "modalai",
+     "name": "ModalAI",
+     "portfolio": false,
+     "why": "US drone flight-computer and autonomy maker ('Open Autonomy for America's Drones'): 9 Army and Navy awards ($6.4M) since 2024, including two Army SBIR Phase IIs.",
+     "score": 2,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$7.1M in federal awards since 2020; largest: Department of the Army awarded ModalAI a $2M contract (2025-08-15)",
+       "id": "usaspending:CONT_AWD_W5170125CA267_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W5170125CA267_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: In support of executive order (EO) 14307 - unleashing american drone dominance and our sha",
+       "id": "usaspending:CONT_IDV_W58RGZ26G0012_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_W58RGZ26G0012_9700"
+      }
+     ]
+    },
+    {
+     "slug": "westmag",
+     "name": "Westmag",
+     "portfolio": true,
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "6 of Westmag's 16 open roles are on the factory floor",
+       "id": "jobs-production:westmag:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/westmag"
+      }
+     ]
+    },
+    {
+     "slug": "unusual-machines",
+     "name": "Unusual Machines",
+     "portfolio": false,
+     "why": "NYSE American-listed (UMAC) drone-parts maker that leased a 17,000 sq ft drone-motor factory in Orlando (June 2025) and has since started US motor production.",
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "8 of Unusual Machines's 24 open roles are on the factory floor",
+       "id": "jobs-production:unusual-machines:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/unusualmachines"
+      }
+     ]
+    },
+    {
+     "slug": "efference",
+     "name": "Efference",
+     "portfolio": true,
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    }
+   ]
+  },
+  {
+   "slug": "nuclear-fuel-and-enrichment",
+   "name": "Nuclear fuel and enrichment",
+   "description": "Uranium enrichment (LEU and HALEU), deconversion, fuel fabrication such as TRISO, and recycling.",
+   "keywords": [
+    "enrichment",
+    "HALEU",
+    "LEU",
+    "UF6",
+    "centrifuge",
+    "laser enrichment",
+    "TRISO",
+    "fuel fabrication",
+    "deconversion",
+    "reprocessing",
+    "Part 70 license"
+   ],
+   "status": "owned",
+   "anti_fund_has": [
+    "General Matter"
+   ],
+   "companies": [
+    {
+     "slug": "general-matter",
+     "name": "General Matter",
+     "portfolio": true,
+     "score": 9,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$900.4M in federal awards since 2020; largest: Department of Energy awarded General Matter a $900M contract (2026-03-04)",
+       "id": "usaspending:CONT_AWD_89243226FNE400213_8900_89243225DNE000023_8900",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_89243226FNE400213_8900_89243225DNE000023_8900"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: LEU enrichment master IDIQ (general matter)",
+       "id": "usaspending:CONT_IDV_89243225DNE000027_8900",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_89243225DNE000027_8900"
+      },
+      {
+       "text": "19 of General Matter's 128 open roles are on the factory floor",
+       "id": "jobs-production:general-matter:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/generalmatter"
+      },
+      {
+       "text": "General Matter is hiring for 17 roles at the Paducah enrichment site",
+       "id": "jobs-site:general-matter:Paducah:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/generalmatter/jobs/5410207008"
+      },
+      {
+       "text": "Applied for an NRC license: GEM-LIC-2026-040 GeM Paducah Enrichment Facility-Initial License Application. (2026-09-27)",
+       "id": "nrc:ML26273A147",
+       "url": "https://www.nrc.gov/docs/ML2627/ML26273A147.pdf"
+      },
+      {
+       "text": "Physical site tracked from orbit: General Matter, Paducah enrichment site (Leasing Parcel A)",
+       "id": "site:general-matter-paducah",
+       "url": ""
+      }
+     ]
+    },
+    {
+     "slug": "centrus",
+     "name": "Centrus Energy",
+     "portfolio": false,
+     "why": "Its American Centrifuge Operating subsidiary holds $1.41B in DOE awards, including a $900M HALEU enrichment task order (July 2026), and runs the Piketon, OH centrifuge plant licensed under NRC docket 70-7004.",
+     "score": 9,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$1.2B in federal awards since 2020; largest: Department of Energy awarded Centrus Energy a $900M contract (2026-07-01)",
+       "id": "usaspending:CONT_AWD_89243226FNE400212_8900_89243225DNE000022_8900",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_89243226FNE400212_8900_89243225DNE000022_8900"
+      },
+      {
+       "text": "On 3 federal contract vehicle(s); latest: LEU enrichment master IDIQ (ACO)",
+       "id": "usaspending:CONT_IDV_89243225DNE000026_8900",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_89243225DNE000026_8900"
+      },
+      {
+       "text": "Holds NRC license SNM-2011; American Centrifuge Plant - Information Security Inspection Report 07007004/2026402 And Notice Of Violation (2026-09-23)",
+       "id": "nrc:ML26266A084",
+       "url": "https://www.nrc.gov/docs/ML2626/ML26266A084.pdf"
+      }
+     ]
+    },
+    {
+     "slug": "urenco-usa",
+     "name": "Urenco USA (Louisiana Energy Services)",
+     "portfolio": false,
+     "why": "Operates a licensed commercial enrichment plant in Eunice, NM (NRC docket 70-3103, 6,000+ filings, safety-analysis updates through Nov 2025) and holds a DOE HALEU enrichment IDIQ (Oct 2024).",
+     "score": 7,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$173.5M in federal awards since 2020; largest: Triad National Security, Llc subcontracted Urenco USA (Louisiana Energy Services) for $61.2M (2024-06-05)",
+       "id": "usaspending-sub:CW29727:2024-06-05",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_89233218CNA000001_8900_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: LEU enrichment master IDIQ (LES)",
+       "id": "usaspending:CONT_IDV_89243225DNE000029_8900",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_89243225DNE000029_8900"
+      },
+      {
+       "text": "Holds NRC license SNM-2010; Issuance of License Special Nuclear Material License Number SNM-2010, Amendment 79, Redacted for Public Use. (2018-05-18)",
+       "id": "nrc:ML18128A227",
+       "url": "https://www.nrc.gov/docs/ML1812/ML18128A227.pdf"
+      }
+     ]
+    },
+    {
+     "slug": "orano",
+     "name": "Orano (Orano Enrichment USA)",
+     "portfolio": false,
+     "why": "DOE gave Orano Federal Services a $900M LEU enrichment task order (Apr 2026), and Orano Enrichment USA's license application for an Oak Ridge, TN enrichment plant is under NRC review (docket 70-7038).",
+     "score": 6,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$911.8M in federal awards since 2020; largest: Department of Energy awarded Orano (Orano Enrichment USA) a $900M contract (2026-04-30)",
+       "id": "usaspending:CONT_AWD_89243226FNE400214_8900_89243225DNE000031_8900",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_89243226FNE400214_8900_89243225DNE000031_8900"
+      },
+      {
+       "text": "On 3 federal contract vehicle(s); latest: Low-enriched uranium (LEU) master IDIQ (ORANO)",
+       "id": "usaspending:CONT_IDV_89243225DNE000031_8900",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_89243225DNE000031_8900"
+      },
+      {
+       "text": "Applied for an NRC license: Orano Enrichment USA, Response to NRC License Application Audit Questions (2026-07-30)",
+       "id": "nrc:ML26211A220",
+       "url": "https://www.nrc.gov/docs/ML2621/ML26211A220.pdf"
+      }
+     ]
+    },
+    {
+     "slug": "x-energy",
+     "name": "X-energy",
+     "portfolio": false,
+     "why": "Holds a $921.7M DOE Advanced Reactor Demonstration cooperative agreement (2021) for its Xe-100, and the NRC published an environmental impact statement for its TRISO-X fuel plant in Oak Ridge (Feb 2026).",
+     "score": 6,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$921.7M in federal awards since 2020; largest: Department of Energy awarded X-energy a $921.7M grant (2021-02-02)",
+       "id": "usaspending:ASST_NON_DENE0009040_089",
+       "url": "https://www.usaspending.gov/award/ASST_NON_DENE0009040_089"
+      },
+      {
+       "text": "Holds an NRC permit; TRISO-X Application Approval and License Issuance - FRN (2026-03-12)",
+       "id": "nrc:ML26056A053",
+       "url": "https://www.nrc.gov/docs/ML2605/ML26056A053.pdf"
+      }
+     ]
+    },
+    {
+     "slug": "gle",
+     "name": "Global Laser Enrichment",
+     "portfolio": false,
+     "why": "Licensing a laser enrichment plant in Paducah, KY, General Matter's own town (NRC docket 70-7033, under review in 2026), with a $28.4M DOE front-end fuel award (June 2026) and a seat on DOE's LEU enrichment IDIQ.",
+     "score": 5,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$28.8M in federal awards since 2020; largest: Department of Energy awarded Global Laser Enrichment a $28.4M grant (2026-06-25)",
+       "id": "usaspending:ASST_NON_DENE0009559_089",
+       "url": "https://www.usaspending.gov/award/ASST_NON_DENE0009559_089"
+      },
+      {
+       "text": "On 1 federal contract vehicle(s); latest: LEU enrichment master IDIQ (global laser enrichment)",
+       "id": "usaspending:CONT_IDV_89243225DNE000028_8900",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_89243225DNE000028_8900"
+      },
+      {
+       "text": "Applied for an NRC license: Fee-Cap Email to Global Laser Enrichment Regarding the Paducah Laser Enrichment Facility License Application (2026-09-22)",
+       "id": "nrc:ML26265A220",
+       "url": "https://www.nrc.gov/docs/ML2626/ML26265A220.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "advanced-fission",
+   "name": "Advanced fission",
+   "description": "Small modular and micro reactors, from test reactors and pilot criticality to first commercial plants.",
+   "keywords": [
+    "SMR",
+    "microreactor",
+    "advanced reactor",
+    "construction permit",
+    "molten salt",
+    "sodium fast reactor",
+    "high-temperature gas reactor",
+    "criticality",
+    "Reactor Pilot Program",
+    "ARDP"
+   ],
+   "status": "owned",
+   "anti_fund_has": [],
+   "companies": [
+    {
+     "slug": "terrapower",
+     "name": "TerraPower",
+     "portfolio": false,
+     "why": "The NRC issued the construction permit for Kemmerer Unit 1, its Natrium plant in Wyoming (Mar 2026), and its project company US SFR Owner holds a $1.70B DOE ARDP cooperative agreement.",
+     "score": 9,
+     "tier": "entrenched",
+     "facts": [
+      {
+       "text": "$1.7B in federal awards since 2020; largest: Department of Energy awarded TerraPower a $1.7B grant (2021-05-03)",
+       "id": "usaspending:ASST_NON_DENE0009054_089",
+       "url": "https://www.usaspending.gov/award/ASST_NON_DENE0009054_089"
+      },
+      {
+       "text": "10 of TerraPower's 87 open roles are on the factory floor",
+       "id": "jobs-production:terrapower:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/terrapowerllc"
+      },
+      {
+       "text": "Holds an NRC permit; Honorable Jeffrey Stiffarm - Notice Of Issuance Of Construction Permit For Kemmerer Power Station Unit 1 Site  (2026-03-17)",
+       "id": "nrc:ML26084A116",
+       "url": "https://www.nrc.gov/docs/ML2608/ML26084A116.pdf"
+      }
+     ]
+    },
+    {
+     "slug": "x-energy",
+     "name": "X-energy",
+     "portfolio": false,
+     "why": "Holds a $921.7M DOE Advanced Reactor Demonstration cooperative agreement (2021) for its Xe-100, and the NRC published an environmental impact statement for its TRISO-X fuel plant in Oak Ridge (Feb 2026).",
+     "score": 6,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$921.7M in federal awards since 2020; largest: Department of Energy awarded X-energy a $921.7M grant (2021-02-02)",
+       "id": "usaspending:ASST_NON_DENE0009040_089",
+       "url": "https://www.usaspending.gov/award/ASST_NON_DENE0009040_089"
+      },
+      {
+       "text": "Holds an NRC permit; TRISO-X Application Approval and License Issuance - FRN (2026-03-12)",
+       "id": "nrc:ML26056A053",
+       "url": "https://www.nrc.gov/docs/ML2605/ML26056A053.pdf"
+      }
+     ]
+    },
+    {
+     "slug": "kairos-power",
+     "name": "Kairos Power",
+     "portfolio": false,
+     "why": "Holds NRC construction permits for the Hermes test reactor (Dec 2023) and two Hermes 2 units (Dec 2024) in Oak Ridge, TN; the NRC extended Hermes' construction deadline in 2026.",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "6 of Kairos Power's 35 open roles are on the factory floor",
+       "id": "jobs-production:kairos-power:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/kairospower"
+      },
+      {
+       "text": "Holds an NRC permit; Letter - Kairos Power LLC - Issuance of Construction Permits for the Hermes 2 Test Reactor Facility (2024-11-21)",
+       "id": "nrc:ML24324A020",
+       "url": "https://www.nrc.gov/docs/ML2432/ML24324A020.pdf"
+      }
+     ]
+    },
+    {
+     "slug": "oklo",
+     "name": "Oklo",
+     "portfolio": false,
+     "why": "Runs an active NRC licensing project for its Aurora powerhouse (plan updated Sept 2026) plus separate fuel-fabrication and fuel-recycling dockets, and is hiring in Idaho Falls.",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "10 of Oklo's 78 open roles are on the factory floor",
+       "id": "jobs-production:oklo:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/oklo"
+      },
+      {
+       "text": "Applied for an NRC license: Oklo Inc. - Transmittal of Presentation Slides and supporting information from the July 20, 2026, and July 29, (2026-08-19)",
+       "id": "nrc:ML26231A183",
+       "url": "https://www.nrc.gov/docs/ML2623/ML26231A183.pdf"
+      }
+     ]
+    },
+    {
+     "slug": "radiant",
+     "name": "Radiant",
+     "portfolio": false,
+     "why": "Building factory-made microreactors; its Part 70 license application (NRC docket 70-7045, Tennessee site) is under review with a fee cap set in Sept 2026, and it is hiring in El Segundo, Washington DC and Oak Ridge.",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "6 of Radiant's 99 open roles are on the factory floor",
+       "id": "jobs-production:radiant:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/radiant-industries"
+      },
+      {
+       "text": "Applied for an NRC license: NRC Fixed Fee Cap for Radiant's Part 70 License Application (2026-09-22)",
+       "id": "nrc:ML26271A226",
+       "url": "https://www.nrc.gov/docs/ML2627/ML26271A226.pdf"
+      }
+     ]
+    },
+    {
+     "slug": "valar-atomics",
+     "name": "Valar Atomics",
+     "portfolio": false,
+     "why": "Its Ward 250 reactor reached criticality in Utah under DOE's Reactor Pilot Program (June 2026); raised a $1B Series B led by Sequoia (Aug 2026); the NRC opened a pre-application project for it (Sept 2026).",
+     "score": 2,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "18 of Valar Atomics's 98 open roles are on the factory floor",
+       "id": "jobs-production:valar-atomics:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/valaratomics"
+      },
+      {
+       "text": "4 NRC filings since 2024; latest: Assignment of Project Number for Valar Atomics Inc - Preapplication Activities Related to Nuclear Re (2026-09-29)",
+       "id": "nrc:ML26271A241",
+       "url": "https://www.nrc.gov/docs/ML2627/ML26271A241.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "fusion",
+   "name": "Fusion",
+   "description": "Fusion power plants and the magnets, pulsed power and lasers they depend on.",
+   "keywords": [
+    "fusion",
+    "tokamak",
+    "stellarator",
+    "pulsed power",
+    "HTS magnet",
+    "inertial confinement",
+    "field-reversed configuration",
+    "tritium",
+    "plasma",
+    "net energy"
+   ],
+   "status": "open",
+   "anti_fund_has": [
+    "Helion"
+   ],
+   "companies": [
+    {
+     "slug": "helion",
+     "name": "Helion",
+     "portfolio": true,
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "12 of Helion's 69 open roles are on the factory floor",
+       "id": "jobs-production:helion:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/helion"
+      },
+      {
+       "text": "Physical site tracked from orbit: Helion Orion fusion plant",
+       "id": "site:helion-orion",
+       "url": ""
+      }
+     ]
+    },
+    {
+     "slug": "cfs",
+     "name": "Commonwealth Fusion Systems",
+     "portfolio": false,
+     "why": "Raised $863M in Aug 2025 (about $3B total, which it says is roughly a third of all private fusion capital) to finish SPARC in Devens, MA and build its first ARC plant in Chesterfield County, VA.",
+     "score": 2,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "44 of Commonwealth Fusion Systems's 119 open roles are on the factory floor",
+       "id": "jobs-production:cfs:2026-10-08",
+       "url": "https://jobs.lever.co/cfsenergy"
+      }
+     ]
+    },
+    {
+     "slug": "pacific-fusion",
+     "name": "Pacific Fusion",
+     "portfolio": false,
+     "why": "Launched with $900M of milestone-based Series A commitments (Oct 2024) and broke ground on a roughly $1B pulser research and manufacturing campus in Albuquerque, NM.",
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "6 of Pacific Fusion's 27 open roles are on the factory floor",
+       "id": "jobs-production:pacific-fusion:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/pacificfusion"
+      }
+     ]
+    },
+    {
+     "slug": "tae",
+     "name": "TAE Technologies",
+     "portfolio": false,
+     "why": "Agreed to an all-stock merger with Trump Media valued at over $6B (Dec 2025), which would make it a listed fusion company; closing was targeted for Q4 2026.",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    }
+   ]
+  },
+  {
+   "slug": "robot-foundation-models-and-humanoids",
+   "name": "Robot foundation models and humanoids",
+   "description": "General-purpose robot brains and the humanoid and mobile robots they run on.",
+   "keywords": [
+    "humanoid",
+    "robot foundation model",
+    "embodied AI",
+    "vision-language-action",
+    "VLA",
+    "manipulation",
+    "legged robot",
+    "bipedal",
+    "teleoperation data",
+    "physical AI"
+   ],
+   "status": "open",
+   "anti_fund_has": [
+    "Physical Intelligence",
+    "Efference",
+    "Enigma"
+   ],
+   "companies": [
+    {
+     "slug": "physical-intelligence",
+     "name": "Physical Intelligence",
+     "portfolio": true,
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "7 of Physical Intelligence's 37 open roles are on the factory floor",
+       "id": "jobs-production:physical-intelligence:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/physicalintelligence"
+      }
+     ]
+    },
+    {
+     "slug": "figure",
+     "name": "Figure",
+     "portfolio": false,
+     "why": "Valued at $39B after a $1B+ Series C (Sept 2025) to scale its Helix model and BotQ humanoid factory.",
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "16 of Figure's 92 open roles are on the factory floor",
+       "id": "jobs-production:figure:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/figureai"
+      }
+     ]
+    },
+    {
+     "slug": "agility-robotics",
+     "name": "Agility Robotics",
+     "portfolio": false,
+     "why": "Its Digit humanoids work in GXO, Schaeffler and Toyota facilities, and it agreed to go public through Churchill Capital Corp XI at a $2.5B valuation (June 2026).",
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "6 of Agility Robotics's 77 open roles are on the factory floor",
+       "id": "jobs-production:agility-robotics:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/agilityrobotics"
+      }
+     ]
+    },
+    {
+     "slug": "boston-dynamics",
+     "name": "Boston Dynamics",
+     "portfolio": false,
+     "why": "The legged-robot incumbent: 63 federal awards ($153M) going back to DARPA's LS3 robot mule ($56.7M, 2009) and the Atlas humanoids built for the DARPA Robotics Challenge (2012).",
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$6.9M in federal awards since 2020; largest: Department of the Army awarded Boston Dynamics a $4.4M contract (2025-02-27)",
+       "id": "usaspending:CONT_AWD_W91CRB25C0002_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_W91CRB25C0002_9700_-NONE-_-NONE-"
+      }
+     ]
+    },
+    {
+     "slug": "efference",
+     "name": "Efference",
+     "portfolio": true,
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "enigma",
+     "name": "Enigma",
+     "portfolio": true,
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "skild-ai",
+     "name": "Skild AI",
+     "portfolio": false,
+     "why": "Raised about $1.4B at a $14B+ valuation (Jan 2026; SoftBank-led, NVIDIA participating) for a general robot brain that runs across robot types.",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "apptronik",
+     "name": "Apptronik",
+     "portfolio": false,
+     "why": "Closed over $935M of Series A funding with a $520M extension (Feb 2026; Google, Mercedes-Benz and John Deere among backers) to scale its Apollo humanoid, after 14 Army and SOCOM awards ($12.3M).",
+     "score": 0,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "4 of Apptronik's 77 open roles are on the factory floor",
+       "id": "jobs-production:apptronik:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/apptronik"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ai-inference-chips",
+   "name": "AI inference chips",
+   "description": "Custom silicon and systems built to serve large AI models.",
+   "keywords": [
+    "ASIC",
+    "inference chip",
+    "AI accelerator",
+    "transformer ASIC",
+    "wafer-scale",
+    "LPU",
+    "RISC-V",
+    "tapeout",
+    "HBM",
+    "SRAM"
+   ],
+   "status": "open",
+   "anti_fund_has": [
+    "Etched"
+   ],
+   "companies": [
+    {
+     "slug": "cerebras",
+     "name": "Cerebras",
+     "portfolio": false,
+     "why": "Listed on Nasdaq (CBRS) in May 2026 in the year's largest US IPO (about $6.4B raised); also sells wafer-scale systems to DOE and the Army.",
+     "score": 2,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$4.3M in federal awards since 2020; largest: Department of Energy awarded Cerebras a $2.1M contract (2025-06-18)",
+       "id": "usaspending:CONT_AWD_89243325PFE000889_8900_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_89243325PFE000889_8900_-NONE-_-NONE-"
+      },
+      {
+       "text": "6 of Cerebras's 119 open roles are on the factory floor",
+       "id": "jobs-production:cerebras:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/cerebras"
+      }
+     ]
+    },
+    {
+     "slug": "etched",
+     "name": "Etched",
+     "portfolio": true,
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "11 of Etched's 109 open roles are on the factory floor",
+       "id": "jobs-production:etched:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/etched"
+      }
+     ]
+    },
+    {
+     "slug": "groq",
+     "name": "Groq",
+     "portfolio": false,
+     "why": "NVIDIA struck a reported ~$20B deal (Dec 2025) for a non-exclusive license to Groq's inference-chip technology and hired its founder; Groq stays independent and runs GroqCloud.",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "tenstorrent",
+     "name": "Tenstorrent",
+     "portfolio": false,
+     "why": "Raised about $700M at a ~$2.6B valuation (Dec 2024) from Samsung, LG, Fidelity and Bezos Expeditions; hiring for AI silicon in Santa Clara, Austin and Toronto.",
+     "score": 0,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "2 of Tenstorrent's 131 open roles are on the factory floor",
+       "id": "jobs-production:tenstorrent:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/tenstorrent"
+      }
+     ]
+    },
+    {
+     "slug": "matx",
+     "name": "MatX",
+     "portfolio": false,
+     "why": "Raised a $500M Series B (Feb 2026; Jane Street and Situational Awareness leading) to tape out its MatX One LLM chip.",
+     "score": 0,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "1 of MatX's 47 open roles are on the factory floor",
+       "id": "jobs-production:matx:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/matx"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "space-logistics-and-propulsion",
+   "name": "Space logistics and propulsion",
+   "description": "Launch, orbital transfer vehicles, lunar landers and in-space propulsion.",
+   "keywords": [
+    "launch vehicle",
+    "orbital transfer vehicle",
+    "OTV",
+    "space tug",
+    "in-space propulsion",
+    "rocket engine",
+    "lunar lander",
+    "reusable rocket",
+    "NSSL",
+    "CLPS"
+   ],
+   "status": "contested",
+   "anti_fund_has": [
+    "General Galactic"
+   ],
+   "companies": [
+    {
+     "slug": "rocket-lab",
+     "name": "Rocket Lab",
+     "portfolio": false,
+     "why": "End-to-end launch and spacecraft company (556 open roles) with $101M in NASA and Space Force awards, including NASA VADR launches and an NSSL Phase 3 Lane 1 seat (2025).",
+     "score": 6,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$86.1M in federal awards since 2020; largest: National Aeronautics and Space Administration awarded Rocket Lab a $51.6M contract (2023-03-29)",
+       "id": "usaspending:CONT_AWD_80KSC023FA107_8000_80KSC022DA107_8000",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_80KSC023FA107_8000_80KSC022DA107_8000"
+      },
+      {
+       "text": "On 4 federal contract vehicle(s); latest: The contractor shall perform the work specified in section c of this scalable homeland inn",
+       "id": "usaspending:CONT_IDV_HQ085926DF472_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DF472_9700"
+      },
+      {
+       "text": "104 of Rocket Lab's 556 open roles are on the factory floor",
+       "id": "jobs-production:rocket-lab:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/rocketlab"
+      }
+     ]
+    },
+    {
+     "slug": "ursa-major",
+     "name": "Ursa Major",
+     "portfolio": false,
+     "why": "Rocket-engine and motor maker for hypersonics, missiles and launch: 16 federal awards ($43.5M), including a $20M Air Force storable hypersonic engine contract (May 2025).",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$39.8M in federal awards since 2020; largest: Department of the Air Force awarded Ursa Major a $20M contract (2025-05-01)",
+       "id": "usaspending:CONT_AWD_FA930025C6011_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA930025C6011_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: The contractor shall provide all necessary materials, labor, equipment and facilities inci",
+       "id": "usaspending:CONT_IDV_HQ085926DF681_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DF681_9700"
+      },
+      {
+       "text": "21 of Ursa Major's 111 open roles are on the factory floor",
+       "id": "jobs-production:ursa-major:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/ursamajor"
+      }
+     ]
+    },
+    {
+     "slug": "firefly",
+     "name": "Firefly Aerospace",
+     "portfolio": false,
+     "why": "NASA lunar-lander and launch contractor: $560M in federal awards, led by Commercial Lunar Payload Services task orders ($117.2M in 2024, $112.8M in 2023), plus Space Force TacRS launches.",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$551.6M in federal awards since 2020; largest: National Aeronautics and Space Administration awarded Firefly Aerospace a $117.2M contract (2024-12-18)",
+       "id": "usaspending:CONT_AWD_80JSC025F7026_8000_80HQTR19D0009_8000",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC025F7026_8000_80HQTR19D0009_8000"
+      },
+      {
+       "text": "On 2 federal contract vehicle(s); latest: Payload processing services for launch services program",
+       "id": "usaspending:CONT_IDV_80KSC026D0006_8000",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_80KSC026D0006_8000"
+      }
+     ]
+    },
+    {
+     "slug": "impulse-space",
+     "name": "Impulse Space",
+     "portfolio": false,
+     "why": "Orbital-transfer-vehicle maker with 13 Space Force and NASA awards ($63.8M, all since Dec 2023), including a $28.3M SBIR Phase III (2024) and NASA GDC Trailblazer work (Sept 2026).",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$63.8M in federal awards since 2020; largest: Department of the Air Force awarded Impulse Space a $28.3M contract (2024-10-04)",
+       "id": "usaspending:CONT_AWD_FA880925CB001_9700_-NONE-_-NONE-",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA880925CB001_9700_-NONE-_-NONE-"
+      },
+      {
+       "text": "On 3 federal contract vehicle(s); latest: Federal supply schedule contract",
+       "id": "usaspending:CONT_IDV_47QRAA26D009Q_4732",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_47QRAA26D009Q_4732"
+      }
+     ]
+    },
+    {
+     "slug": "stoke-space",
+     "name": "Stoke Space",
+     "portfolio": false,
+     "why": "Raised a $510M Series D (Oct 2025; about $990M total) to build its fully reusable Nova rocket and Cape Canaveral pad, and holds an NSSL Phase 3 Lane 1 seat (2025).",
+     "score": 3,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "$5.5M in federal awards since 2020; largest: Department of the Air Force awarded Stoke Space a $5M contract (2025-03-28)",
+       "id": "usaspending:CONT_AWD_FA881125FB006_9700_FA881125DB006_9700",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_FA881125FB006_9700_FA881125DB006_9700"
+      },
+      {
+       "text": "On 3 federal contract vehicle(s); latest: The contractor shall provide all necessary materials, labor, equipment and facilities inci",
+       "id": "usaspending:CONT_IDV_HQ085926DE799_9700",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DE799_9700"
+      },
+      {
+       "text": "14 of Stoke Space's 67 open roles are on the factory floor",
+       "id": "jobs-production:stoke-space:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/stokespacetechnologies"
+      }
+     ]
+    },
+    {
+     "slug": "general-galactic",
+     "name": "General Galactic",
+     "portfolio": true,
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    }
+   ]
+  },
+  {
+   "slug": "space-compute",
+   "name": "Space compute",
+   "description": "Data centers and compute hardware in orbit, with the power and links they need.",
+   "keywords": [
+    "orbital data center",
+    "space-based compute",
+    "in-orbit compute",
+    "on-orbit processing",
+    "space solar power",
+    "optical relay",
+    "radiation-tolerant GPU"
+   ],
+   "status": "contested",
+   "anti_fund_has": [
+    "Orbital"
+   ],
+   "companies": [
+    {
+     "slug": "axiom-space",
+     "name": "Axiom Space",
+     "portfolio": false,
+     "why": "NASA's commercial-station and Artemis spacesuit contractor ($695M in federal awards, incl. $414.5M for xEVAS) and the buyer of the first two on-orbit compute payloads on Kepler's optical relay network (Apr 2025).",
+     "score": 4,
+     "tier": "building",
+     "facts": [
+      {
+       "text": "$596M in federal awards since 2020; largest: National Aeronautics and Space Administration awarded Axiom Space a $414.5M contract (2022-09-08)",
+       "id": "usaspending:CONT_AWD_80JSC022FA103_8000_80JSC022DA022_8000",
+       "url": "https://www.usaspending.gov/award/CONT_AWD_80JSC022FA103_8000_80JSC022DA022_8000"
+      },
+      {
+       "text": "On 3 federal contract vehicle(s); latest: Private astronaut missions to the international space station, basic ordering agreement.",
+       "id": "usaspending:CONT_IDV_80JSC026G0003_8000",
+       "url": "https://www.usaspending.gov/award/CONT_IDV_80JSC026G0003_8000"
+      }
+     ]
+    },
+    {
+     "slug": "orbital",
+     "name": "Orbital",
+     "portfolio": true,
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "starcloud",
+     "name": "Starcloud",
+     "portfolio": false,
+     "why": "Flew the first NVIDIA H100 in orbit (Nov 2025), raised $250M at a $2.3B valuation (Aug 2026; $450M total), and is building a 100,000 sq ft satellite factory in Woodinville, WA.",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "cowboy-space",
+     "name": "Cowboy Space Corporation (formerly Aetherflux)",
+     "portfolio": false,
+     "why": "Raised a $275M Series B at a $2B valuation (May 2026, Index Ventures) for orbital data centers built into its own rocket upper stages; renamed from Aetherflux.",
+     "score": 0,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "3 of Cowboy Space Corporation (formerly Aetherflux)'s 76 open roles are on the factory floor",
+       "id": "jobs-production:cowboy-space:2026-10-08",
+       "url": "https://jobs.ashbyhq.com/cowboyspace"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "tunneling-and-infrastructure",
+   "name": "Tunneling and underground infrastructure",
+   "description": "Tunnel boring machines, tunnel contractors and new methods for cheap underground construction.",
+   "keywords": [
+    "tunnel boring machine",
+    "TBM",
+    "tunneling",
+    "microtunneling",
+    "underground construction",
+    "utility tunnel",
+    "transit tunnel",
+    "excavation"
+   ],
+   "status": "open",
+   "anti_fund_has": [
+    "The Boring Company"
+   ],
+   "companies": [
+    {
+     "slug": "the-boring-company",
+     "name": "The Boring Company",
+     "portfolio": true,
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "herrenknecht",
+     "name": "Herrenknecht",
+     "portfolio": false,
+     "why": "German TBM maker behind major US bores, e.g. the $76M custom machine for VTA's BART Silicon Valley extension, bought through Kiewit Shea Traylor.",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "robbins",
+     "name": "The Robbins Company",
+     "portfolio": false,
+     "why": "US hard-rock TBM maker since 1952 (Solon, OH) whose machines bore US jobs such as Indianapolis's DigIndy tunnels and a 2026 flood tunnel in Howard County, MD.",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "traylor-bros",
+     "name": "Traylor Bros.",
+     "portfolio": false,
+     "why": "Tunnel contractor in the joint ventures boring BART Silicon Valley (Kiewit Shea Traylor) and Seattle's Sound Transit U220 tunnel; its only federal prime awards are two USACE contracts ($42M, 2004-05).",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    }
+   ]
+  },
+  {
+   "slug": "brain-computer-interfaces",
+   "name": "Brain-computer interfaces",
+   "description": "Implanted and non-invasive neural interfaces that read from or write to the brain.",
+   "keywords": [
+    "brain-computer interface",
+    "BCI",
+    "neural interface",
+    "neurotech",
+    "electrode array",
+    "cortical implant",
+    "endovascular",
+    "ultrasound neuromodulation",
+    "neuroprosthetic"
+   ],
+   "status": "open",
+   "anti_fund_has": [
+    "Merge"
+   ],
+   "companies": [
+    {
+     "slug": "neuralink",
+     "name": "Neuralink",
+     "portfolio": false,
+     "why": "Raised a $650M Series E (June 2025) at about $9B pre-money, with trial implants in three countries and FDA breakthrough designations for speech and vision.",
+     "score": 1,
+     "tier": "early",
+     "facts": [
+      {
+       "text": "11 of Neuralink's 79 open roles are on the factory floor",
+       "id": "jobs-production:neuralink:2026-10-08",
+       "url": "https://job-boards.greenhouse.io/neuralink"
+      }
+     ]
+    },
+    {
+     "slug": "merge",
+     "name": "Merge",
+     "portfolio": true,
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "synchron",
+     "name": "Synchron",
+     "portfolio": false,
+     "why": "Raised a $200M Series D (Nov 2025; $345M total, valued near $1B) to run the pivotal trial of its catheter-delivered Stentrode BCI.",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "precision-neuroscience",
+     "name": "Precision Neuroscience",
+     "portfolio": false,
+     "why": "Holds FDA 510(k) clearance for its Layer 7 cortical interface (2025, implants up to 30 days) and later raised a $250M Series D valuing it at just over $1B.",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    },
+    {
+     "slug": "blackrock-neurotech",
+     "name": "Blackrock Neurotech",
+     "portfolio": false,
+     "why": "Long-time neural-interface hardware supplier: its operating company Blackrock Microsystems has 154 federal awards ($22.7M) since 2008, mostly NIH SBIR grants and VA purchases (latest June 2026).",
+     "score": 0,
+     "tier": "early",
+     "facts": []
+    }
+   ]
+  }
+ ]
+}

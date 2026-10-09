@@ -1,0 +1,21 @@
+.env
+.venv/
+__pycache__/
+.DS_Store
+node_modules/
+site/dist/
+.vercel/
+.claude/
+data/raw/
+data/private/
+# satellite source frames are large and rebuilt by gt/satellite.py; the site uses re-encoded copies in site/public/data
+data/frames/**/*.png
+# planning notes for the application; they quote private PitchBook results
+HANDOFF.md
+PLAN.md
+outline.md
+shadow-associate-brief.md
+.vercel
+# Saronic Port Alpha is not located yet; its search-area frames stay local (entry in data/private/unverified_sites.json)
+data/frames/saronic-port-alpha/
+research/feasibility/previews/saronic_port_alpha.png

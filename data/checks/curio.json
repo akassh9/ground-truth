@@ -1,0 +1,52 @@
+{
+ "name": "Curio",
+ "url": "",
+ "about": "Curio is developing NuCycle, a used nuclear fuel recycling production facility, and in May 2026 asked the NRC to open a 10 CFR Part 70 docket for pre-application work toward an operating license. Engineering design is underway with Sargent & Lundy; the site had not been chosen as of May 2026.",
+ "sources": [
+  "https://www.ans.org/news/2026-05-29/article-8078/curio-to-begin-early-talks-with-nrc-on-licensing-nucycle-recycling-facility/"
+ ],
+ "found_in": "nrc",
+ "expected": null,
+ "expected_by": "claude (provisional)",
+ "expected_reason": "Unclear: recycled fuel competes at the margin with enriched fuel; no incumbent in the map recycles at commercial scale.",
+ "verdict": {
+  "what_it_builds": "NuCycle, a used nuclear fuel recycling production facility. Engineering design is underway with Sargent & Lundy, and in May 2026 the company asked the NRC to open a 10 CFR Part 70 docket for pre-application work toward an operating license. No site had been chosen as of May 2026.",
+  "buyers": "Not stated in the description. The description does not say what NuCycle produces or who pays for it.",
+  "lanes": [
+   "nuclear-fuel-and-enrichment"
+  ],
+  "overlaps": [
+   {
+    "company": "General Matter",
+    "portfolio": true,
+    "relationship": "adjacent",
+    "why": "Both are pre-license fuel-cycle facilities in the same lane, but General Matter enriches uranium and Curio recycles used fuel. The shared element is the NRC licensing path.",
+    "evidence_ids": [
+     "nrc:ML26273A147"
+    ]
+   }
+  ],
+  "portfolio_conflicts": [],
+  "position": "off_map",
+  "wedge": "",
+  "call": "look",
+  "reasoning": "Curio is in the nuclear fuel-cycle lane the map covers, since the lane includes recycling, but none of the listed companies runs used-fuel recycling. The map has no recycling operator, so it cannot show whether this space is open or crowded. The description does not say what NuCycle produces or who buys it, and that is the main gap for judging whether the company would sell into anyone on the map. Nothing in the description shows a head-on fight with an entrenched company, so this is a look, not a pass.",
+  "open_questions": [
+   "What does NuCycle output (recovered uranium, plutonium-bearing fuel, or a waste form), and who pays for it?",
+   "Which reactor developers or fuel fabricators would buy that output, and is there any signed offtake or letter of intent?",
+   "What is the capacity and cost of the NuCycle facility, and how is it funded through the pre-application stage?",
+   "Which site is being considered, and when will it be chosen?",
+   "What is the licensing timeline under the Part 70 docket, and what are the main regulatory risks for used-fuel recycling?",
+   "Are there any operating recycling plants or pilots today, and how does NuCycle's approach differ from them?"
+  ]
+ },
+ "unknown_citations": [],
+ "usage": {
+  "model": "claude-haiku-5-5",
+  "input_tokens": 136,
+  "cache_write": 0,
+  "cache_read": 16822,
+  "output_tokens": 3369
+ },
+ "seconds": 16.2
+}

@@ -1,0 +1,93 @@
+{
+ "name": "FluxPoint Energy",
+ "url": "",
+ "about": "FluxPoint Energy, based in Houston and McLean, Virginia, plans what it expects to be the first new US uranium conversion plant in more than 70 years, in Texas: converting uranium oxide into uranium hexafluoride (UF6), the feedstock that enrichment plants process into reactor fuel. Filed a uranium conversion facility letter of intent with the NRC in April 2026.",
+ "sources": [
+  "https://www.ans.org/news/2026-04-01/article-7899/new-company-throws-hat-into-uranium-conversion-ring/"
+ ],
+ "found_in": "nrc",
+ "expected": "supplier",
+ "expected_by": "claude (provisional)",
+ "expected_reason": "Conversion produces the UF6 that enrichers like General Matter buy.",
+ "verdict": {
+  "what_it_builds": "A uranium conversion plant in Texas that turns uranium oxide into uranium hexafluoride (UF6), the feedstock that enrichment plants process into reactor fuel. The company says it would be the first new US conversion plant in more than 70 years and filed a conversion facility letter of intent with the NRC in April 2026.",
+  "buyers": "Uranium enrichment operators that need UF6 feedstock. The description does not name customers. The enrichers on the lane map (General Matter, Centrus Energy, Urenco USA, Orano, Global Laser Enrichment) are the likely buyers.",
+  "lanes": [
+   "nuclear-fuel-and-enrichment"
+  ],
+  "overlaps": [
+   {
+    "company": "General Matter",
+    "portfolio": true,
+    "relationship": "supplier_to_them",
+    "why": "General Matter is building an enrichment facility at Paducah, so it would need UF6 feedstock from a converter. Its NRC license application for that site suggests it is moving toward that step.",
+    "evidence_ids": [
+     "nrc:ML26273A147",
+     "jobs-site:general-matter:Paducah:2026-10-08"
+    ]
+   },
+   {
+    "company": "Centrus Energy",
+    "portfolio": false,
+    "relationship": "supplier_to_them",
+    "why": "Centrus runs an enrichment operation under a DOE LEU master IDIQ and an NRC license, so it would be a buyer of conversion services. It is not a converter itself on the map.",
+    "evidence_ids": [
+     "usaspending:CONT_IDV_89243225DNE000026_8900",
+     "nrc:ML26266A084"
+    ]
+   },
+   {
+    "company": "Urenco USA (Louisiana Energy Services)",
+    "portfolio": false,
+    "relationship": "supplier_to_them",
+    "why": "Urenco USA holds an NRC license for enrichment and is on the DOE LEU master IDIQ, so it would need UF6 feedstock.",
+    "evidence_ids": [
+     "usaspending:CONT_IDV_89243225DNE000029_8900",
+     "nrc:ML18128A227"
+    ]
+   },
+   {
+    "company": "Orano (Orano Enrichment USA)",
+    "portfolio": false,
+    "relationship": "supplier_to_them",
+    "why": "Orano is applying for an NRC enrichment license and holds a DOE LEU master IDIQ, so it would be a buyer of UF6 feedstock.",
+    "evidence_ids": [
+     "usaspending:CONT_IDV_89243225DNE000031_8900",
+     "nrc:ML26211A220"
+    ]
+   },
+   {
+    "company": "Global Laser Enrichment",
+    "portfolio": false,
+    "relationship": "supplier_to_them",
+    "why": "Global Laser Enrichment is applying for an NRC license for its Paducah laser enrichment facility, so it would need conversion feedstock if it proceeds.",
+    "evidence_ids": [
+     "usaspending:CONT_IDV_89243225DNE000028_8900",
+     "nrc:ML26265A220"
+    ]
+   }
+  ],
+  "portfolio_conflicts": [],
+  "position": "complement",
+  "wedge": "",
+  "call": "look",
+  "reasoning": "FluxPoint would sell UF6 conversion to enrichers rather than compete with them, and no company on the map does conversion, so there is no head-on overlap. The enrichers on the map (General Matter, Centrus, Urenco USA, Orano, Global Laser Enrichment) would be its buyers, which makes this a complement position with General Matter, a Anti Fund portfolio company, as one potential customer. The description gives no technical detail, cost position, or customer commitments, so any wedge and demand cannot be judged from it. Call is look until the founders show offtake interest and a technical edge.",
+  "open_questions": [
+   "Which enrichment operators have signed or are negotiating offtake or conversion services agreements, and how much of the plant's output is contracted?",
+   "What is the conversion process and what makes it cheaper, faster, or easier to permit than existing conversion capacity?",
+   "Which existing US and foreign conversion producers would FluxPoint compete with, and how is it positioned against them?",
+   "What is the status of the April 2026 NRC letter of intent, and what is the licensing timeline for the Texas site?",
+   "Is the 'first new US conversion plant in more than 70 years' claim confirmed by a public source, and what is the capital plan and financing?",
+   "Who are the founders, and what conversion or chemical processing experience do they have?"
+  ]
+ },
+ "unknown_citations": [],
+ "usage": {
+  "model": "claude-haiku-5-5",
+  "input_tokens": 168,
+  "cache_write": 0,
+  "cache_read": 16822,
+  "output_tokens": 3942
+ },
+ "seconds": 17.8
+}

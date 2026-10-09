@@ -1,0 +1,99 @@
+{
+ "name": "Thorium Atomics",
+ "url": "",
+ "about": "Thorium Atomics, based in Knoxville, Tennessee, is developing a thorium-fueled gas-cooled reactor of about 250 MWth. It met NRC staff in May 2026 and filed a letter of intent in June 2026 to begin pre-application licensing activities; it has also met Canadian Nuclear Safety Commission staff.",
+ "sources": [
+  "https://www.nrc.gov/docs/ML2618/ML26188A230.pdf"
+ ],
+ "found_in": "nrc",
+ "expected": "head_on",
+ "expected_by": "claude (provisional)",
+ "expected_reason": "A gas-cooled reactor competes with X-energy's and Kairos's advanced reactors for the same utility and industrial buyers.",
+ "verdict": {
+  "what_it_builds": "A thorium-fueled, gas-cooled reactor of about 250 MWth. The company met NRC staff in May 2026, filed a letter of intent in June 2026 to begin pre-application licensing, and has met Canadian Nuclear Safety Commission staff.",
+  "buyers": "Not stated in the description. A reactor of this size would plausibly sell power or heat to utilities or industrial users, but the description does not say.",
+  "lanes": [
+   "advanced-fission"
+  ],
+  "overlaps": [
+   {
+    "company": "TerraPower",
+    "portfolio": false,
+    "relationship": "head_on",
+    "why": "Also develops advanced reactor designs for power generation and holds an NRC construction permit for its Kemmerer unit.",
+    "evidence_ids": [
+     "nrc:ML26084A116",
+     "jobs-production:terrapower:2026-10-08"
+    ]
+   },
+   {
+    "company": "X-energy",
+    "portfolio": false,
+    "relationship": "head_on",
+    "why": "Also develops advanced reactors and holds an NRC permit, with a $921.7M DOE grant behind its fuel and reactor work.",
+    "evidence_ids": [
+     "nrc:ML26056A053",
+     "usaspending:ASST_NON_DENE0009040_089"
+    ]
+   },
+   {
+    "company": "Kairos Power",
+    "portfolio": false,
+    "relationship": "head_on",
+    "why": "Also builds advanced reactors and holds NRC construction permits for the Hermes 2 test reactor.",
+    "evidence_ids": [
+     "nrc:ML24324A020"
+    ]
+   },
+   {
+    "company": "Oklo",
+    "portfolio": false,
+    "relationship": "head_on",
+    "why": "Also pursues advanced fission power and has an NRC license application on file.",
+    "evidence_ids": [
+     "nrc:ML26231A183"
+    ]
+   },
+   {
+    "company": "Radiant",
+    "portfolio": false,
+    "relationship": "head_on",
+    "why": "Also pursues advanced reactors and has an NRC license application on file.",
+    "evidence_ids": [
+     "nrc:ML26271A226"
+    ]
+   },
+   {
+    "company": "Valar Atomics",
+    "portfolio": false,
+    "relationship": "head_on",
+    "why": "Also pursues advanced reactors and has four NRC filings since 2024, including pre-application activity.",
+    "evidence_ids": [
+     "nrc:ML26271A241"
+    ]
+   }
+  ],
+  "portfolio_conflicts": [],
+  "position": "head_on_with_entrenched",
+  "wedge": "",
+  "call": "pass",
+  "reasoning": "Thorium Atomics develops a reactor, so it competes head-on in the advanced-fission lane with TerraPower, which the map scores as entrenched with a construction permit. Five other reactor developers on the map (X-energy, Kairos Power, Oklo, Radiant and Valar Atomics) are also head-on, building or early, and are already in NRC licensing. The description names a thorium fuel cycle and gas cooling, which is a different technical path, but nothing in the map shows incumbents would find it hard to follow. The description is thin on team, funding, fuel supply and schedule, so this is a pass unless the founders show a defensible technical wedge.",
+  "open_questions": [
+   "What is the technical wedge: is the thorium fuel cycle or gas cooling a real advantage over the designs TerraPower and X-energy are licensing, and why could they not adopt it?",
+   "Who is the buyer and what is the offtake plan for the roughly 250 MWth plant?",
+   "What is the fuel supply path for thorium fuel, and does it depend on enrichment or fabrication capacity that exists today?",
+   "What is the timeline from the June 2026 letter of intent to a construction permit application, and how is it funded?",
+   "Who is on the founding team, and what prior reactor or licensing work do they have?",
+   "What is the status of the Canadian Nuclear Safety Commission engagement, and is a Canadian site under consideration?"
+  ]
+ },
+ "unknown_citations": [],
+ "usage": {
+  "model": "claude-haiku-5-5",
+  "input_tokens": 152,
+  "cache_write": 0,
+  "cache_read": 16822,
+  "output_tokens": 3738
+ },
+ "seconds": 17.0
+}
