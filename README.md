@@ -4,7 +4,7 @@
 
 The write-up, with every figure and the live Check: https://audience-of-one.vercel.app/ground-truth (the Check takes a
 passcode, since every check costs real money). `gt/blog_export.py` copies the figures' data and the Check's backend
-into the blog; `site/` is a standalone version of the same views.
+into the blog. This repo holds more than the write-up shows; the map below says which part is which.
 
 VC data tools watch software signals: GitHub stars, web traffic, LinkedIn moves. Companies that build factories, ships and reactors leave a different trail:
 - federal contracts
@@ -13,9 +13,19 @@ VC data tools watch software signals: GitHub stars, web traffic, LinkedIn moves.
 - hiring at new sites
 - the ground itself, seen from orbit
 
-Ground Truth reads that trail for Anti Fund's physical portfolio and for the incumbents around it. It turns the trail into a map of who is already entrenched in each lane, then runs every new company against that map.
+Ground Truth reads that trail for Anti Fund's physical portfolio and for the incumbents around it. It turns the trail into a map of who is already entrenched in each lane, then runs any new company against that map and the money around it.
 
 Built in a week by Akash Khanikor as part of an application to Anti Fund (Member of Technical Staff / Associate).
+
+## The write-up, section by section
+
+| In the write-up | What it shows | Code | Data |
+|---|---|---|---|
+| #1 Are they building what they said? | **Portfolio activity**: the last 90 days of contracts, filings, FAA records and hiring for each of Anti Fund's 15 physical companies | `gt/signals.py` and one module per source | `data/signals.jsonl` |
+| | **General Matter, Paducah site**: a Sentinel-2 frame a month with the NRC docket underneath | `gt/satellite.py`, `gt/nrc.py` | `data/sites.json`, `data/site_milestones.json` |
+| #2 Where does each one stand? | **Where each one stands**: 77 companies (the 15, plus 62 established players) scored out of 16 across 16 lanes, with no AI in the scoring | `gt/lanes.py` | `research/incumbents.md` (one paragraph per lane: who is there and why, with sources), `data/incumbents.json`, `data/lane_map.json` |
+| Bonus: what would a new company walk into? | **The Check**: who it runs into, open government calls it could answer, who the government already pays for that kind of product | `gt/check.py`, `gt/calls.py`, `gt/api.py`, `api/check.py`; tested with `gt/calls_eval.py` | `data/lane_map.json`, `data/open_calls.json` |
+| Not in the write-up | How the Check's verdicts were tested: Jev triage and Haiku verdicts over 912 seed deals, and a four-way comparison against blind labels. Also new entrants found in NRC and FAA records, and an earlier standalone site | `gt/triage.py`, `gt/evaluate.py`, `gt/compare.py`, `gt/sourcing.py`, `site/` | PitchBook data stays in `data/private/` (gitignored); only totals are published |
 
 ## What it does
 
@@ -24,7 +34,7 @@ Built in a week by Akash Khanikor as part of an application to Anti Fund (Member
 | **From orbit** | What is happening at the sites they're building? Monthly Sentinel-2 frames, NAIP "before" photos, and every filing on one timeline. | `gt/satellite.py` |
 | **Signals** | What did each company do this month? Federal awards and subcontracts, FAA fleets and reservations, NRC filings, factory-floor and site hiring. All of it goes into one file, `data/signals.jsonl`, in a stable format other tools read. | `gt/signals.py` and one module per source |
 | **The lane map** | In each lane of Anti Fund's thesis, who is already entrenched? An explainable score built only from public evidence. | `gt/lanes.py` |
-| **Triage (System One)** | Which lane is this company in, who would it go head-on with, and does it sell into them? TypeSafe's Jev (`jev-1.13.0`) answers atomic typed questions with probabilities, and code combines the answers into a position and a call. 912 companies cost $0.08. | `gt/triage.py` |
+| **Triage (System One)** | Which lane is this company in, who would it go head-on with, and does it sell into them? TypeSafe's Jev (`jev-1.13.0`) answers atomic typed questions with probabilities, and code combines the answers into a position and a call. 912 companies cost $0.07. | `gt/triage.py` |
 | **The Check (System Two)** | Would this new company fight a giant, sell to one, or sit in open space? Or is its market off our map, so the map can't say? Does it conflict with the portfolio? Claude Haiku 5.5 returns a typed, cited verdict, and every cited evidence id is verified against the map. Opus 5.5 runs only as the comparison grader. | `gt/check.py` |
 | **The money read** | Which open government calls could it answer now (DoD SBIR/STTR topics, grants and broad agency announcements, DIU solicitations), and what does the government already spend on its kind of product, and with whom? Part of the same Haiku call; every picked call is checked against a snapshot of the open list, and the spending comes live from USAspending with Anti Fund companies flagged by UEI. About $0.003 and 25 seconds per check, money read included. | `gt/calls.py` |
 | **Found in the record** | Which companies are forming right now? New NRC letters of intent, and new aircraft makers registering airframes with the FAA. | `gt/sourcing.py` |
@@ -58,9 +68,10 @@ Look-alike names are the main hazard. "SARONIC INVESTMENTS LLC" isn't Saronic; "
 | NRC | license or construction permit held: 3, application: 2, active docket: 1 |
 | A verified physical site we track | 2 |
 
-**Tiers** (out of 16): 7 or more is entrenched, 4–6 is building, anything lower is early. Scores are per company, not per lane. The score measures what is on the ground and in the record, not valuation. A heavily funded company with little physical footprint scores low, and that is the point.
+**Tiers** (out of 16): 7 or more, or $1B+ in federal awards since 2020, is entrenched; 4–6 is building; anything lower is early. Scores are per company, not per lane. The score measures what is on the ground and in the record, not valuation. A heavily funded company with little physical footprint scores low, and that is the point. It is built for hardware companies that sell to the government: software companies and commercial robotics barely register, so read their scores as a floor.
 
 ## Checks on the checker
+The write-up keeps this to one line about the calls. The rest is how the Check was tested before it went in.
 - The Check may cite only evidence ids that exist in the lane map. `cited_ids_ok()` verifies every citation, and the evaluation reports how many were unknown.
 - `gt/evaluate.py` runs the Check over a labeled test set (head-on, supplier, open) and reports agreement, citation validity and time per check.
 - `gt/compare.py` puts the graders side by side: Akash's blind labels, Jev, Haiku and Opus. Calls are compared under one policy computed from each grader's position, so a disagreement means different judgment, not a different policy. Jev's probabilities are also scored with log-loss.
@@ -86,6 +97,7 @@ cp .env.example .env          # add NRC_APS_KEY, SEC_USER_AGENT, ANTHROPIC_API_K
 .venv/bin/python -m gt.compare    # the graders side by side (private: reads data/private/)
 .venv/bin/python -m gt.calls_eval data/checks    # Opus grades the calls each check picked
 .venv/bin/python -m gt.export     # copy public data into the site
+.venv/bin/python -m gt.blog_export ~/c/work/react-app-audit    # copy figures and the Check into the blog repo
 .venv/bin/python -m gt.serve &    # local API for the live Check
 npm --prefix site install && npm --prefix site run dev
 ```
@@ -93,8 +105,14 @@ npm --prefix site install && npm --prefix site run dev
 ## Layout
 
 ```
-gt/            one module per source, plus lanes, check, sourcing, evaluate, export
-data/          entities, incumbents, signals, lane map, frames (raw downloads in data/raw/, gitignored)
-site/          Preact + Vite front end
-api/check.py   Vercel function for the live Check
+gt/                 one module per source, plus lanes, check, calls, triage, evaluate, compare, sourcing, export
+data/               entities, incumbents, signals, lane map, open calls, example checks, job-board snapshots and
+                    frames (raw downloads in data/raw/ and PitchBook data in data/private/, both gitignored)
+api/check.py        entry point for the live Check; gt.blog_export copies it, with requirements.txt, into the blog
+site/               an earlier standalone front end (Preact + Vite), not deployed; the write-up is the current view
+research/           day-one data feasibility notes and scripts (which free sources and imagery are usable), and
+                    incumbents.md, the reasoning and sources behind the 62 established players
+scripts/            fetch_portfolio.py, which pulls Anti Fund's portfolio list
+vercel.json         and .vercelignore: from the retired standalone deployment; the live Check now runs in the
+                    blog's Vercel project
 ```
