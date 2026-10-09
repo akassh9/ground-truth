@@ -10,8 +10,8 @@
  "expected_by": "claude (provisional)",
  "expected_reason": "A gas-cooled reactor competes with X-energy's and Kairos's advanced reactors for the same utility and industrial buyers.",
  "verdict": {
-  "what_it_builds": "A thorium-fueled, gas-cooled reactor of about 250 MWth. The company met NRC staff in May 2026, filed a letter of intent in June 2026 to begin pre-application licensing, and has met Canadian Nuclear Safety Commission staff.",
-  "buyers": "Not stated in the description. A reactor of this size would plausibly sell power or heat to utilities or industrial users, but the description does not say.",
+  "what_it_builds": "A thorium-fueled, gas-cooled reactor of about 250 MWth.",
+  "buyers": "Not stated in the description. A reactor of this class would sell to utilities, industrial users or government buyers, which the founders need to confirm.",
   "lanes": [
    "advanced-fission"
   ],
@@ -20,17 +20,17 @@
     "company": "TerraPower",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Also develops advanced reactor designs for power generation and holds an NRC construction permit for its Kemmerer unit.",
+    "why": "TerraPower is building an advanced reactor for the same kind of customer and holds an NRC construction permit for its Kemmerer unit. That makes it the most entrenched rival on this licensing path.",
     "evidence_ids": [
-     "nrc:ML26084A116",
-     "jobs-production:terrapower:2026-10-08"
+     "usaspending:ASST_NON_DENE0009054_089",
+     "nrc:ML26084A116"
     ]
    },
    {
     "company": "X-energy",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Also develops advanced reactors and holds an NRC permit, with a $921.7M DOE grant behind its fuel and reactor work.",
+    "why": "X-energy is building a high-temperature gas-cooled reactor with TRISO fuel, which overlaps with a gas-cooled reactor design, and it already holds an NRC permit.",
     "evidence_ids": [
      "nrc:ML26056A053",
      "usaspending:ASST_NON_DENE0009040_089"
@@ -40,25 +40,27 @@
     "company": "Kairos Power",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Also builds advanced reactors and holds NRC construction permits for the Hermes 2 test reactor.",
+    "why": "Kairos holds NRC construction permits for a test reactor and is building in the same advanced fission lane.",
     "evidence_ids": [
-     "nrc:ML24324A020"
+     "nrc:ML24324A020",
+     "jobs-production:kairos-power:2026-10-08"
     ]
    },
    {
     "company": "Oklo",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Also pursues advanced fission power and has an NRC license application on file.",
+    "why": "Oklo has applied for an NRC license and is in the same advanced reactor market, at an earlier stage.",
     "evidence_ids": [
-     "nrc:ML26231A183"
+     "nrc:ML26231A183",
+     "jobs-production:oklo:2026-10-08"
     ]
    },
    {
     "company": "Radiant",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Also pursues advanced reactors and has an NRC license application on file.",
+    "why": "Radiant has an NRC license application in process for a microreactor, which puts it on the same licensing path.",
     "evidence_ids": [
      "nrc:ML26271A226"
     ]
@@ -67,9 +69,10 @@
     "company": "Valar Atomics",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Also pursues advanced reactors and has four NRC filings since 2024, including pre-application activity.",
+    "why": "Valar Atomics has NRC preapplication filings for a reactor and is building in the same market at an early stage.",
     "evidence_ids": [
-     "nrc:ML26271A241"
+     "nrc:ML26271A241",
+     "jobs-production:valar-atomics:2026-10-08"
     ]
    }
   ],
@@ -77,23 +80,117 @@
   "position": "head_on_with_entrenched",
   "wedge": "",
   "call": "pass",
-  "reasoning": "Thorium Atomics develops a reactor, so it competes head-on in the advanced-fission lane with TerraPower, which the map scores as entrenched with a construction permit. Five other reactor developers on the map (X-energy, Kairos Power, Oklo, Radiant and Valar Atomics) are also head-on, building or early, and are already in NRC licensing. The description names a thorium fuel cycle and gas cooling, which is a different technical path, but nothing in the map shows incumbents would find it hard to follow. The description is thin on team, funding, fuel supply and schedule, so this is a pass unless the founders show a defensible technical wedge.",
+  "reasoning": "Thorium Atomics is building a 250 MWth thorium-fueled gas-cooled reactor, which puts it head-on with TerraPower, an entrenched advanced fission company that already holds an NRC construction permit. X-energy, Kairos, Oklo, Radiant and Valar are also in the same licensing market. The description names no technical wedge beyond the fuel and coolant choice, and the map gives no evidence the incumbents can't follow. Pass unless the founders show an advantage, such as a fuel-cycle or licensing edge, that the incumbents can't copy quickly.",
   "open_questions": [
-   "What is the technical wedge: is the thorium fuel cycle or gas cooling a real advantage over the designs TerraPower and X-energy are licensing, and why could they not adopt it?",
-   "Who is the buyer and what is the offtake plan for the roughly 250 MWth plant?",
-   "What is the fuel supply path for thorium fuel, and does it depend on enrichment or fabrication capacity that exists today?",
-   "What is the timeline from the June 2026 letter of intent to a construction permit application, and how is it funded?",
-   "Who is on the founding team, and what prior reactor or licensing work do they have?",
-   "What is the status of the Canadian Nuclear Safety Commission engagement, and is a Canadian site under consideration?"
+   "What is the fuel supply path for thorium fuel, and does the design need enriched uranium or another fissile starter?",
+   "What is the NRC pre-application schedule and expected licensing path after the June 2026 letter of intent?",
+   "What does the design do that TerraPower's Natrium or X-energy's gas-cooled design can't do or can't do as quickly?",
+   "Who is the first customer, and what site and financing plan supports a 250 MWth plant?",
+   "What is the status and scope of the Canadian CNSC engagement, and is it a second licensing track or a future market?"
+  ],
+  "calls": [
+   {
+    "id": "DE-FOA-0003339",
+    "fit": "possible",
+    "why": "The licensing cost-share grant funds advanced reactor licensing, which matches the NRC pre-application work the company has started. The listing doesn't say who can apply, so the founders should confirm eligibility."
+   },
+   {
+    "id": "DE-FOA-0003467",
+    "fit": "possible",
+    "why": "ARPA-E's broad energy program could fund a new reactor concept if it fits the program's scope. The listing is thin on eligibility, so the founders should confirm the design fits."
+   }
+  ],
+  "award_terms": [
+   "advanced reactor",
+   "gas-cooled reactor",
+   "thorium fuel"
   ]
  },
  "unknown_citations": [],
+ "calls": [
+  {
+   "id": "DE-FOA-0003339",
+   "source": "Grants.gov",
+   "agency": "DOE (Idaho Field Office)",
+   "kind": "grant",
+   "title": "Advanced Nuclear Energy Licensing Cost-Share Grant Program",
+   "status": "open",
+   "opens": "2025-01-08",
+   "closes": "2026-11-30",
+   "funding": "up to $8.0M per award",
+   "summary": "",
+   "url": "https://www.grants.gov/search-results-detail/358100",
+   "fit": "possible",
+   "why": "The licensing cost-share grant funds advanced reactor licensing, which matches the NRC pre-application work the company has started. The listing doesn't say who can apply, so the founders should confirm eligibility."
+  },
+  {
+   "id": "DE-FOA-0003467",
+   "source": "Grants.gov",
+   "agency": "DOE (ARPA-E)",
+   "kind": "grant",
+   "title": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
+   "status": "open",
+   "opens": "2024-10-02",
+   "closes": "2029-09-29",
+   "funding": "up to $20.0M per award",
+   "summary": "AGENCY OVERVIEW The Advanced Research Projects Agency \u2013 Energy (ARPA-E), an organization within the Department of Energy (DOE), is chartered by Congress in the America COMPETES Act of 2007 (P.L. 116-260): \u201c(A) to\u2026",
+   "url": "https://www.grants.gov/search-results-detail/356623",
+   "fit": "possible",
+   "why": "ARPA-E's broad energy program could fund a new reactor concept if it fits the program's scope. The listing is thin on eligibility, so the founders should confirm the design fits."
+  }
+ ],
+ "unknown_calls": [],
+ "market": {
+  "terms": [
+   "advanced reactor",
+   "gas-cooled reactor",
+   "thorium fuel"
+  ],
+  "since": "2024-10-09",
+  "total": 1724073095,
+  "agencies": [
+   {
+    "name": "Department of Energy",
+    "amount": 1717957876
+   },
+   {
+    "name": "Nuclear Regulatory Commission",
+    "amount": 3068771
+   },
+   {
+    "name": "Department of Commerce",
+    "amount": 2415000
+   }
+  ],
+  "recipients": 38,
+  "more_recipients": false,
+  "top": [
+   {
+    "name": "US SFR OWNER LLC",
+    "amount": 1048821714,
+    "portfolio": false
+   },
+   {
+    "name": "X ENERGY, LLC",
+    "amount": 636843016,
+    "portfolio": false
+   },
+   {
+    "name": "HOLTEC GOVERNMENT SERVICES LLC",
+    "amount": 26478042,
+    "portfolio": false
+   }
+  ],
+  "portfolio": [],
+  "url": "https://www.usaspending.gov/keyword_search/advanced%20reactor"
+ },
+ "calls_as_of": "2026-10-09",
  "usage": {
   "model": "claude-haiku-5-5",
   "input_tokens": 152,
   "cache_write": 0,
-  "cache_read": 16822,
-  "output_tokens": 3738
+  "cache_read": 37097,
+  "output_tokens": 4421
  },
- "seconds": 17.0
+ "seconds": 20.5
 }

@@ -19,6 +19,7 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from gt import calls
 from gt.check import MODEL, check, cited_ids_ok, slugify
 from gt.env import DATA
 
@@ -82,7 +83,7 @@ def run_one(company, model=None):
         except Exception as e2:
             return {**company, "error": f"{note} {e2}"[:200]}
     result = {**company, "verdict": verdict.model_dump(), "unknown_citations": cited_ids_ok(verdict),
-              "usage": usage, "seconds": round(time.time() - started, 1)}
+              **calls.money(verdict), "usage": usage, "seconds": round(time.time() - started, 1)}
     return {**result, "note": note} if note else result
 
 
@@ -92,12 +93,13 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--model", default=None, help="compare another Claude model (default: gt.check.MODEL)")
+    ap.add_argument("--out", default=None, help="save to this directory instead of data/checks or data/private/checks")
     args = ap.parse_args()
     src = Path(args.source)
     companies = from_table(src) if src.suffix in (".csv", ".xlsx") else json.loads(src.read_text())
     companies = companies[: args.limit] if args.limit else companies
     private = "private" in src.parts
-    out_dir = DATA / ("private/checks" if private else "checks")
+    out_dir = Path(args.out) if args.out else DATA / ("private/checks" if private else "checks")
     if args.model and args.model != MODEL:
         out_dir = out_dir / f"compare-{args.model}"
     out_dir.mkdir(parents=True, exist_ok=True)

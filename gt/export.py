@@ -139,7 +139,8 @@ def main():
         write("sourcing.json", {"nrc": found["nrc"], "faa": [r for r in found["faa"] if r["aircraft"] >= 10]})
     files = sorted((DATA / "checks").glob("[!_]*.json")) if (DATA / "checks").exists() else []  # skip _report.json
     checks = [c for c in (json.loads(p.read_text()) for p in files) if "verdict" in c]
-    write("checks.json", [{k: c[k] for k in ("name", "url", "verdict", "aliases") if k in c} for c in checks])
+    write("checks.json", [{k: c[k] for k in ("name", "url", "verdict", "aliases", "calls", "market", "calls_as_of") if k in c}
+                          for c in checks])
     if found_evidence := evidence():
         write("evidence.json", found_evidence)
     size = sum(p.stat().st_size for p in OUT.rglob("*") if p.is_file())

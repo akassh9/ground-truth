@@ -25,7 +25,8 @@ Built in a week by Akash Khanikor as part of an application to Anti Fund (Member
 | **Signals** | What did each company do this month? Federal awards and subcontracts, FAA fleets and reservations, NRC filings, factory-floor and site hiring. All of it goes into one file, `data/signals.jsonl`, in a stable format other tools read. | `gt/signals.py` and one module per source |
 | **The lane map** | In each lane of Anti Fund's thesis, who is already entrenched? An explainable score built only from public evidence. | `gt/lanes.py` |
 | **Triage (System One)** | Which lane is this company in, who would it go head-on with, and does it sell into them? TypeSafe's Jev (`jev-1.13.0`) answers atomic typed questions with probabilities, and code combines the answers into a position and a call. 912 companies cost $0.08. | `gt/triage.py` |
-| **The Check (System Two)** | Would this new company fight a giant, sell to one, or sit in open space? Or is its market off our map, so the map can't say? Does it conflict with the portfolio? Claude Haiku 5.5 returns a typed, cited verdict for about $0.0015, and every cited evidence id is verified against the map. Opus 5.5 runs only as the comparison grader. | `gt/check.py` |
+| **The Check (System Two)** | Would this new company fight a giant, sell to one, or sit in open space? Or is its market off our map, so the map can't say? Does it conflict with the portfolio? Claude Haiku 5.5 returns a typed, cited verdict, and every cited evidence id is verified against the map. Opus 5.5 runs only as the comparison grader. | `gt/check.py` |
+| **The money read** | Which open government calls could it answer now (DoD SBIR/STTR topics, grants and broad agency announcements, DIU solicitations), and what does the government already spend on its kind of product, and with whom? Part of the same Haiku call; every picked call is checked against a snapshot of the open list, and the spending comes live from USAspending with Anti Fund companies flagged by UEI. About $0.003 and 25 seconds per check, money read included. | `gt/calls.py` |
 | **Found in the record** | Which companies are forming right now? New NRC letters of intent, and new aircraft makers registering airframes with the FAA. | `gt/sourcing.py` |
 
 ## Sources (all public, all free)
@@ -37,6 +38,9 @@ Built in a week by Akash Khanikor as part of an application to Anti Fund (Member
 | NRC ADAMS public search | REST API, free key | dockets, letters of intent, license applications |
 | Greenhouse, Lever, Ashby job boards | public JSON | open roles, factory-floor roles, hiring by site |
 | Copernicus Sentinel-2, USDA NAIP | public STAC catalogs | site imagery |
+| DSIP (DoD SBIR/STTR topics) | public JSON behind the topics site | open and pre-release topics, with each topic's applicant-question count |
+| Grants.gov | REST API, no key | open and forecast grants and BAAs from DoD, DOE and NASA, plus NSF and USDA small-business programs |
+| DIU open solicitations | public web page | Commercial Solutions Openings, challenges and Bridge calls |
 
 Look-alike names are the main hazard. "SARONIC INVESTMENTS LLC" isn't Saronic; "HELION" sits inside "ANTHELION"; the `merge` job board belongs to Merge.dev. To guard against them:
 - Every identifier in `data/entities.json` was checked by hand.
@@ -64,6 +68,7 @@ Look-alike names are the main hazard. "SARONIC INVESTMENTS LLC" isn't Saronic; "
 - The position follows from the cited overlaps by fixed rules, enforced in code (`settle_position`), so a verdict can't contradict its own evidence. Only "open" versus "off the map" is left to the model.
 - Names repeat (two different companies with the same name raised this year), so results are matched on name plus website.
 - Fund policy lives in code, not in prompts: a company that goes head-on with a portfolio company is a pass (`fund_call`).
+- The money read may only pick calls in the open-calls snapshot; `calls.resolve()` joins each pick to its listing and drops anything unknown or past its close date. `gt/calls_eval.py` has Opus grade each pick from the company description and the listing alone, without Haiku's reason. On 15 companies from the PitchBook set that were never used for tuning, 13 got at least one call, Opus agreed with 19 of 24 picks, and every call id matched the list. The misses were mostly broad programs whose listings don't state who can apply (a scale-up program meant for earlier awardees, a Phase II open only to Phase I winners).
 - Website text is treated as untrusted. The live endpoint only fetches public addresses, including after redirects, and caps input sizes.
 - Private data (PitchBook exports) stays in `data/private/`, which is gitignored and never exported to the site.
 
@@ -74,10 +79,12 @@ python3 -m venv .venv && .venv/bin/pip install anthropic typesafe-sdk pillow num
 cp .env.example .env          # add NRC_APS_KEY, SEC_USER_AGENT, ANTHROPIC_API_KEY, TYPESAFE_API_KEY
 .venv/bin/python -m gt.signals    # fetch and normalize every source
 .venv/bin/python -m gt.lanes      # score entrenchment, build the lane map
+.venv/bin/python -m gt.calls      # snapshot open government calls (refresh before deploying)
 .venv/bin/python -m gt.check "Company" https://company.com
 .venv/bin/python -m gt.triage companies.json          # Jev first pass over a list
 .venv/bin/python -m gt.evaluate companies.json        # Haiku verdicts, saved per company, resumable
 .venv/bin/python -m gt.compare    # the graders side by side (private: reads data/private/)
+.venv/bin/python -m gt.calls_eval data/checks    # Opus grades the calls each check picked
 .venv/bin/python -m gt.export     # copy public data into the site
 .venv/bin/python -m gt.serve &    # local API for the live Check
 npm --prefix site install && npm --prefix site run dev

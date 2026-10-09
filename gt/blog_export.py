@@ -3,8 +3,9 @@
 Two things go over:
 - the figures' data (public/ground-truth/): the site time-lapses, the lane map, the portfolio's signals, the
   public example verdicts and the evaluation totals. Only files gt.export already serves publicly; run it first.
-- the live Check's backend: api/check.py, the four gt modules it needs, the lane map and requirements.txt, so the
-  blog's own Vercel project runs the Check. The copies are overwritten on every export; edit them here, not there.
+- the live Check's backend: api/check.py, the five gt modules it needs, its data (the lane map, the open-calls
+  snapshot, the portfolio's UEIs) and requirements.txt, so the blog's own Vercel project runs the Check. The copies
+  are overwritten on every export; edit them here, not there. Refresh the snapshot first: python -m gt.calls.
 
 Usage: .venv/bin/python -m gt.blog_export ~/c/work/react-app-audit
 """
@@ -18,7 +19,8 @@ from gt.env import DATA, ROOT
 SITE_DATA = ROOT / "site" / "public" / "data"
 SITES = ("general-matter-paducah", "arsenal-1")
 FIGURE_DATA = ("lane_map.json", "signals.json", "checks.json", "evidence.json")
-BACKEND = ("gt/__init__.py", "gt/env.py", "gt/check.py", "gt/api.py", "api/check.py", "requirements.txt")
+BACKEND = ("gt/__init__.py", "gt/env.py", "gt/check.py", "gt/calls.py", "gt/api.py", "api/check.py", "requirements.txt")
+BACKEND_DATA = ("lane_map.json", "open_calls.json", "entities.json")
 NOTE = "Copied from the ground-truth repo by gt.blog_export; edit it there, not here.\n"
 
 
@@ -41,7 +43,8 @@ def backend(blog):
         (blog / rel).parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(ROOT / rel, blog / rel)
     (blog / "data").mkdir(exist_ok=True)
-    shutil.copy(DATA / "lane_map.json", blog / "data" / "lane_map.json")
+    for name in BACKEND_DATA:
+        shutil.copy(DATA / name, blog / "data" / name)
     (blog / "gt" / "README.md").write_text(NOTE)
 
 

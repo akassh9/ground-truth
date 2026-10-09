@@ -12,7 +12,7 @@
  "expected_reason": "Sells small military drones to the same buyers as Anduril, Shield AI and AeroVironment.",
  "verdict": {
   "what_it_builds": "Group 2 drones, including the Tempest (under 55 lb, 7-foot wingspan, up to 10 lb payload), and xCell, a drone factory in two shipping containers that 3D-prints airframes near the front line at up to 50 drones a month per unit.",
-  "buyers": "U.S. defense buyers. The description names a $100 million Air Force contract covering drone delivery, support and R&D.",
+  "buyers": "US Air Force, under a $100 million contract covering drone delivery, support and R&D.",
   "lanes": [
    "small-drones-and-loitering-munitions",
    "defense-manufacturing"
@@ -22,70 +22,40 @@
     "company": "Anduril",
     "portfolio": true,
     "relationship": "head_on",
-    "why": "Competes in the same lane for the same defense buyers. Its 423-aircraft FAA fleet is mostly Roadrunner and Barracuda 500.",
+    "why": "Anduril registers Ghost and Roadrunner aircraft with the FAA and holds large federal awards, so it sells small uncrewed aircraft to the same military buyers Firestorm targets.",
     "evidence_ids": [
-     "usaspending:CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014",
-     "faa-fleet:anduril:2026-10-08"
-    ]
-   },
-   {
-    "company": "AeroVironment (incl. BlueHalo)",
-    "portfolio": false,
-    "relationship": "head_on",
-    "why": "Entrenched small-UAS maker holding 19 federal contract vehicles, with Wildcat and JUMP 20 aircraft on the FAA register.",
-    "evidence_ids": [
-     "usaspending:CONT_IDV_W912CH26DA073_9700",
-     "faa-fleet:aerovironment:2026-10-08"
+     "faa-fleet:anduril:2026-10-08",
+     "usaspending:CONT_AWD_70B02C26F00000035_7014_70B02C20D00000019_7014"
     ]
    },
    {
     "company": "Shield AI",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Entrenched in the lane with 413 FAA-registered aircraft, almost all V-Bat, and $98.3M in federal awards.",
+    "why": "Shield AI registers V-Bat aircraft with the FAA and has federal contract awards, which puts it in the same small uncrewed aircraft market for the same buyers.",
     "evidence_ids": [
      "faa-fleet:shield-ai:2026-10-08",
      "usaspending:CONT_AWD_FA864920C0158_9700_-NONE-_-NONE-"
     ]
    },
    {
+    "company": "AeroVironment (incl. BlueHalo)",
+    "portfolio": false,
+    "relationship": "head_on",
+    "why": "AeroVironment registers Wildcat and JUMP 20 aircraft with the FAA and holds a large federal contract base, putting it in the same small drone market.",
+    "evidence_ids": [
+     "faa-fleet:aerovironment:2026-10-08",
+     "usaspending:CONT_AWD_W31P4Q20C0024_9700_-NONE-_-NONE-"
+    ]
+   },
+   {
     "company": "Neros",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Building-stage drone maker in the same lane, with a $17.5M Army award and a single-award IDIQ vehicle.",
+    "why": "Neros holds Army awards and an IDIQ contract for small drones and is still scaling its factory workforce, so it competes for the same Army drone buys.",
     "evidence_ids": [
      "usaspending:CONT_AWD_W91CRB26FA251_9700_W91CRB26DA011_9700",
-     "usaspending:CONT_IDV_W91CRB26DA011_9700"
-    ]
-   },
-   {
-    "company": "Red Cat (Teal Drones)",
-    "portfolio": false,
-    "relationship": "head_on",
-    "why": "Early drone maker in the lane. Its evidence is an $11.2M subcontract and two contract vehicles.",
-    "evidence_ids": [
-     "usaspending-sub:P010290846:2025-07-24",
-     "usaspending:CONT_IDV_W58RGZ26G0021_9700"
-    ]
-   },
-   {
-    "company": "Skydio",
-    "portfolio": false,
-    "relationship": "adjacent",
-    "why": "Sells small reconnaissance drones to overlapping government buyers, but a different product class from a Group 2 airframe.",
-    "evidence_ids": [
-     "usaspending-sub:1000001015:2024-10-17",
-     "jobs-production:skydio:2026-10-08"
-    ]
-   },
-   {
-    "company": "Divergent",
-    "portfolio": false,
-    "relationship": "adjacent",
-    "why": "Also in defense manufacturing with additive production. It is a different product, so the relationship is adjacent rather than head-on.",
-    "evidence_ids": [
-     "jobs-production:divergent:2026-10-08",
-     "usaspending:CONT_AWD_FA864925P0489_9700_-NONE-_-NONE-"
+     "jobs-production:neros:2026-10-08"
     ]
    }
   ],
@@ -93,26 +63,142 @@
    "Anduril"
   ],
   "position": "head_on_with_entrenched",
-  "wedge": "Containerized forward production: xCell builds airframes by 3D printing in two shipping containers near the front line, up to 50 drones a month per unit. This is claimed in the description only; the lane map has no data on it.",
+  "wedge": "Containerized, forward-deployed additive production of airframes, up to 50 drones a month per unit, near the front line. The map shows no incumbent doing this.",
   "call": "look",
-  "reasoning": "Firestorm sells Group 2 drones to the same defense buyers as Anduril, AeroVironment and Shield AI, all of which are entrenched on the map, so the position is head-on with entrenched. Its stated wedge is xCell, a containerized 3D-printed airframe factory for forward production, and the map shows no competitor doing this. The map rates Firestorm itself as building (score 4) with $51.2M in federal awards and 34 FAA-registered aircraft, and it does not show the $100M Air Force contract from the description. The description is thin on technical detail, so the wedge needs proof before this is more than a look.",
+  "reasoning": "Firestorm builds Group 2 drones and a containerized factory that prints airframes near the front line, a different production model from most incumbents on the map. Its Tempest competes head-on with Shield AI and AeroVironment, both entrenched in small drones, and with Anduril, which is a portfolio company, so this is a conflict to disclose before any decision. The forward airframe production is the one named wedge, and the $100M Air Force contract and 34 FAA-registered aircraft show real traction. The description gives no unit economics, stage or pricing, so this is a look and not a priority.",
   "open_questions": [
-   "Does the $100M Air Force contract exist, and how does it reconcile with the $51.2M in federal awards the map shows?",
-   "What has xCell produced in the field, and at what cost per airframe compared with the Tempest bought as a finished drone?",
-   "Who buys xCell, and is it sold as a product or delivered as a service under the contract?",
-   "Does Firestorm win programs that Anduril, AeroVironment or Shield AI also bid on, and at what share?",
-   "Is the Tempest Group 2 or Group 3 in practice, and does the xCell process extend to Group 1 or Group 3 airframes?",
-   "Aeon and Kela Systems are Anti Fund portfolio companies in this lane, but the map shows no product detail for them. Do either of them compete with Firestorm?",
-   "What is the defensibility of the 3D-printed airframe process, and what would it take for Anduril's Arsenal-1 operation to copy it?"
+   "Is the Air Force $100M contract a ceiling or obligated funding, and what share has been delivered?",
+   "How do xCell airframe unit costs and print times compare with the factory output of Anduril, Shield AI and AeroVironment?",
+   "Can the Tempest's range, payload and ISR or strike role be shown head-to-head against Shield AI V-Bat and AeroVironment Wildcat?",
+   "Is the Anduril portfolio relationship disclosed and handled before any further conversation?",
+   "Which of the company's 34 FAA-registered aircraft are in service with the Air Force, and what is the repeat-order rate?",
+   "What is the company's funding stage and is it a US small business for SBIR eligibility?"
+  ],
+  "calls": [
+   {
+    "id": "PROJ00711",
+    "fit": "possible",
+    "why": "DIU's Low Cost ISR call may want small uncrewed aircraft, which Tempest could be; the listing is one line, so the founders should confirm whether it wants air platforms or sensors."
+   },
+   {
+    "id": "DAF26BX06-DV026",
+    "fit": "possible",
+    "why": "The Air Force topic asks for autonomous drone swarms; Firestorm builds the airframes, but would have to stretch into swarm autonomy and must confirm small business eligibility."
+   },
+   {
+    "id": "ARM26BX04-DV010",
+    "fit": "possible",
+    "why": "The Army G-BAM topic asks for low-cost, rapidly produced, launched effects at scale, which matches xCell's production model, but the topic is a long-range strike weapon and is pre-release, so the team can talk to its author now and until it opens 2026-12-03."
+   }
+  ],
+  "award_terms": [
+   "unmanned aircraft",
+   "sUAS",
+   "UAV"
   ]
  },
  "unknown_citations": [],
+ "calls": [
+  {
+   "id": "PROJ00711",
+   "source": "DIU",
+   "agency": "Defense Innovation Unit",
+   "kind": "Autonomous Warfare",
+   "title": "Low Cost ISR (LC-ISR)",
+   "status": "open",
+   "opens": null,
+   "closes": "2026-10-14",
+   "url": "https://www.diu.mil/work-with-us/submit-solution/PROJ00711",
+   "fit": "possible",
+   "why": "DIU's Low Cost ISR call may want small uncrewed aircraft, which Tempest could be; the listing is one line, so the founders should confirm whether it wants air platforms or sensors."
+  },
+  {
+   "id": "DAF26BX06-DV026",
+   "source": "DoD SBIR/STTR",
+   "agency": "Air Force",
+   "kind": "SBIR topic",
+   "title": "Ground and Air Launched Drone Swarms Create a Self-Protecting Perimeter Using Autonomous AI",
+   "status": "open",
+   "opens": "2026-09-23",
+   "closes": "2026-10-21",
+   "questions": 13,
+   "keywords": "autonomous drones; AI-driven swarm; air-launched effects; perimeter defense; secure communications; mobility asset protection; Agile Combat\u2026",
+   "summary": "The overall goal of this Direct to Phase II research and development effort is to adapt and validate mature, readily available autonomous unmanned aerial swarm technologies to provide enhanced situational awareness and\u2026",
+   "url": "https://www.dodsbirsttr.mil/topics-app/?baa=DOD_SBIR_2026_P1_CBX",
+   "fit": "possible",
+   "why": "The Air Force topic asks for autonomous drone swarms; Firestorm builds the airframes, but would have to stretch into swarm autonomy and must confirm small business eligibility."
+  },
+  {
+   "id": "ARM26BX04-DV010",
+   "source": "DoD SBIR/STTR",
+   "agency": "Army",
+   "kind": "SBIR topic",
+   "title": "Ground-Based Affordable Mass (G-BAM)",
+   "status": "pre-release",
+   "opens": "2026-12-03",
+   "closes": "2026-12-23",
+   "questions": 2,
+   "keywords": "Low-cost munition; long-range; precision fires; cruise missile; one-way attack; launched effects; scalable; rapid production; advanced manufacturing;\u2026",
+   "summary": "The United States currently faces an \"unprecedented\" military buildup by China and increasing air and missile threats that demand a robust deterrent. However, the current inventory of long-range strike weapons is\u2026",
+   "url": "https://www.dodsbirsttr.mil/topics-app/?baa=DOD_SBIR_2026_P1_CBX",
+   "fit": "possible",
+   "why": "The Army G-BAM topic asks for low-cost, rapidly produced, launched effects at scale, which matches xCell's production model, but the topic is a long-range strike weapon and is pre-release, so the team can talk to its author now and until it opens 2026-12-03."
+  }
+ ],
+ "unknown_calls": [],
+ "market": {
+  "terms": [
+   "unmanned aircraft",
+   "sUAS",
+   "UAV"
+  ],
+  "since": "2024-10-09",
+  "total": 5275473651,
+  "agencies": [
+   {
+    "name": "Department of Defense",
+    "amount": 4502699581
+   },
+   {
+    "name": "Department of Homeland Security",
+    "amount": 296533503
+   },
+   {
+    "name": "Department of State",
+    "amount": 106807328
+   }
+  ],
+  "recipients": 293,
+  "more_recipients": true,
+  "top": [
+   {
+    "name": "GENERAL ATOMICS AERONAUTICAL SYSTEMS, INC.",
+    "amount": 1560283338,
+    "portfolio": false
+   },
+   {
+    "name": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+    "amount": 552052081,
+    "portfolio": false
+   },
+   {
+    "name": "AEROVIRONMENT, INC",
+    "amount": 385915224,
+    "portfolio": false
+   }
+  ],
+  "portfolio": [
+   "ANDURIL INDUSTRIES, INC."
+  ],
+  "url": "https://www.usaspending.gov/keyword_search/unmanned%20aircraft"
+ },
+ "calls_as_of": "2026-10-09",
  "usage": {
   "model": "claude-haiku-5-5",
   "input_tokens": 194,
   "cache_write": 0,
-  "cache_read": 16822,
-  "output_tokens": 7368
+  "cache_read": 37097,
+  "output_tokens": 9240
  },
- "seconds": 31.6
+ "seconds": 40.6
 }

@@ -15,8 +15,8 @@
   "LIS Technologies Inc"
  ],
  "verdict": {
-  "what_it_builds": "A laser uranium enrichment process (CRISLA) using 5.3-micron infrared lasers, to produce LEU for large reactors and HALEU for small and micro reactors, with a planned commercial facility at the K-25 site in Oak Ridge, TN.",
-  "buyers": "DOE through its LEU enrichment acquisition program (the company says it was one of six selected participants in 2024), plus reactor developers and utilities that need LEU or HALEU.",
+  "what_it_builds": "A laser uranium enrichment process (CRISLA) using 5.3-micron infrared lasers, to produce low-enriched uranium for large reactors and high-assay LEU (HALEU) for small and micro reactors. Plans a commercial facility at the K-25 site in Oak Ridge, Tennessee.",
+  "buyers": "Reactor developers and operators that need LEU or HALEU fuel, and DOE, which selected the company in 2024 as one of six participants in its LEU enrichment acquisition program.",
   "lanes": [
    "nuclear-fuel-and-enrichment"
   ],
@@ -25,9 +25,8 @@
     "company": "General Matter",
     "portfolio": true,
     "relationship": "head_on",
-    "why": "Both aim to supply enriched uranium under DOE's LEU enrichment contracts and both are pursuing NRC licensing. General Matter is already entrenched, with a $900M DOE contract and an NRC application filed.",
+    "why": "Also enriches uranium for reactor fuel, with a DOE LEU enrichment master IDIQ and a pending NRC license application for a Paducah facility. It would compete for the same LEU buyers.",
     "evidence_ids": [
-     "usaspending:CONT_AWD_89243226FNE400213_8900_89243225DNE000023_8900",
      "usaspending:CONT_IDV_89243225DNE000027_8900",
      "nrc:ML26273A147"
     ]
@@ -36,7 +35,7 @@
     "company": "Centrus Energy",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Centrus holds an LEU enrichment master IDIQ and an NRC license for its centrifuge plant, so it sells the same product to the same DOE buyer.",
+    "why": "Enriches uranium at its American Centrifuge Plant under NRC license SNM-2011 and holds a DOE LEU enrichment master IDIQ, so it sells the same product to the same buyers.",
     "evidence_ids": [
      "usaspending:CONT_IDV_89243225DNE000026_8900",
      "nrc:ML26266A084"
@@ -46,7 +45,7 @@
     "company": "Urenco USA (Louisiana Energy Services)",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Urenco is entrenched in LEU enrichment under a DOE master IDIQ and holds an NRC license, so it competes for the same DOE and utility enrichment demand.",
+    "why": "Operates an NRC-licensed enrichment plant under SNM-2010 and holds a DOE LEU enrichment master IDIQ, so it competes for the same LEU orders.",
     "evidence_ids": [
      "usaspending:CONT_IDV_89243225DNE000029_8900",
      "nrc:ML18128A227"
@@ -56,7 +55,7 @@
     "company": "Orano (Orano Enrichment USA)",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Orano is a building-tier LEU enricher with a DOE master IDIQ and an NRC license application in progress, targeting the same buyers.",
+    "why": "Has an NRC enrichment license application under review and a DOE LEU master IDIQ, so it sells the same product to the same buyers.",
     "evidence_ids": [
      "usaspending:CONT_IDV_89243225DNE000031_8900",
      "nrc:ML26211A220"
@@ -66,19 +65,28 @@
     "company": "Global Laser Enrichment",
     "portfolio": false,
     "relationship": "head_on",
-    "why": "Global Laser Enrichment is also pursuing laser enrichment, on the same DOE LEU master IDIQ and with an NRC license application. The laser approach is therefore not unique to LIS.",
+    "why": "Pursues laser enrichment, the same process family, with a Paducah license application and a DOE grant. It is the closest direct competitor on the map.",
     "evidence_ids": [
      "usaspending:CONT_IDV_89243225DNE000028_8900",
+     "usaspending:ASST_NON_DENE0009559_089",
      "nrc:ML26265A220"
+    ]
+   },
+   {
+    "company": "TerraPower",
+    "portfolio": false,
+    "relationship": "supplier_to_them",
+    "why": "Advanced reactor developer holding an NRC construction permit for Kemmerer, so a possible buyer of enrichment or HALEU if the company's product qualifies.",
+    "evidence_ids": [
+     "nrc:ML26084A116"
     ]
    },
    {
     "company": "X-energy",
     "portfolio": false,
     "relationship": "supplier_to_them",
-    "why": "X-energy's TRISO-X fuel fabrication work sits downstream of enrichment, so it would plausibly buy HALEU from LIS. The map does not show offtake terms.",
+    "why": "Advanced reactor developer whose TRISO fuel subsidiary holds an NRC license, so a possible HALEU buyer if the company's product qualifies.",
     "evidence_ids": [
-     "usaspending:ASST_NON_DENE0009040_089",
      "nrc:ML26056A053"
     ]
    }
@@ -87,25 +95,123 @@
    "General Matter"
   ],
   "position": "head_on_with_entrenched",
-  "wedge": "The CRISLA laser separation process differs from the centrifuge plants that incumbents run. Global Laser Enrichment already pursues laser enrichment on the map, so the laser approach alone is not a clear moat.",
+  "wedge": "",
   "call": "pass",
-  "reasoning": "LIS would sell enriched uranium into the same DOE LEU program and NRC licensing path that Centrus, Urenco and General Matter already hold, and General Matter is a portfolio company. Centrus, Urenco and General Matter are entrenched, and laser enrichment is already being pursued by Global Laser Enrichment on the map. The description gives no performance, cost or pilot data that would show CRISLA beats these incumbents. Based on the description alone, the call is pass unless the founders can show a technical advantage that incumbents cannot follow quickly.",
+  "reasoning": "LIS Technologies would sell LEU and HALEU, the same product as Centrus, Urenco, General Matter and Orano, to the same DOE and reactor buyers. Centrus, Urenco and General Matter are entrenched, and General Matter is an Anti Fund portfolio company, so this is a head-on conflict of interest. The laser process is the one technical difference from the centrifuge plants on the map, but Global Laser Enrichment already pursues laser enrichment and the description gives no yield, cost or patent evidence that incumbents couldn't follow. A company going head-on with entrenched enrichers without a demonstrated wedge is a pass.",
   "open_questions": [
-   "What separation factor, throughput and energy cost has CRISLA shown at pilot or lab scale, and how does it compare with centrifuge and other laser plants?",
-   "What is the status and funding of the 2024 DOE selection, and what dollar commitment or offtake does it carry?",
-   "The NRC step is a letter of intent filed in March 2026, not an application. What is the license timeline and what is the K-25 site arrangement?",
-   "How much capital does a commercial K-25 facility need, and who funds it?",
-   "Is there a signed offtake with a reactor developer or utility, and does X-energy or another HALEU buyer have one?",
-   "Does Global Laser Enrichment's approach overlap with CRISLA in ways that would make LIS a direct competitor for the same DOE awards?"
+   "What separation performance has CRISLA shown at pilot scale, in separative work per unit and cost per SWU, compared with centrifuge plants?",
+   "What does the path from pilot to a commercial K-25 facility cost, and who is financing it?",
+   "Does the DOE acquisition program selection include an offtake or award, and what volume and timeline does it commit?",
+   "Is the company's first product LEU, HALEU, or both, and which reactor customers have signed letters of interest?",
+   "The NRC filing is a letter of intent from March 2026; what is the schedule for the full license application?",
+   "How would the company's laser process avoid the same NRC and DOE review that Global Laser Enrichment faces?",
+   "Has the company discussed a conflict with General Matter, an Anti Fund portfolio company in the same market?"
+  ],
+  "calls": [
+   {
+    "id": "DE-FOA-0003339",
+    "fit": "possible",
+    "why": "Licensing cost-share for advanced nuclear energy fits the company's NRC filing, but the listing gives no eligibility or scope detail, so the founders should confirm they qualify and that enrichment licensing costs are covered."
+   },
+   {
+    "id": "DE-FOA-0003467",
+    "fit": "possible",
+    "why": "ARPA-E scale-up call for energy technologies could fit a laser enrichment process, but the listing is broad and does not name enrichment, so the founders should confirm scope and applicant eligibility."
+   }
+  ],
+  "award_terms": [
+   "uranium enrichment",
+   "HALEU",
+   "isotope separation"
   ]
  },
  "unknown_citations": [],
+ "calls": [
+  {
+   "id": "DE-FOA-0003339",
+   "source": "Grants.gov",
+   "agency": "DOE (Idaho Field Office)",
+   "kind": "grant",
+   "title": "Advanced Nuclear Energy Licensing Cost-Share Grant Program",
+   "status": "open",
+   "opens": "2025-01-08",
+   "closes": "2026-11-30",
+   "funding": "up to $8.0M per award",
+   "summary": "",
+   "url": "https://www.grants.gov/search-results-detail/358100",
+   "fit": "possible",
+   "why": "Licensing cost-share for advanced nuclear energy fits the company's NRC filing, but the listing gives no eligibility or scope detail, so the founders should confirm they qualify and that enrichment licensing costs are covered."
+  },
+  {
+   "id": "DE-FOA-0003467",
+   "source": "Grants.gov",
+   "agency": "DOE (ARPA-E)",
+   "kind": "grant",
+   "title": "SEEDING CRITICAL ADVANCES FOR LEADING ENERGY TECHNOLOGIES WITH UNTAPPED POTENTIAL (SCALEUP) READY",
+   "status": "open",
+   "opens": "2024-10-02",
+   "closes": "2029-09-29",
+   "funding": "up to $20.0M per award",
+   "summary": "AGENCY OVERVIEW The Advanced Research Projects Agency \u2013 Energy (ARPA-E), an organization within the Department of Energy (DOE), is chartered by Congress in the America COMPETES Act of 2007 (P.L. 116-260): \u201c(A) to\u2026",
+   "url": "https://www.grants.gov/search-results-detail/356623",
+   "fit": "possible",
+   "why": "ARPA-E scale-up call for energy technologies could fit a laser enrichment process, but the listing is broad and does not name enrichment, so the founders should confirm scope and applicant eligibility."
+  }
+ ],
+ "unknown_calls": [],
+ "market": {
+  "terms": [
+   "uranium enrichment",
+   "HALEU",
+   "isotope separation"
+  ],
+  "since": "2024-10-09",
+  "total": 2127712095,
+  "agencies": [
+   {
+    "name": "Department of Energy",
+    "amount": 2124419018
+   },
+   {
+    "name": "Department of Transportation",
+    "amount": 2219077
+   },
+   {
+    "name": "Nuclear Regulatory Commission",
+    "amount": 574000
+   }
+  ],
+  "recipients": 18,
+  "more_recipients": false,
+  "top": [
+   {
+    "name": "AMERICAN CENTRIFUGE OPERATING, LLC",
+    "amount": 915000000,
+    "portfolio": false
+   },
+   {
+    "name": "GENERAL MATTER, INC.",
+    "amount": 900000000,
+    "portfolio": true
+   },
+   {
+    "name": "BWXT ENRICHMENT OPERATIONS, LLC",
+    "amount": 266693105,
+    "portfolio": false
+   }
+  ],
+  "portfolio": [
+   "GENERAL MATTER, INC."
+  ],
+  "url": "https://www.usaspending.gov/keyword_search/uranium%20enrichment"
+ },
+ "calls_as_of": "2026-10-09",
  "usage": {
   "model": "claude-haiku-5-5",
   "input_tokens": 252,
-  "cache_write": 0,
-  "cache_read": 16822,
-  "output_tokens": 4147
+  "cache_write": 37097,
+  "cache_read": 0,
+  "output_tokens": 7277
  },
- "seconds": 18.2
+ "seconds": 32.3
 }

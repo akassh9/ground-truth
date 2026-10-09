@@ -10,8 +10,8 @@
  "expected_by": "claude (provisional)",
  "expected_reason": "Conversion produces the UF6 that enrichers like General Matter buy.",
  "verdict": {
-  "what_it_builds": "A uranium conversion plant in Texas that turns uranium oxide into uranium hexafluoride (UF6), the feedstock that enrichment plants process into reactor fuel. The company says it would be the first new US conversion plant in more than 70 years and filed a conversion facility letter of intent with the NRC in April 2026.",
-  "buyers": "Uranium enrichment operators that need UF6 feedstock. The description does not name customers. The enrichers on the lane map (General Matter, Centrus Energy, Urenco USA, Orano, Global Laser Enrichment) are the likely buyers.",
+  "what_it_builds": "A planned uranium conversion plant in Texas that would convert uranium oxide into uranium hexafluoride (UF6), the feedstock that enrichment plants process into reactor fuel. The company filed a uranium conversion facility letter of intent with the NRC in April 2026.",
+  "buyers": "Uranium enrichment plants, which take UF6 as feedstock.",
   "lanes": [
    "nuclear-fuel-and-enrichment"
   ],
@@ -20,17 +20,17 @@
     "company": "General Matter",
     "portfolio": true,
     "relationship": "supplier_to_them",
-    "why": "General Matter is building an enrichment facility at Paducah, so it would need UF6 feedstock from a converter. Its NRC license application for that site suggests it is moving toward that step.",
+    "why": "An enrichment operator with a pending NRC license application for its Paducah facility, so it would need UF6 feedstock that FluxPoint would sell. This is a supplier relationship, not head-on, so it is not a portfolio conflict.",
     "evidence_ids": [
-     "nrc:ML26273A147",
-     "jobs-site:general-matter:Paducah:2026-10-08"
+     "usaspending:CONT_IDV_89243225DNE000027_8900",
+     "nrc:ML26273A147"
     ]
    },
    {
     "company": "Centrus Energy",
     "portfolio": false,
     "relationship": "supplier_to_them",
-    "why": "Centrus runs an enrichment operation under a DOE LEU master IDIQ and an NRC license, so it would be a buyer of conversion services. It is not a converter itself on the map.",
+    "why": "Holds an NRC license for its American Centrifuge Plant and has a LEU enrichment master IDIQ, so it would buy UF6 as feedstock.",
     "evidence_ids": [
      "usaspending:CONT_IDV_89243225DNE000026_8900",
      "nrc:ML26266A084"
@@ -40,7 +40,7 @@
     "company": "Urenco USA (Louisiana Energy Services)",
     "portfolio": false,
     "relationship": "supplier_to_them",
-    "why": "Urenco USA holds an NRC license for enrichment and is on the DOE LEU master IDIQ, so it would need UF6 feedstock.",
+    "why": "Holds an NRC license for enrichment and sits on the LEU enrichment master IDIQ, so it is a likely UF6 buyer.",
     "evidence_ids": [
      "usaspending:CONT_IDV_89243225DNE000029_8900",
      "nrc:ML18128A227"
@@ -50,7 +50,7 @@
     "company": "Orano (Orano Enrichment USA)",
     "portfolio": false,
     "relationship": "supplier_to_them",
-    "why": "Orano is applying for an NRC enrichment license and holds a DOE LEU master IDIQ, so it would be a buyer of UF6 feedstock.",
+    "why": "Has an enrichment NRC license application under review and a LEU master IDIQ, so it would need UF6 feedstock.",
     "evidence_ids": [
      "usaspending:CONT_IDV_89243225DNE000031_8900",
      "nrc:ML26211A220"
@@ -60,7 +60,7 @@
     "company": "Global Laser Enrichment",
     "portfolio": false,
     "relationship": "supplier_to_them",
-    "why": "Global Laser Enrichment is applying for an NRC license for its Paducah laser enrichment facility, so it would need conversion feedstock if it proceeds.",
+    "why": "Has a pending Paducah enrichment license application and sits on the LEU master IDIQ, so it is a likely UF6 buyer.",
     "evidence_ids": [
      "usaspending:CONT_IDV_89243225DNE000028_8900",
      "nrc:ML26265A220"
@@ -71,23 +71,99 @@
   "position": "complement",
   "wedge": "",
   "call": "look",
-  "reasoning": "FluxPoint would sell UF6 conversion to enrichers rather than compete with them, and no company on the map does conversion, so there is no head-on overlap. The enrichers on the map (General Matter, Centrus, Urenco USA, Orano, Global Laser Enrichment) would be its buyers, which makes this a complement position with General Matter, a Anti Fund portfolio company, as one potential customer. The description gives no technical detail, cost position, or customer commitments, so any wedge and demand cannot be judged from it. Call is look until the founders show offtake interest and a technical edge.",
+  "reasoning": "FluxPoint would make UF6, the feedstock enrichment plants buy, so it would sell into the enrichers on the map rather than compete with them. The likely buyers are General Matter (an Anti Fund portfolio company, but a supplier relationship, not a conflict), Centrus, Urenco USA, Orano and Global Laser Enrichment. The lane map does not track conversion producers, so it cannot show whether conversion capacity is already entrenched. The description has no founders, technology or stated technical wedge, so the call is look.",
   "open_questions": [
-   "Which enrichment operators have signed or are negotiating offtake or conversion services agreements, and how much of the plant's output is contracted?",
-   "What is the conversion process and what makes it cheaper, faster, or easier to permit than existing conversion capacity?",
-   "Which existing US and foreign conversion producers would FluxPoint compete with, and how is it positioned against them?",
-   "What is the status of the April 2026 NRC letter of intent, and what is the licensing timeline for the Texas site?",
-   "Is the 'first new US conversion plant in more than 70 years' claim confirmed by a public source, and what is the capital plan and financing?",
-   "Who are the founders, and what conversion or chemical processing experience do they have?"
+   "What conversion process will the plant use, and how far has it been demonstrated?",
+   "Who are the founders, and what chemical processing or conversion experience do they have?",
+   "Have any enrichers signed offtake agreements or letters of intent for UF6?",
+   "What does the April 2026 NRC letter of intent cover, and what is the licensing timeline?",
+   "What capital does the Texas plant need, and how is it being funded?"
+  ],
+  "calls": [
+   {
+    "id": "DE-FOA-0003339",
+    "fit": "possible",
+    "why": "A cost-share for advanced nuclear licensing, but the listing does not say what it funds or who can apply; the founders should confirm that a conversion plant qualifies as an advanced nuclear project and that FluxPoint is eligible."
+   }
+  ],
+  "award_terms": [
+   "uranium conversion",
+   "uranium hexafluoride",
+   "UF6"
   ]
  },
  "unknown_citations": [],
+ "calls": [
+  {
+   "id": "DE-FOA-0003339",
+   "source": "Grants.gov",
+   "agency": "DOE (Idaho Field Office)",
+   "kind": "grant",
+   "title": "Advanced Nuclear Energy Licensing Cost-Share Grant Program",
+   "status": "open",
+   "opens": "2025-01-08",
+   "closes": "2026-11-30",
+   "funding": "up to $8.0M per award",
+   "summary": "",
+   "url": "https://www.grants.gov/search-results-detail/358100",
+   "fit": "possible",
+   "why": "A cost-share for advanced nuclear licensing, but the listing does not say what it funds or who can apply; the founders should confirm that a conversion plant qualifies as an advanced nuclear project and that FluxPoint is eligible."
+  }
+ ],
+ "unknown_calls": [],
+ "market": {
+  "terms": [
+   "uranium conversion",
+   "uranium hexafluoride",
+   "UF6"
+  ],
+  "since": "2024-10-09",
+  "total": 2110034044,
+  "agencies": [
+   {
+    "name": "Department of Energy",
+    "amount": 2082882536
+   },
+   {
+    "name": "Department of Housing and Urban Development",
+    "amount": 10721134
+   },
+   {
+    "name": "Department of Defense",
+    "amount": 9242206
+   }
+  ],
+  "recipients": 13,
+  "more_recipients": false,
+  "top": [
+   {
+    "name": "GENERAL MATTER, INC.",
+    "amount": 900000000,
+    "portfolio": true
+   },
+   {
+    "name": "AMERICAN CENTRIFUGE OPERATING, LLC",
+    "amount": 900000000,
+    "portfolio": false
+   },
+   {
+    "name": "NUCLEAR FUEL SERVICES INC",
+    "amount": 178720650,
+    "portfolio": false
+   }
+  ],
+  "portfolio": [
+   "GENERAL MATTER, INC."
+  ],
+  "url": "https://www.usaspending.gov/keyword_search/uranium%20conversion"
+ },
+ "calls_as_of": "2026-10-09",
  "usage": {
   "model": "claude-haiku-5-5",
   "input_tokens": 168,
   "cache_write": 0,
-  "cache_read": 16822,
-  "output_tokens": 3942
+  "cache_read": 37097,
+  "output_tokens": 5595
  },
- "seconds": 17.8
+ "seconds": 24.9
 }

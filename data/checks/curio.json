@@ -10,43 +10,107 @@
  "expected_by": "claude (provisional)",
  "expected_reason": "Unclear: recycled fuel competes at the margin with enriched fuel; no incumbent in the map recycles at commercial scale.",
  "verdict": {
-  "what_it_builds": "NuCycle, a used nuclear fuel recycling production facility. Engineering design is underway with Sargent & Lundy, and in May 2026 the company asked the NRC to open a 10 CFR Part 70 docket for pre-application work toward an operating license. No site had been chosen as of May 2026.",
-  "buyers": "Not stated in the description. The description does not say what NuCycle produces or who pays for it.",
+  "what_it_builds": "NuCycle, a used nuclear fuel recycling production facility. Curio asked the NRC in May 2026 to open a 10 CFR Part 70 docket for pre-application work toward an operating license. Engineering design is underway with Sargent & Lundy, and no site had been chosen as of May 2026.",
+  "buyers": "The description does not name who pays for recycled fuel or recycling services. Likely reactor operators or fuel users, but this is unconfirmed.",
   "lanes": [
    "nuclear-fuel-and-enrichment"
   ],
-  "overlaps": [
-   {
-    "company": "General Matter",
-    "portfolio": true,
-    "relationship": "adjacent",
-    "why": "Both are pre-license fuel-cycle facilities in the same lane, but General Matter enriches uranium and Curio recycles used fuel. The shared element is the NRC licensing path.",
-    "evidence_ids": [
-     "nrc:ML26273A147"
-    ]
-   }
-  ],
+  "overlaps": [],
   "portfolio_conflicts": [],
   "position": "off_map",
   "wedge": "",
   "call": "look",
-  "reasoning": "Curio is in the nuclear fuel-cycle lane the map covers, since the lane includes recycling, but none of the listed companies runs used-fuel recycling. The map has no recycling operator, so it cannot show whether this space is open or crowded. The description does not say what NuCycle produces or who buys it, and that is the main gap for judging whether the company would sell into anyone on the map. Nothing in the description shows a head-on fight with an entrenched company, so this is a look, not a pass.",
+  "reasoning": "Curio is building a used nuclear fuel recycling facility, which the nuclear fuel lane covers but for which the map lists no operator. The listed companies work on enrichment, fuel fabrication and reactors, and none runs reprocessing, so the map cannot say whether this space is open. The filing shows early engineering work with Sargent & Lundy and no site yet, and the description gives no buyers, technology choice or funding. Call is look: worth a founder meeting to test demand and the licensing path.",
   "open_questions": [
-   "What does NuCycle output (recovered uranium, plutonium-bearing fuel, or a waste form), and who pays for it?",
-   "Which reactor developers or fuel fabricators would buy that output, and is there any signed offtake or letter of intent?",
-   "What is the capacity and cost of the NuCycle facility, and how is it funded through the pre-application stage?",
-   "Which site is being considered, and when will it be chosen?",
-   "What is the licensing timeline under the Part 70 docket, and what are the main regulatory risks for used-fuel recycling?",
-   "Are there any operating recycling plants or pilots today, and how does NuCycle's approach differ from them?"
+   "Which buyers would pay for NuCycle's output or service, and do any have signed offtake or letters of intent?",
+   "What separation technology does NuCycle use, and how far along is it beyond engineering design?",
+   "What is the planned site, and what is the timeline from the Part 70 pre-application to a license application?",
+   "How is the work funded, and how much capital is needed to reach a first operating facility?",
+   "Does Curio's team include the chemical separations and licensing staff needed to run a regulated fuel facility?"
+  ],
+  "calls": [
+   {
+    "id": "DE-FOA-0003339",
+    "fit": "possible",
+    "why": "The advanced nuclear licensing cost-share could cover part of the NRC pre-application and Part 70 work, but the listing gives no eligibility or scope detail, so the founders should confirm with DOE that a used fuel recycling applicant qualifies."
+   }
+  ],
+  "award_terms": [
+   "spent fuel",
+   "used fuel",
+   "fuel recycling"
   ]
  },
  "unknown_citations": [],
+ "calls": [
+  {
+   "id": "DE-FOA-0003339",
+   "source": "Grants.gov",
+   "agency": "DOE (Idaho Field Office)",
+   "kind": "grant",
+   "title": "Advanced Nuclear Energy Licensing Cost-Share Grant Program",
+   "status": "open",
+   "opens": "2025-01-08",
+   "closes": "2026-11-30",
+   "funding": "up to $8.0M per award",
+   "summary": "",
+   "url": "https://www.grants.gov/search-results-detail/358100",
+   "fit": "possible",
+   "why": "The advanced nuclear licensing cost-share could cover part of the NRC pre-application and Part 70 work, but the listing gives no eligibility or scope detail, so the founders should confirm with DOE that a used fuel recycling applicant qualifies."
+  }
+ ],
+ "unknown_calls": [],
+ "market": {
+  "terms": [
+   "spent fuel",
+   "used fuel",
+   "fuel recycling"
+  ],
+  "since": "2024-10-09",
+  "total": 1162532,
+  "agencies": [
+   {
+    "name": "Department of Energy",
+    "amount": 720918
+   },
+   {
+    "name": "Department of Agriculture",
+    "amount": 443288
+   },
+   {
+    "name": "Nuclear Regulatory Commission",
+    "amount": -1674
+   }
+  ],
+  "recipients": 10,
+  "more_recipients": false,
+  "top": [
+   {
+    "name": "COMMERCIAL VEHICLE SAFETY ALLIANCE",
+    "amount": 737767,
+    "portfolio": false
+   },
+   {
+    "name": "THE REGENTS OF THE UNIVERSITY OF COLORADO",
+    "amount": 413832,
+    "portfolio": false
+   },
+   {
+    "name": "UNIVERSITY OF ILLINOIS",
+    "amount": 29456,
+    "portfolio": false
+   }
+  ],
+  "portfolio": [],
+  "url": "https://www.usaspending.gov/keyword_search/spent%20fuel"
+ },
+ "calls_as_of": "2026-10-09",
  "usage": {
   "model": "claude-haiku-5-5",
   "input_tokens": 136,
   "cache_write": 0,
-  "cache_read": 16822,
-  "output_tokens": 3369
+  "cache_read": 37097,
+  "output_tokens": 3391
  },
- "seconds": 16.2
+ "seconds": 23.1
 }

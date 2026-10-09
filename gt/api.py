@@ -10,6 +10,7 @@ import os
 import urllib.error
 from http.server import BaseHTTPRequestHandler
 
+from gt import calls
 from gt.check import check, cited_ids_ok
 
 LIMITS = {"name": 120, "url": 300, "about": 4000}
@@ -41,7 +42,7 @@ def handle(body):
         except Exception:
             return 502, {"error": "The check failed. Try again in a minute."}
         _answers[key] = {"name": fields["name"], "url": fields["url"], "verdict": verdict.model_dump(),
-                         "unknown_citations": cited_ids_ok(verdict), "usage": usage}
+                         "unknown_citations": cited_ids_ok(verdict), **calls.money(verdict), "usage": usage}
     return 200, _answers[key]
 
 
