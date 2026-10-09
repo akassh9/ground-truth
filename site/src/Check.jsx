@@ -56,7 +56,7 @@ export function Check({ laneMap }) {
           <textarea value={form.about} onInput={set("about")} maxLength={4000} rows={3} />
         </label>
         <label>Passcode <span class="muted">(from the email)</span>
-          <input value={form.passcode} onInput={set("passcode")} autocomplete="off" />
+          <input value={form.passcode} onInput={set("passcode")} autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck={false} />
         </label>
         <button type="submit" disabled={state.status === "running"}>
           {state.status === "running" ? "Checking… (about 20 seconds)" : "Run the Check"}

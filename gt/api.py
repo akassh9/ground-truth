@@ -4,6 +4,7 @@ Each check costs real money, so there are input limits, an optional passcode (CH
 environment; open when unset) and a per-process cache of answers.
 """
 import hashlib
+import hmac
 import json
 import os
 import urllib.error
@@ -15,9 +16,16 @@ LIMITS = {"name": 120, "url": 300, "about": 4000}
 _answers = {}
 
 
+def same_passcode(given, passcode):
+    """Spaces and capitals don't count: phones and Macs capitalize the first letter of a text field, and the
+    passcode is a shared spend gate, not a password."""
+    norm = lambda x: str(x or "").strip().lower().encode()
+    return hmac.compare_digest(norm(given), norm(passcode))
+
+
 def handle(body):
     passcode = os.environ.get("CHECK_PASSCODE")
-    if passcode and body.get("passcode") != passcode:
+    if passcode and not same_passcode(body.get("passcode"), passcode):
         return 401, {"error": "This check needs the passcode from the application email.", "passcode_required": True}
     fields = {k: str(body.get(k) or "").strip()[:n] for k, n in LIMITS.items()}
     if not fields["name"] or not (fields["url"] or fields["about"]):
