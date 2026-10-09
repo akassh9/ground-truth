@@ -1,21 +1,28 @@
-"""Copy what the Audience of One post needs into the blog repo: the site time-lapses (frames and filings)
-and the evaluation totals. Only files the Ground Truth site already serves publicly (run gt.export first).
+"""Copy what the Audience of One post needs into the blog repo, which is now the only place Ground Truth is shown.
 
-Usage: .venv/bin/python -m gt.blog_export ~/c/work/react-app-audit/public/ground-truth
+Two things go over:
+- the figures' data (public/ground-truth/): the site time-lapses, the lane map, the portfolio's signals, the
+  public example verdicts and the evaluation totals. Only files gt.export already serves publicly; run it first.
+- the live Check's backend: api/check.py, the four gt modules it needs, the lane map and requirements.txt, so the
+  blog's own Vercel project runs the Check. The copies are overwritten on every export; edit them here, not there.
+
+Usage: .venv/bin/python -m gt.blog_export ~/c/work/react-app-audit
 """
 import json
 import shutil
 import sys
 from pathlib import Path
 
-from gt.env import ROOT
+from gt.env import DATA, ROOT
 
 SITE_DATA = ROOT / "site" / "public" / "data"
 SITES = ("general-matter-paducah", "arsenal-1")
+FIGURE_DATA = ("lane_map.json", "signals.json", "checks.json", "evidence.json")
+BACKEND = ("gt/__init__.py", "gt/env.py", "gt/check.py", "gt/api.py", "api/check.py", "requirements.txt")
+NOTE = "Copied from the ground-truth repo by gt.blog_export; edit it there, not here.\n"
 
 
-def main(dest):
-    dest = Path(dest).expanduser()
+def figures(dest):
     if dest.exists():
         shutil.rmtree(dest)
     dest.mkdir(parents=True)
@@ -25,9 +32,25 @@ def main(dest):
         for frame in site["frames"]:
             frame["file"] = frame["file"].replace("/data/sites/", "/ground-truth/")
     (dest / "sites.json").write_text(json.dumps(sites, separators=(",", ":")))
-    shutil.copy(SITE_DATA / "evidence.json", dest / "evidence.json")
-    size = sum(p.stat().st_size for p in dest.rglob("*") if p.is_file())
-    print(f"{len(sites)} sites and the evaluation totals -> {dest} ({size / 1e6:.1f} MB)")
+    for name in FIGURE_DATA:
+        shutil.copy(SITE_DATA / name, dest / name)
+
+
+def backend(blog):
+    for rel in BACKEND:
+        (blog / rel).parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy(ROOT / rel, blog / rel)
+    (blog / "data").mkdir(exist_ok=True)
+    shutil.copy(DATA / "lane_map.json", blog / "data" / "lane_map.json")
+    (blog / "gt" / "README.md").write_text(NOTE)
+
+
+def main(blog):
+    blog = Path(blog).expanduser()
+    figures(blog / "public" / "ground-truth")
+    backend(blog)
+    size = sum(p.stat().st_size for p in (blog / "public" / "ground-truth").rglob("*") if p.is_file())
+    print(f"figure data ({size / 1e6:.1f} MB) and the Check's backend -> {blog}")
 
 
 if __name__ == "__main__":

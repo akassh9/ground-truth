@@ -42,7 +42,7 @@ export function Thread({ laneMap }) {
         </li>
         <li class="card">
           <span class="step">3 · Check</span>
-          <p>Two newcomers just wrote to the NRC. {verdicts.map(([n, v]) => says(n, v)).join(" ")}</p>
+          <p>Two newcomers wrote to the NRC this spring. {verdicts.map(([n, v]) => says(n, v)).join(" ")}</p>
           <a href="#check">See both checks</a>
         </li>
       </ol>

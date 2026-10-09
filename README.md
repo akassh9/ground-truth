@@ -2,7 +2,9 @@
 
 **What physical companies leave behind, and where the giants already are.**
 
-Live: https://ground-truth-akash.vercel.app (the Check takes a passcode, since every check costs real money)
+The write-up, with every figure and the live Check: https://audience-of-one.vercel.app/ground-truth (the Check takes a
+passcode, since every check costs real money). `gt/blog_export.py` copies the figures' data and the Check's backend
+into the blog; `site/` is a standalone version of the same views.
 
 VC data tools watch software signals: GitHub stars, web traffic, LinkedIn moves. Companies that build factories, ships and reactors leave a different trail:
 - federal contracts
