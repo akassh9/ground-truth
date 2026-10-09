@@ -61,7 +61,14 @@
        "id": "site:arsenal-1",
        "url": ""
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1,
+      "factory hiring": 3,
+      "FAA fleet": 2,
+      "site": 2
+     }
     },
     {
      "slug": "blacksea",
@@ -81,7 +88,11 @@
        "id": "usaspending:CONT_IDV_W58RGZ26G0046_9700",
        "url": "https://www.usaspending.gov/award/CONT_IDV_W58RGZ26G0046_9700"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "saronic",
@@ -115,7 +126,12 @@
        "id": "jobs-site:saronic:Franklin, LA:2026-10-08",
        "url": "https://jobs.ashbyhq.com/saronic/9c4ba841-ed4b-461a-a748-1126eb159b6c"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "factory hiring": 2
+     }
     },
     {
      "slug": "saildrone",
@@ -135,7 +151,11 @@
        "id": "usaspending:CONT_IDV_70Z02325A75100001_7008",
        "url": "https://www.usaspending.gov/award/CONT_IDV_70Z02325A75100001_7008"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "havocai",
@@ -150,7 +170,10 @@
        "id": "usaspending:CONT_AWD_W5170126CA043_9700_-NONE-_-NONE-",
        "url": "https://www.usaspending.gov/award/CONT_AWD_W5170126CA043_9700_-NONE-_-NONE-"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 1
+     }
     }
    ]
   },
@@ -217,7 +240,14 @@
        "id": "site:arsenal-1",
        "url": ""
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1,
+      "factory hiring": 3,
+      "FAA fleet": 2,
+      "site": 2
+     }
     },
     {
      "slug": "shield-ai",
@@ -247,7 +277,13 @@
        "id": "faa-fleet:shield-ai:2026-10-08",
        "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=SHIELD+AI&sort_option=1&PageNo=1"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "factory hiring": 2,
+      "FAA fleet": 2
+     }
     },
     {
      "slug": "aerovironment",
@@ -272,7 +308,12 @@
        "id": "faa-fleet:aerovironment:2026-10-08",
        "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=AEROVIRONMENT&sort_option=1&PageNo=1"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1,
+      "FAA fleet": 1
+     }
     },
     {
      "slug": "skydio",
@@ -297,7 +338,12 @@
        "id": "jobs-production:skydio:2026-10-08",
        "url": "https://jobs.ashbyhq.com/skydio"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "factory hiring": 1
+     }
     },
     {
      "slug": "neros",
@@ -322,7 +368,12 @@
        "id": "jobs-production:neros:2026-10-08",
        "url": "https://job-boards.greenhouse.io/nerostechnologies"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "factory hiring": 1
+     }
     },
     {
      "slug": "red-cat",
@@ -342,7 +393,11 @@
        "id": "usaspending:CONT_IDV_W58RGZ26G0021_9700",
        "url": "https://www.usaspending.gov/award/CONT_IDV_W58RGZ26G0021_9700"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "aeon",
@@ -356,7 +411,10 @@
        "id": "usaspending:CONT_IDV_FA865625DB068_9700",
        "url": "https://www.usaspending.gov/award/CONT_IDV_FA865625DB068_9700"
       }
-     ]
+     ],
+     "points": {
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "kela-systems",
@@ -364,7 +422,8 @@
      "portfolio": true,
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     }
    ]
   },
@@ -429,7 +488,14 @@
        "id": "site:arsenal-1",
        "url": ""
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1,
+      "factory hiring": 3,
+      "FAA fleet": 2,
+      "site": 2
+     }
     },
     {
      "slug": "aerovironment",
@@ -454,7 +520,12 @@
        "id": "faa-fleet:aerovironment:2026-10-08",
        "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=AEROVIRONMENT&sort_option=1&PageNo=1"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1,
+      "FAA fleet": 1
+     }
     },
     {
      "slug": "src-inc",
@@ -479,7 +550,11 @@
        "id": "faa-fleet:src-inc:2026-10-08",
        "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=SRC&sort_option=1&PageNo=1"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "droneshield",
@@ -504,7 +579,11 @@
        "id": "jobs-production:droneshield:2026-10-08",
        "url": "https://job-boards.greenhouse.io/droneshield"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "epirus",
@@ -524,7 +603,11 @@
        "id": "jobs-production:epirus:2026-10-08",
        "url": "https://job-boards.greenhouse.io/epirus"
       }
-     ]
+     ],
+     "points": {
+      "contract vehicle": 1,
+      "factory hiring": 1
+     }
     },
     {
      "slug": "kela-systems",
@@ -532,7 +615,8 @@
      "portfolio": true,
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     }
    ]
   },
@@ -578,7 +662,11 @@
        "id": "jobs-production:applied-intuition:2026-10-08",
        "url": "https://jobs.ashbyhq.com/applied"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "forterra",
@@ -598,7 +686,11 @@
        "id": "usaspending:CONT_IDV_HQ085926DF450_9700",
        "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DF450_9700"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "overland-ai",
@@ -613,7 +705,10 @@
        "id": "usaspending-sub:UWSC15007:2024-12-12",
        "url": "https://www.usaspending.gov/award/CONT_AWD_HR001123C0150_9700_-NONE-_-NONE-"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2
+     }
     }
    ]
   },
@@ -676,7 +771,14 @@
        "id": "site:arsenal-1",
        "url": ""
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1,
+      "factory hiring": 3,
+      "FAA fleet": 2,
+      "site": 2
+     }
     },
     {
      "slug": "castelion",
@@ -696,7 +798,11 @@
        "id": "usaspending:CONT_IDV_N6833526G0006_9700",
        "url": "https://www.usaspending.gov/award/CONT_IDV_N6833526G0006_9700"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 3,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "x-bow",
@@ -716,7 +822,11 @@
        "id": "usaspending:CONT_IDV_HQ085926DE717_9700",
        "url": "https://www.usaspending.gov/award/CONT_IDV_HQ085926DE717_9700"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 3,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "ursa-major",
@@ -741,7 +851,12 @@
        "id": "jobs-production:ursa-major:2026-10-08",
        "url": "https://job-boards.greenhouse.io/ursamajor"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "factory hiring": 1
+     }
     },
     {
      "slug": "zone-5",
@@ -766,7 +881,11 @@
        "id": "jobs-production:zone-5:2026-10-08",
        "url": "https://job-boards.greenhouse.io/zone5technologies"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "aeon",
@@ -780,7 +899,10 @@
        "id": "usaspending:CONT_IDV_FA865625DB068_9700",
        "url": "https://www.usaspending.gov/award/CONT_IDV_FA865625DB068_9700"
       }
-     ]
+     ],
+     "points": {
+      "contract vehicle": 1
+     }
     }
    ]
   },
@@ -843,7 +965,14 @@
        "id": "site:arsenal-1",
        "url": ""
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1,
+      "factory hiring": 3,
+      "FAA fleet": 2,
+      "site": 2
+     }
     },
     {
      "slug": "saronic",
@@ -877,7 +1006,12 @@
        "id": "jobs-site:saronic:Franklin, LA:2026-10-08",
        "url": "https://jobs.ashbyhq.com/saronic/9c4ba841-ed4b-461a-a748-1126eb159b6c"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "factory hiring": 2
+     }
     },
     {
      "slug": "hadrian",
@@ -897,7 +1031,11 @@
        "id": "jobs-production:hadrian:2026-10-08",
        "url": "https://jobs.ashbyhq.com/hadrian-automation"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "factory hiring": 2
+     }
     },
     {
      "slug": "firestorm",
@@ -922,7 +1060,12 @@
        "id": "faa-fleet:firestorm:2026-10-08",
        "url": "https://registry.faa.gov/AircraftInquiry/Search/NameResult?Nametxt=FIRESTORM+LABS&sort_option=1&PageNo=1"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "FAA fleet": 1
+     }
     },
     {
      "slug": "divergent",
@@ -942,7 +1085,11 @@
        "id": "jobs-production:divergent:2026-10-08",
        "url": "https://job-boards.greenhouse.io/divergent"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 1,
+      "factory hiring": 2
+     }
     },
     {
      "slug": "machina-labs",
@@ -957,7 +1104,10 @@
        "id": "usaspending:CONT_AWD_FA868425CB003_9700_-NONE-_-NONE-",
        "url": "https://www.usaspending.gov/award/CONT_AWD_FA868425CB003_9700_-NONE-_-NONE-"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 1
+     }
     }
    ]
   },
@@ -1008,7 +1158,12 @@
        "id": "jobs-production:vulcan-elements:2026-10-08",
        "url": "https://job-boards.greenhouse.io/vulcanelements"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 1,
+      "contract vehicle": 1,
+      "factory hiring": 1
+     }
     },
     {
      "slug": "mp-materials",
@@ -1023,7 +1178,10 @@
        "id": "usaspending:CONT_AWD_SP800024C0007_9700_-NONE-_-NONE-",
        "url": "https://www.usaspending.gov/award/CONT_AWD_SP800024C0007_9700_-NONE-_-NONE-"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2
+     }
     },
     {
      "slug": "modalai",
@@ -1043,7 +1201,11 @@
        "id": "usaspending:CONT_IDV_W58RGZ26G0012_9700",
        "url": "https://www.usaspending.gov/award/CONT_IDV_W58RGZ26G0012_9700"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 1,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "westmag",
@@ -1057,7 +1219,10 @@
        "id": "jobs-production:westmag:2026-10-08",
        "url": "https://jobs.ashbyhq.com/westmag"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1
+     }
     },
     {
      "slug": "unusual-machines",
@@ -1072,7 +1237,10 @@
        "id": "jobs-production:unusual-machines:2026-10-08",
        "url": "https://job-boards.greenhouse.io/unusualmachines"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1
+     }
     },
     {
      "slug": "efference",
@@ -1080,7 +1248,8 @@
      "portfolio": true,
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     }
    ]
   },
@@ -1143,7 +1312,14 @@
        "id": "site:general-matter-paducah",
        "url": ""
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 3,
+      "contract vehicle": 1,
+      "factory hiring": 1,
+      "NRC": 2,
+      "site": 2
+     }
     },
     {
      "slug": "centrus",
@@ -1168,7 +1344,12 @@
        "id": "nrc:ML26266A084",
        "url": "https://www.nrc.gov/docs/ML2626/ML26266A084.pdf"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "contract vehicle": 1,
+      "NRC": 3
+     }
     },
     {
      "slug": "urenco-usa",
@@ -1193,7 +1374,12 @@
        "id": "nrc:ML18128A227",
        "url": "https://www.nrc.gov/docs/ML1812/ML18128A227.pdf"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 3,
+      "contract vehicle": 1,
+      "NRC": 3
+     }
     },
     {
      "slug": "orano",
@@ -1218,7 +1404,12 @@
        "id": "nrc:ML26211A220",
        "url": "https://www.nrc.gov/docs/ML2621/ML26211A220.pdf"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 3,
+      "contract vehicle": 1,
+      "NRC": 2
+     }
     },
     {
      "slug": "x-energy",
@@ -1238,7 +1429,11 @@
        "id": "nrc:ML26056A053",
        "url": "https://www.nrc.gov/docs/ML2605/ML26056A053.pdf"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 3,
+      "NRC": 3
+     }
     },
     {
      "slug": "gle",
@@ -1263,7 +1458,12 @@
        "id": "nrc:ML26265A220",
        "url": "https://www.nrc.gov/docs/ML2626/ML26265A220.pdf"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "NRC": 2
+     }
     }
    ]
   },
@@ -1309,7 +1509,12 @@
        "id": "nrc:ML26084A116",
        "url": "https://www.nrc.gov/docs/ML2608/ML26084A116.pdf"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 5,
+      "factory hiring": 1,
+      "NRC": 3
+     }
     },
     {
      "slug": "x-energy",
@@ -1329,7 +1534,11 @@
        "id": "nrc:ML26056A053",
        "url": "https://www.nrc.gov/docs/ML2605/ML26056A053.pdf"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 3,
+      "NRC": 3
+     }
     },
     {
      "slug": "kairos-power",
@@ -1349,7 +1558,11 @@
        "id": "nrc:ML24324A020",
        "url": "https://www.nrc.gov/docs/ML2432/ML24324A020.pdf"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1,
+      "NRC": 3
+     }
     },
     {
      "slug": "oklo",
@@ -1369,7 +1582,11 @@
        "id": "nrc:ML26231A183",
        "url": "https://www.nrc.gov/docs/ML2623/ML26231A183.pdf"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1,
+      "NRC": 2
+     }
     },
     {
      "slug": "radiant",
@@ -1389,7 +1606,11 @@
        "id": "nrc:ML26271A226",
        "url": "https://www.nrc.gov/docs/ML2627/ML26271A226.pdf"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1,
+      "NRC": 2
+     }
     },
     {
      "slug": "valar-atomics",
@@ -1409,7 +1630,11 @@
        "id": "nrc:ML26271A241",
        "url": "https://www.nrc.gov/docs/ML2627/ML26271A241.pdf"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1,
+      "NRC": 1
+     }
     }
    ]
   },
@@ -1451,7 +1676,11 @@
        "id": "site:helion-orion",
        "url": ""
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1,
+      "site": 2
+     }
     },
     {
      "slug": "cfs",
@@ -1466,7 +1695,10 @@
        "id": "jobs-production:cfs:2026-10-08",
        "url": "https://jobs.lever.co/cfsenergy"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 2
+     }
     },
     {
      "slug": "pacific-fusion",
@@ -1481,7 +1713,10 @@
        "id": "jobs-production:pacific-fusion:2026-10-08",
        "url": "https://job-boards.greenhouse.io/pacificfusion"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1
+     }
     },
     {
      "slug": "tae",
@@ -1490,7 +1725,8 @@
      "why": "Agreed to an all-stock merger with Trump Media valued at over $6B (Dec 2025), which would make it a listed fusion company; closing was targeted for Q4 2026.",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     }
    ]
   },
@@ -1529,7 +1765,10 @@
        "id": "jobs-production:physical-intelligence:2026-10-08",
        "url": "https://jobs.ashbyhq.com/physicalintelligence"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1
+     }
     },
     {
      "slug": "figure",
@@ -1544,7 +1783,10 @@
        "id": "jobs-production:figure:2026-10-08",
        "url": "https://job-boards.greenhouse.io/figureai"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1
+     }
     },
     {
      "slug": "agility-robotics",
@@ -1559,7 +1801,10 @@
        "id": "jobs-production:agility-robotics:2026-10-08",
        "url": "https://job-boards.greenhouse.io/agilityrobotics"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1
+     }
     },
     {
      "slug": "boston-dynamics",
@@ -1574,7 +1819,10 @@
        "id": "usaspending:CONT_AWD_W91CRB25C0002_9700_-NONE-_-NONE-",
        "url": "https://www.usaspending.gov/award/CONT_AWD_W91CRB25C0002_9700_-NONE-_-NONE-"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 1
+     }
     },
     {
      "slug": "efference",
@@ -1582,7 +1830,8 @@
      "portfolio": true,
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "enigma",
@@ -1590,7 +1839,8 @@
      "portfolio": true,
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "skild-ai",
@@ -1599,7 +1849,8 @@
      "why": "Raised about $1.4B at a $14B+ valuation (Jan 2026; SoftBank-led, NVIDIA participating) for a general robot brain that runs across robot types.",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "apptronik",
@@ -1614,7 +1865,8 @@
        "id": "jobs-production:apptronik:2026-10-08",
        "url": "https://job-boards.greenhouse.io/apptronik"
       }
-     ]
+     ],
+     "points": {}
     }
    ]
   },
@@ -1657,7 +1909,11 @@
        "id": "jobs-production:cerebras:2026-10-08",
        "url": "https://jobs.ashbyhq.com/cerebras"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 1,
+      "factory hiring": 1
+     }
     },
     {
      "slug": "etched",
@@ -1671,7 +1927,10 @@
        "id": "jobs-production:etched:2026-10-08",
        "url": "https://jobs.ashbyhq.com/etched"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1
+     }
     },
     {
      "slug": "groq",
@@ -1680,7 +1939,8 @@
      "why": "NVIDIA struck a reported ~$20B deal (Dec 2025) for a non-exclusive license to Groq's inference-chip technology and hired its founder; Groq stays independent and runs GroqCloud.",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "tenstorrent",
@@ -1695,7 +1955,8 @@
        "id": "jobs-production:tenstorrent:2026-10-08",
        "url": "https://job-boards.greenhouse.io/tenstorrent"
       }
-     ]
+     ],
+     "points": {}
     },
     {
      "slug": "matx",
@@ -1710,7 +1971,8 @@
        "id": "jobs-production:matx:2026-10-08",
        "url": "https://jobs.ashbyhq.com/matx"
       }
-     ]
+     ],
+     "points": {}
     }
    ]
   },
@@ -1758,7 +2020,12 @@
        "id": "jobs-production:rocket-lab:2026-10-08",
        "url": "https://job-boards.greenhouse.io/rocketlab"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "factory hiring": 3
+     }
     },
     {
      "slug": "ursa-major",
@@ -1783,7 +2050,12 @@
        "id": "jobs-production:ursa-major:2026-10-08",
        "url": "https://job-boards.greenhouse.io/ursamajor"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1,
+      "factory hiring": 1
+     }
     },
     {
      "slug": "firefly",
@@ -1803,7 +2075,11 @@
        "id": "usaspending:CONT_IDV_80KSC026D0006_8000",
        "url": "https://www.usaspending.gov/award/CONT_IDV_80KSC026D0006_8000"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 3,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "impulse-space",
@@ -1823,7 +2099,11 @@
        "id": "usaspending:CONT_IDV_47QRAA26D009Q_4732",
        "url": "https://www.usaspending.gov/award/CONT_IDV_47QRAA26D009Q_4732"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 2,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "stoke-space",
@@ -1848,7 +2128,12 @@
        "id": "jobs-production:stoke-space:2026-10-08",
        "url": "https://job-boards.greenhouse.io/stokespacetechnologies"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 1,
+      "contract vehicle": 1,
+      "factory hiring": 1
+     }
     },
     {
      "slug": "general-galactic",
@@ -1856,7 +2141,8 @@
      "portfolio": true,
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     }
    ]
   },
@@ -1896,7 +2182,11 @@
        "id": "usaspending:CONT_IDV_80JSC026G0003_8000",
        "url": "https://www.usaspending.gov/award/CONT_IDV_80JSC026G0003_8000"
       }
-     ]
+     ],
+     "points": {
+      "federal awards": 3,
+      "contract vehicle": 1
+     }
     },
     {
      "slug": "orbital",
@@ -1904,7 +2194,8 @@
      "portfolio": true,
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "starcloud",
@@ -1913,7 +2204,8 @@
      "why": "Flew the first NVIDIA H100 in orbit (Nov 2025), raised $250M at a $2.3B valuation (Aug 2026; $450M total), and is building a 100,000 sq ft satellite factory in Woodinville, WA.",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "cowboy-space",
@@ -1928,7 +2220,8 @@
        "id": "jobs-production:cowboy-space:2026-10-08",
        "url": "https://jobs.ashbyhq.com/cowboyspace"
       }
-     ]
+     ],
+     "points": {}
     }
    ]
   },
@@ -1957,7 +2250,8 @@
      "portfolio": true,
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "herrenknecht",
@@ -1966,7 +2260,8 @@
      "why": "German TBM maker behind major US bores, e.g. the $76M custom machine for VTA's BART Silicon Valley extension, bought through Kiewit Shea Traylor.",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "robbins",
@@ -1975,7 +2270,8 @@
      "why": "US hard-rock TBM maker since 1952 (Solon, OH) whose machines bore US jobs such as Indianapolis's DigIndy tunnels and a 2026 flood tunnel in Howard County, MD.",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "traylor-bros",
@@ -1984,7 +2280,8 @@
      "why": "Tunnel contractor in the joint ventures boring BART Silicon Valley (Kiewit Shea Traylor) and Seattle's Sound Transit U220 tunnel; its only federal prime awards are two USACE contracts ($42M, 2004-05).",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     }
    ]
   },
@@ -2021,7 +2318,10 @@
        "id": "jobs-production:neuralink:2026-10-08",
        "url": "https://job-boards.greenhouse.io/neuralink"
       }
-     ]
+     ],
+     "points": {
+      "factory hiring": 1
+     }
     },
     {
      "slug": "merge",
@@ -2029,7 +2329,8 @@
      "portfolio": true,
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "synchron",
@@ -2038,7 +2339,8 @@
      "why": "Raised a $200M Series D (Nov 2025; $345M total, valued near $1B) to run the pivotal trial of its catheter-delivered Stentrode BCI.",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "precision-neuroscience",
@@ -2047,7 +2349,8 @@
      "why": "Holds FDA 510(k) clearance for its Layer 7 cortical interface (2025, implants up to 30 days) and later raised a $250M Series D valuing it at just over $1B.",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     },
     {
      "slug": "blackrock-neurotech",
@@ -2056,7 +2359,8 @@
      "why": "Long-time neural-interface hardware supplier: its operating company Blackrock Microsystems has 154 federal awards ($22.7M) since 2008, mostly NIH SBIR grants and VA purchases (latest June 2026).",
      "score": 0,
      "tier": "early",
-     "facts": []
+     "facts": [],
+     "points": {}
     }
    ]
   }

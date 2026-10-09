@@ -66,41 +66,48 @@ def nrc_status(dockets):
 
 
 def entrenchment(signals, sites=(), nrc=None):
-    score, facts = 0, []
+    score, facts, points = 0, [], {}  # points: what earned the score, so the site can show why
+
+    def earn(what, n):
+        nonlocal score
+        if n:
+            score += n
+            points[what] = points.get(what, 0) + n
+
     awards = [s for s in signals if s["kind"] in FEDERAL and s["date"] >= AWARDS_FROM and (s.get("amount") or 0) > 0]
     total = sum(s["amount"] for s in awards)
     if total >= 1e6:
-        score += 5 if total >= 1e9 else 3 if total >= 100e6 else 2 if total >= 10e6 else 1
+        earn("federal awards", 5 if total >= 1e9 else 3 if total >= 100e6 else 2 if total >= 10e6 else 1)
         biggest = max(awards, key=lambda s: s["amount"])
         facts.append(_fact(f"{money(total)} in federal awards since 2020; largest: {biggest['headline']} ({biggest['date']})",
                            biggest))
     vehicles = sorted((s for s in signals if s["kind"] == "federal_idv"), key=lambda s: s["date"], reverse=True)
     if vehicles:
-        score += 1
+        earn("contract vehicle", 1)
         facts.append(_fact(f"On {len(vehicles)} federal contract vehicle(s); latest: {vehicles[0]['detail'][:90]}",
                            vehicles[0]))
     for s in signals:
         if s["kind"] == "hiring_production":
             n = s["factory_roles"]
-            score += 3 if n >= 100 else 2 if n >= 25 else 1 if n >= 5 else 0
+            earn("factory hiring", 3 if n >= 100 else 2 if n >= 25 else 1 if n >= 5 else 0)
             facts.append(_fact(s["headline"], s))
         elif s["kind"] == "hiring_at_site":
             facts.append(_fact(s["headline"], s))
         elif s["kind"] == "faa_fleet":
-            score += 2 if s["aircraft"] >= 100 else 1 if s["aircraft"] >= 10 else 0
+            earn("FAA fleet", 2 if s["aircraft"] >= 100 else 1 if s["aircraft"] >= 10 else 0)
             facts.append(_fact(f"{s['headline']}. {s['detail']}", s))
     if nrc:
-        score += nrc["points"]
+        earn("NRC", nrc["points"])
         doc = nrc["doc"]
         facts.append({"text": nrc["text"], "id": f"nrc:{doc['AccessionNumber']}", "url": doc["Url"]})
     for site in sites:
-        score += 2
+        earn("site", 2)
         facts.append({"text": f"Physical site tracked from orbit: {site.get('label', site.get('slug'))}",
                       "id": f"site:{site.get('slug')}", "url": site.get("source_url", "")})
         break
     # $1B+ of federal money is entrenched on its own, whatever else the record misses
     tier = "entrenched" if score >= 7 or total >= 1e9 else "building" if score >= 4 else "early"
-    return {"score": score, "tier": tier, "facts": facts}
+    return {"score": score, "tier": tier, "facts": facts, "points": points}
 
 
 def load_sites():

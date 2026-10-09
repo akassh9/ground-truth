@@ -4,6 +4,20 @@ import { useData, day, SOURCE_NAMES } from "./data.js";
 export function Orbit() {
   const sites = useData("sites.json");
   const [active, setActive] = useState(0);
+  useEffect(() => {
+    // a link like #orbit-general-matter-paducah opens that site (the one-lane story links here)
+    if (!sites) return;
+    const pick = () => {
+      const k = sites.findIndex((s) => location.hash === `#orbit-${s.slug}`);
+      if (k >= 0) {
+        setActive(k);
+        document.getElementById("orbit")?.scrollIntoView();
+      }
+    };
+    pick();
+    addEventListener("hashchange", pick);
+    return () => removeEventListener("hashchange", pick);
+  }, [sites]);
   if (sites === undefined) return <p class="muted">Loading frames…</p>;
   if (!sites || !sites.length) return <p class="muted">Satellite frames are being prepared.</p>;
   return (

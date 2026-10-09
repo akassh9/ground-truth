@@ -1,5 +1,7 @@
 import { Orbit } from "./Orbit.jsx";
-import { LaneMap } from "./LaneMap.jsx";
+import { Report } from "./Report.jsx";
+import { Lanes } from "./Lanes.jsx";
+import { Thread } from "./Thread.jsx";
 import { Check } from "./Check.jsx";
 import { Evidence } from "./Evidence.jsx";
 import { Watch } from "./Watch.jsx";
@@ -14,48 +16,64 @@ export function App() {
         <p class="kicker">Ground Truth · built for Anti Fund</p>
         <h1>What physical companies leave behind.</h1>
         <p class="lede">
-          Software leaves traces in code and web traffic. Companies that build factories, ships and reactors
-          leave them in federal contracts, FAA registrations, NRC dockets, hiring, and the ground itself, seen
-          from orbit. Ground Truth reads that record for Anti Fund's portfolio and the giants around it, and
-          checks every new company against who's already there.
+          Portfolio reporting is one of the hardest parts of running a fund: companies don't always report back.
+          Physical companies can't hide what they build. Their contracts, filings, hiring and the ground itself are
+          public record. Ground Truth reads that record to answer three questions.
         </p>
+        <ol class="questions">
+          <li><a href="#portfolio">Are our companies building what they said?</a></li>
+          <li><a href="#lanes">Where does each one stand against its competitors?</a></li>
+          <li><a href="#check">Does a new company walk into a giant?</a></li>
+        </ol>
         <nav>
-          <a href="#orbit">From orbit</a>
-          <a href="#lanes">Where the giants are</a>
-          <a href="#check">The Check</a>
           <a href="#evidence">Evidence it works</a>
-          <a href="#found">Found in the record</a>
-          <a href="#watch">Portfolio watch</a>
           <a href="#method">How it works</a>
         </nav>
       </header>
 
-      <section id="orbit">
-        <h2>From orbit</h2>
+      <Thread laneMap={laneMap} />
+
+      <section id="portfolio">
+        <h2>1. Our companies</h2>
         <p class="sub">
-          Monthly satellite frames of the sites Anti Fund's companies are building, with every public filing on
-          the same timeline. The docket often says what comes next.
+          Reporting without asking: what each physical portfolio company did in the last 90 days, read off the public
+          record.
+        </p>
+        <Report laneMap={laneMap} />
+        <h3 id="orbit" class="part">From orbit</h3>
+        <p class="sub">
+          Monthly satellite frames of the sites they're building, with every public filing on the same timeline. The
+          docket often says what comes next.
         </p>
         <Orbit />
+        <h3 id="watch" class="part">Everything on the record</h3>
+        <Watch />
       </section>
 
       <section id="lanes">
-        <h2>Where the giants are</h2>
+        <h2>2. Their lanes</h2>
         <p class="sub">
-          Every lane in Anti Fund's thesis and how entrenched each company in it is, scored from public records
-          only. The growth fund sees who is executing; the seed fund sees where not to pick a fight.
+          Each lane of Anti Fund's thesis, ranked by what companies have physically built: federal contracts, factory
+          hiring, licenses, fleets and sites. Not valuation. The growth fund sees who's executing; the seed fund sees
+          where not to pick a fight.
         </p>
-        <LaneMap data={laneMap} />
+        <Lanes data={laneMap} />
       </section>
 
       <section id="check">
-        <h2>The Check</h2>
+        <h2>3. The next company</h2>
         <p class="sub">
-          Name any company. The Check reads its website, places it in a lane, and says whether it would fight an
-          entrenched giant, sell to one, or have the space to itself, citing evidence for every claim. When the
-          map doesn't cover a market, it says so.
+          Drop any company into the lanes above. The Check reads its website, places it in a lane, and says whether it
+          would fight that lane's giants, sell to them, or have the space to itself, citing the record for every claim.
+          When the map doesn't cover a market, it says so.
         </p>
         <Check laneMap={laneMap} />
+        <h3 id="found" class="part">Where new companies show up first</h3>
+        <p class="sub">
+          New letters of intent to the NRC and new aircraft makers registering with the FAA: companies at formation,
+          before most investors know them. Each one can go straight through the Check.
+        </p>
+        <Sourcing laneMap={laneMap} />
       </section>
 
       <section id="evidence">
@@ -65,21 +83,6 @@ export function App() {
           January 2025: 912 companies from a PitchBook export. Only totals are shown here.
         </p>
         <Evidence />
-      </section>
-
-      <section id="found">
-        <h2>Found in the public record</h2>
-        <p class="sub">
-          Companies at formation, before most investors know them: new letters of intent to the NRC, and new
-          aircraft makers registering airframes with the FAA. Each one can go straight through the Check.
-        </p>
-        <Sourcing laneMap={laneMap} />
-      </section>
-
-      <section id="watch">
-        <h2>Portfolio watch</h2>
-        <p class="sub">The latest public signals from Anti Fund's physical portfolio.</p>
-        <Watch />
       </section>
 
       <section id="method" class="method">

@@ -7,12 +7,14 @@ const SNAPSHOT = new Set(["hiring_snapshot", "hiring_production", "faa_fleet", "
 export function Watch() {
   const signals = useData("signals.json");
   const [company, setCompany] = useState("all");
+  const [more, setMore] = useState(false);
   if (signals === undefined) return <p class="muted">Loading signals…</p>;
   if (!signals) return <p class="muted">No signals yet.</p>;
   const mine = signals.filter((s) => s.portfolio && (company === "all" || s.company === company));
   const companies = [...new Set(signals.filter((s) => s.portfolio).map((s) => s.company))].sort();
   const now = mine.filter((s) => SNAPSHOT.has(s.kind));
-  const events = mine.filter((s) => !SNAPSHOT.has(s.kind)).slice(0, 40);
+  const dated = mine.filter((s) => !SNAPSHOT.has(s.kind));
+  const events = dated.slice(0, more ? 40 : 12);
   return (
     <div class="watch">
       <div class="filters" role="group" aria-label="Filter by company">
@@ -37,6 +39,9 @@ export function Watch() {
           </li>
         ))}
       </ul>
+      {!more && dated.length > events.length && (
+        <button type="button" class="link more" onClick={() => setMore(true)}>Show more</button>
+      )}
     </div>
   );
 }
