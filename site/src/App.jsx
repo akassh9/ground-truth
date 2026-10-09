@@ -3,7 +3,7 @@ import { Report } from "./Report.jsx";
 import { Lanes } from "./Lanes.jsx";
 import { Thread } from "./Thread.jsx";
 import { Check } from "./Check.jsx";
-import { Evidence } from "./Evidence.jsx";
+import { Trust, Findings } from "./Evidence.jsx";
 import { Watch } from "./Watch.jsx";
 import { Sourcing } from "./Sourcing.jsx";
 import { useData } from "./data.js";
@@ -26,7 +26,7 @@ export function App() {
           <li><a href="#check">Does a new company walk into a giant?</a></li>
         </ol>
         <nav>
-          <a href="#evidence">Evidence it works</a>
+          <a href="#evidence">Can you trust the AI?</a>
           <a href="#method">How it works</a>
         </nav>
       </header>
@@ -68,21 +68,21 @@ export function App() {
           When the map doesn't cover a market, it says so.
         </p>
         <Check laneMap={laneMap} />
+        <h3 id="evidence" class="part">Can you trust it?</h3>
+        <p class="sub">
+          The Check is the only part of Ground Truth that uses AI, so it's the part that has to earn trust. I ran it on
+          every US hard-tech company that raised a pre-seed, seed or Series A round since January 2025: 912 companies
+          from a PitchBook export, shown here as totals only.
+        </p>
+        <Trust />
+        <h3 id="findings" class="part">What it found in 912 seed deals</h3>
+        <Findings />
         <h3 id="found" class="part">Where new companies show up first</h3>
         <p class="sub">
           New letters of intent to the NRC and new aircraft makers registering with the FAA: companies at formation,
           before most investors know them. Each one can go straight through the Check.
         </p>
         <Sourcing laneMap={laneMap} />
-      </section>
-
-      <section id="evidence">
-        <h2>Evidence it works</h2>
-        <p class="sub">
-          The whole pipeline, run on every US hard-tech company that raised a pre-seed, seed or Series A round since
-          January 2025: 912 companies from a PitchBook export. Only totals are shown here.
-        </p>
-        <Evidence />
       </section>
 
       <section id="method" class="method">
@@ -104,6 +104,8 @@ function Method() {
           <li>Nuclear licensing: the NRC's ADAMS public search.</li>
           <li>Hiring: companies' own public job boards.</li>
           <li>Imagery: Copernicus Sentinel-2 (modified) and USDA NAIP aerial photography.</li>
+          <li>Companies are matched on federal IDs and docket numbers, never names alone; rejected look-alikes are kept on file.</li>
+          <li>Only public records appear here.</li>
         </ul>
       </div>
       <div>
@@ -120,12 +122,13 @@ function Method() {
           the record, not valuation.</p>
       </div>
       <div>
-        <h3>Checks on the checker</h3>
+        <h3>Where AI is used</h3>
         <ul>
-          <li>Every evidence id the Check cites must exist in the lane map.</li>
-          <li>Company matches use federal IDs and docket numbers, never names alone; rejected look-alikes are kept on file.</li>
-          <li>Website text is treated as untrusted data.</li>
-          <li>Only public records appear here.</li>
+          <li>Parts 1 and 2 use none. They're rules over public records, so every number traces to a filing.</li>
+          <li>Part 3 uses three models. Jev (TypeSafe) sorts each company, with probabilities. Claude Haiku 5.5 writes the
+            cited verdict. Claude Opus 5.5 gives a second opinion and answers when Haiku refuses.</li>
+          <li>Code keeps them honest: every citation must exist in the map, the position must follow the cited evidence,
+            "no fights with the portfolio" is a rule, and website text is treated as untrusted.</li>
         </ul>
       </div>
     </div>

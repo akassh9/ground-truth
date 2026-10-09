@@ -163,7 +163,7 @@ button.link { border: 0; padding: 0; background: none; color: var(--link); font-
 .lead .bar { background: var(--accent); }
 .bar-value { font-size: 13px; color: var(--ink); font-variant-numeric: tabular-nums; }
 .bars + .tip.fixed { transform: translate(8px, -100%); }
-.evidence-section h3 { margin-top: 40px; margin-bottom: 4px; }
+.evidence-section h4 { margin-top: 36px; margin-bottom: 4px; font-size: 16px; }
 .evidence-section .sub { margin: 6px 0 14px; }
 .evidence-section .evidence { max-width: 760px; font-size: 14px; }
 .evidence-section .job { display: block; color: var(--muted); font-size: 13px; }

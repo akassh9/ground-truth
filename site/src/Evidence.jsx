@@ -18,10 +18,16 @@ const MODELS = [
 const usd = (x) => `$${x.toFixed(2)}`;
 const count = (x) => x.toLocaleString("en-US");
 
-export function Evidence() {
+// Two parts of section 3: Trust (is the Check right?) and Findings (what it concluded across 912 seed deals).
+function useEvidence() {
   const e = useData("evidence.json");
-  if (e === undefined) return <p class="muted">Loading…</p>;
-  if (!e) return <p class="muted">The evaluation hasn't been exported yet.</p>;
+  const status = e === undefined ? <p class="muted">Loading…</p> : !e ? <p class="muted">The evaluation hasn't been exported yet.</p> : null;
+  return [e, status];
+}
+
+export function Trust() {
+  const [e, status] = useEvidence();
+  if (status) return status;
   const cited = e.citations.haiku.total + e.citations.opus.total;
   const invented = e.citations.haiku.invented + e.citations.opus.invented;
   const truncated = e.citations.haiku.truncated + e.citations.opus.truncated;
@@ -38,9 +44,8 @@ export function Evidence() {
         <Tile label="Refusals" value={count(e.refused_by_haiku)}
               note={e.refused_by_haiku ? `of ${count(e.companies)}; Opus answered ${e.refused_by_haiku === 1 ? "it" : "them"}` : `of ${count(e.companies)}`} />
       </div>
-      <Positions e={e} />
       {e.labels && <Labels labels={e.labels} />}
-      <h3>The models</h3>
+      <h4>The models</h4>
       <table class="evidence">
         <thead>
           <tr><th>Model</th><th class="num">Companies</th><th class="num">Cost</th><th class="num">Median time</th></tr>
@@ -55,6 +60,22 @@ export function Evidence() {
           ))}
         </tbody>
       </table>
+    </div>
+  );
+}
+
+export function Findings() {
+  const [e, status] = useEvidence();
+  if (status) return status;
+  const p = e.positions;
+  const busy = Math.round(((p.head_on_with_entrenched + p.head_on_with_building + p.complement) / e.in_lanes) * 100);
+  return (
+    <div class="evidence-section">
+      <p class="sub">
+        Only {count(p.white_space)} of the {count(e.in_lanes)} companies in Anti Fund's lanes have the space to themselves.
+        {" "}{busy}% fight a giant or sell to one.
+      </p>
+      <Positions e={e} />
     </div>
   );
 }
@@ -115,7 +136,7 @@ function Labels({ labels }) {
   const row = (x) => `${x.agree} of ${x.n}`;
   return (
     <>
-      <h3>Checked against my own calls</h3>
+      <h4>Checked against my own calls</h4>
       <p class="sub">
         Before seeing any model output, I labeled {labels.labeled} of these companies by hand as head-on, supplier
         or open.
